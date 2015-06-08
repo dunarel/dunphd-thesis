@@ -87,7 +87,7 @@ It uses Q-functions, and a Monte Carlo p-value validation procedure, at the cost
 Because of its low time complexity, the new algorithm can be used in complex phylogenetic and genomic studies involving thousands of species.
 
 Even though the presented method is designed to identify complete HGT, we investigated how it copes with partial HGT (i.e. HGT followed by the intragenic sequence recombination) and showed that in many cases it can be used to identify both complete and partial HGT. 
-This is the OpenMP parallelized and SSE3 vectorized version.
+This is an OpenMP parallelized and SSE3 vectorized version.
 
 Simulations were performed using Chapter IV wrapper Rake scripts, inside:
 [Chapter4/Supplementary/proc_hom/lib/tasks/hgt_com.rake](Chapter4/Supplementary/proc_hom/lib/tasks/hgt_com.rake).
