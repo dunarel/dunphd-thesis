@@ -6,7 +6,7 @@ This software implements the HGT detection method described in:
 ##### A New Fast Algorithm For Detecting And Validating Horizontal Gene Transfer Events Using Phylogenetic Trees And Aggregation Functions
 
 
-##### Copyright (C) 2015 Dunarel Badescu, Abdoulaye Banire Diallo and Vladimir Makarenkov
+###### Copyright (C) 2015 Dunarel Badescu, Abdoulaye Banire Diallo and Vladimir Makarenkov
 
 ### Licence 
    This software is distributed according to the BSD license (3-clause version).
