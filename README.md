@@ -57,7 +57,7 @@ Simulations were conducted on the Compute Canada/Calcul Quebec High Performance 
 Scripts were used to calculate Maximum Likelihood gene trees, using RAxML and for infering Complete and respectively Partial Gene Transfers on Mammout MP2, using HGT-Detection software.
 
 [Chapter4/Supplementary/cluster-scripts/hgt-com-cluster-scripts/](Chapter4/Supplementary/cluster-scripts/hgt-com-cluster-scripts/) is a collection of scripts used for inferring and dating Complete Gene Transfers.
-[Chapter4/Supplementary/cluster-scripts/hgt-par-cluster-scripts/](Chapter4/Supplementary/cluster-scripts/hgt-par-cluster-scripts/) is taking the analysis one step deeper, into Partial Gene Transfers.
+[Chapter4/Supplementary/cluster-scripts/hgt-par-cluster-scripts/](Chapter4/Supplementary/cluster-scripts/hgt-par-cluster-scripts/) is taking the analysis one step further, into Partial Gene Transfers.
 
 
 

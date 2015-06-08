@@ -44,7 +44,7 @@ One nice property it has, is that the weighted scheme used, allows for having th
 
 ---
 
-As this project was developped during several years, we chose Relational Algebra as a modeling framework, as Relational Databases allow for explicit control of variable states, and easy debugging.
+As this project was developped during several years, we chose the Relational Algebra modeling framework, as Relational Databases allow for explicit control of variable states, and easy debugging.
 They also allow for better project extension, due to the connected nature of SQL.
 
 All the algorithms used were either originally parallelized, or they were submited using a parallel task scheduler. 
