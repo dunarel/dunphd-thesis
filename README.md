@@ -1,6 +1,22 @@
 # dunphd-thesis
 Dunarel Badescu PhD Thesis
 
+This repository releases the source code implementations of the clustering algorithms described in Dunarel Badescu PhD Thesis (Universite du Quebec a Montreal).
+There are three *main* projects, partaining each to one chapter of the thesis. They are working, compilable, and executable, independent software releases.
+
+We also include *supplementary* projects, those used to develop the current solution and to run simulations.
+Some of them may be used independently to similar purposes, as they have their own build system.
+
+
+
+
+
+This software implments the algorithm for detecting ... as described in Badescu et al. (2011) and Chapter III of the PhD thesis of Dunarel Badescu (Univ  Montreal).
+
+Refererence:
+
+......
+
 
 Chapter III - 
 DETECTING GENOMIC REGIONS ASSOCIATED WITH A DISEASE 
