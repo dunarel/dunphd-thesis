@@ -71,29 +71,9 @@ We accelerated Partial HGT recovering of transfers, from their multiple superpos
 [Chapter4/Supplementary/proc-hom-sp/](Chapter4/Supplementary/proc-hom-sp/) is a custom JavaCL Java Stored Procedure.
 It uses the OpenCL heterogeneous parallelizing framework, on an NVIDIA Graphic Card. 
 
-
-
-
-
-We also provide the code used to ensure orthology, as one of our earlier steps in validating the Multiple Sequence Alignemnts.
-We were doing reciprocal BLAST hits, and clustering using TribeMCL, in a separate project: 
-chap4-tribemcl
-
-
-5) Later, we were able to simplify the aggregating step, from our original Relational Algebra solution, transforming it to a Linear Algebra one. We implemented this solution only for the Complete Horizontal Gene Transfer, given in the folder chap4-linalgebra_impl.
-
-It contains one R script for extracting the initial data from the database: 
-proc-hom-v.0.2.R
-
-Another Python script exemplify the whole approach:
-proc-hom-v.0.2.py
-The final value is the one from Table 4.1a. Mean HGT rates Complete HGT 75% bootstrap.
-
-chap4-linalgebra_impl/files2 contains the data files.
-chap4-linalgebra_impl/sql contains some sql queries transitively used to query the database.
-
-We also provide another script file, able to also directly work with the core genes:
-chap4-linalgebra_impl/core-files.R
+One of our earlier steps is validating the Multiple Sequence Alignemnts, ensuring orthology.
+This is where the name of our project initially came: __proc_hom__ i.e. __Proc__ariotic __Hom__ology.
+[Chapter4/Supplementary/tribemcl/](Chapter4/Supplementary/tribemcl/) is a _bash_ script, doing reciprocal BLAST hits, and clustering using TribeMCL.
 
 
 ## CHAPTER V
