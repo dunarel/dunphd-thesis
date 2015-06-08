@@ -22,24 +22,20 @@ This software implements the HGT detection method described in:
 ### Requirements
    * gcc/g++ and BOOST C++ libraries (they are present with major Linux package managers)
 
-### Dependencies (found in deps folder)
-  * (deps/yannisun) 
+### Dependencies (found in [deps/](deps/) folder)
+  * [deps/yannisun] (https://sites.google.com/site/yannisun/)
     Fasta file parser released by Yanni Sun @Michigan State University 
-    https://sites.google.com/site/yannisun/
     http://www.cse.msu.edu/~yannisun/cse891/hmm-EM/fasta.c
     http://www.cse.msu.edu/~yannisun/cse891/hmm-EM/fasta.h
 
-  * (assoc_vector)
+  * [assoc_vector](https://github.com/wo3kie/AssocVector)
     AssocVector is a sorted vector optimized for insert and erase operations 
-    https://github.com/wo3kie/AssocVector
 
-  * (fast-cpp-csv-parser)
+  * [fast-cpp-csv-parser](https://code.google.com/p/fast-cpp-csv-parser/ )
     Small, easy-to-use and fast header-only library for reading comma separated value (CSV) files.
-    https://code.google.com/p/fast-cpp-csv-parser/ 
-
+    
   * [simdpp](https://github.com/p12tic/libsimdpp)
     Header-only zero-overhead C++ wrapper for SIMD intrinsics of multiple instruction sets.
-    
 
   * [tclap](http://tclap.sourceforge.net/)
     Templatized C++ Command Line Parser Library
