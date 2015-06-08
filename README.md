@@ -79,7 +79,7 @@ This is where the name of our project initially came: __proc_hom__ i.e. __Proc__
 ## CHAPTER V
 ### A New Fast Algorithm For Detecting And Validating Horizontal Gene Transfer Events Using Phylogenetic Trees And Aggregation Functions
 
-This software is a C++ implementation of the Fast HGT detection, using Q-functions.
+This software is a C++ implementation of the Fast HGT detection algorithm, using Q-functions.
 It is OpenMP parallelized and SSE vectorized.
 
 Simulations were performed using Chapter IV wrapper Rake scripts, inside:

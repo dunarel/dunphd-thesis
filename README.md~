@@ -79,11 +79,11 @@ This is where the name of our project initially came: __proc_hom__ i.e. __Proc__
 ## CHAPTER V
 ### A New Fast Algorithm For Detecting And Validating Horizontal Gene Transfer Events Using Phylogenetic Trees And Aggregation Functions
 
-The C++ code, Makefile, CodeLite Project and example files are located in:
-chap5-hgt-qfunc.v.0.5.2
+This software is a C++ implementation of the Fast HGT detection, using Q-functions.
+It is OpenMP parallelized and SSE vectorized.
 
-Simulations were done using Chapter IV wrapper Rake scripts, inside:
-chap4-proc_hom/lib/tasks/hgt_com.rake
+Simulations were performed using Chapter IV wrapper Rake scripts, inside:
+[Chapter4/Supplementary/proc_hom/lib/tasks/hgt_com.rake](Chapter4/Supplementary/proc_hom/lib/tasks/hgt_com.rake).
 
 
 
