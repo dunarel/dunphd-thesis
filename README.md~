@@ -12,7 +12,7 @@ Some of them may be used independently for similar purposes, as they have their 
 
 
 This software implments the algorithm for detecting regions associated with a disease.
-[I'm a relative reference to a repository file](Chapter3/Main/q_funcb)
+[Chapter3/Main/q_funcb](Chapter3/Main/q_funcb)
 Refererence:
 Badescu, D., Boc. A., Diallo, A. B., and Makarenkov, V. (2011), Detecting genomic regions associated with a disease using variability functions and Adjusted Rand Index, BMC Bioinformatics, 12(Suppl 9):S9.
 
