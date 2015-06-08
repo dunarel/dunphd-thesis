@@ -15,7 +15,7 @@ Do not expect those to run outside the box, as they are taken out of their origi
 ## Chapter III 
 ### Detecting Genomic Regions Associated With A Disease Using Aggregation Functions And Adjusted Rand Index
 
-[Chapter3/Main/q_funcb](Chapter3/Main/q_funcb) is a C++ software implementation of the algorithm for detecting regions associated with a disease.
+[Chapter3/Main/q_funcb/](Chapter3/Main/q_funcb/) is a C++ software implementation of the algorithm for detecting regions associated with a disease.
 
 Refererence:
 [Badescu, D., Boc. A., Diallo, A. B., and Makarenkov, V. (2011),
@@ -24,13 +24,13 @@ Detecting genomic regions associated with a disease using variability functions 
 
 ---
 
-[Chapter3/Supplementary/q_func_java_ba](Chapter3/Supplementary/q_func_java_ba) is an innitial Java implementation of Q-functions without bipartition optimisation.
-[Chapter3/Supplementary/q_func_jruby_ba](Chapter3/Supplementary/q_func_jruby_ba) is a Ruby wrapper of the above implementation, but more importantly was also used to extract Neisseria frpB outer membrane protein loops coordinates.
+[Chapter3/Supplementary/q_func_java_ba/](Chapter3/Supplementary/q_func_java_ba/) is an innitial Java implementation of Q-functions without bipartition optimisation.
+[Chapter3/Supplementary/q_func_jruby_ba/](Chapter3/Supplementary/q_func_jruby_ba/) is a Ruby wrapper of the above implementation, but more importantly was also used to extract Neisseria frpB outer membrane protein loops coordinates.
 
 Simulations profiling the behaviour of Q-functions under Positive Selection/Lineage Specific Selection and Monophyletic/Polyphyletic conditions were conducted on the Licef Research Centre High Performance Cluster belonging to Universite Teluq.
-[Chapter3/Supplementary/qfunc-cluster-simul](Chapter3/Supplementary/qfunc-cluster-simul) is the corresponding cluster project used to conduct those simulations.
+[Chapter3/Supplementary/qfunc-cluster-simul/](Chapter3/Supplementary/qfunc-cluster-simul/) is the corresponding cluster project used to conduct those simulations.
 
-Results were parsed and graphics drawn using [Chapter3/Supplementary/q_func_ruby_parsing](Chapter3/Supplementary/q_func_ruby_parsing/).
+Results were parsed and graphics drawn using [Chapter3/Supplementary/q_func_ruby_parsing/](Chapter3/Supplementary/q_func_ruby_parsing/).
 
 ## Chapter IV 
 ### Complete And Partial Horizontal Gene Transfers At The Core Of Prokaryotic Ecology And Evolution
