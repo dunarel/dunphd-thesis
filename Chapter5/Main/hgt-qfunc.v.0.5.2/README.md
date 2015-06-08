@@ -25,7 +25,9 @@ This software implements the HGT detection method described in:
 ### Dependencies (found in [deps/](deps/) folder)
   * [deps/yannisun] (https://sites.google.com/site/yannisun/)
     Fasta file parser released by Yanni Sun @Michigan State University 
+    
     http://www.cse.msu.edu/~yannisun/cse891/hmm-EM/fasta.c
+    
     http://www.cse.msu.edu/~yannisun/cse891/hmm-EM/fasta.h
 
   * [assoc_vector](https://github.com/wo3kie/AssocVector)
