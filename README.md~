@@ -10,11 +10,12 @@ Some of them may be used independently to similar purposes, as they have their o
 # Chapter III - 
 ## DETECTING GENOMIC REGIONS ASSOCIATED WITH A DISEASE USING AGGREGATION FUNCTIONS AND ADJUSTED RAND INDEX
 
-This software implments the algorithm for detecting ... as described in Badescu et al. (2011) and Chapter III of the PhD thesis of Dunarel Badescu (Univ  Montreal).
-
+This software implments the algorithm for detecting regions associated with a disease.
 Refererence:
+Badescu, D., Boc. A., Diallo, A. B., and Makarenkov, V. (2011), Detecting genomic regions associated with a disease using variability functions and Adjusted Rand Index, BMC Bioinformatics, 12(Suppl 9):S9.
 
-......
+
+
 
 Simulations profiling the behaviour of Q-functions under Positive Selection/Lineage Specific Selection and Monophyletic/Polyphyletic conditions were conducted on the Licef Research Centre High Performance Cluster belonging to Université Teluq.
 

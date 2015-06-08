@@ -8,7 +8,7 @@ Some of them may be used independently to similar purposes, as they have their o
 
 
 # Chapter III - 
-## DETECTING GENOMIC REGIONS ASSOCIATED WITH A DISEASE USING AGGREGATION FUNCTIONS AND ADJUSTED RAND INDEX
+## Detecting Genomic Regions Associated With A Disease Using Aggregation Functions And Adjusted Rand Index
 
 This software implments the algorithm for detecting regions associated with a disease.
 Refererence:
