@@ -56,7 +56,7 @@ This software implements the HGT detection method described in:
   * README  - This file 
   * license - Full text of the BSD license (3-clause)
 
-  * src/main.cpp - Main program
+  * [src/main.cpp](src/main.cpp) - Main program
   * src/q_func_hgt_appl.cpp - Application container
   * src/q_func_hgt.cpp - Application code
   * src/aligned_storage.hpp - Aligned matrix class to use for fast vector operations
