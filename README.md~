@@ -25,8 +25,8 @@ Detecting genomic regions associated with a disease using variability functions 
 
 ---
 
-[](Chapter3/Supplementary/q_func_java_ba) is an innitial Java implementation of Q-functions without bipartition optimisation.
-[](Chapter3/Supplementary/q_func_jruby_ba) is a Ruby wrapper of the above implementation, but more importantly was also used to extract Neisseria frpB outer membrane protein loops coordinates.
+(Chapter3/Supplementary/q_func_java_ba) is an innitial Java implementation of Q-functions without bipartition optimisation.
+[Chapter3/Supplementary/q_func_jruby_ba]() is a Ruby wrapper of the above implementation, but more importantly was also used to extract Neisseria frpB outer membrane protein loops coordinates.
 
 Simulations profiling the behaviour of Q-functions under Positive Selection/Lineage Specific Selection and Monophyletic/Polyphyletic conditions were conducted on the Licef Research Centre High Performance Cluster belonging to Universite Teluq.
 [Chapter3/Supplementary/qfunc-cluster-simul](Chapter3/Supplementary/qfunc-cluster-simul) is the corresponding cluster project used to conduct those simulations.
