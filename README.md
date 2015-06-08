@@ -17,7 +17,7 @@ Do not expect those to run outside the box, as they are taken out of their origi
 
 [Chapter3/Main/q_funcb/](Chapter3/Main/q_funcb/) is a C++ software implementation of the algorithm for detecting regions associated with a disease.
 It is capable of detecting hit regions without prior knowledge on the carcinogenicity or invasivity of related organisms, by performing 
-a bipartition optimisation maximising aggregation Q-functions. It also uses the _Adjusted Rand Index_ to validate its findings against _a-priori known bipartitions_.
+a bipartition optimisation maximising __aggregation Q-functions__. It also uses the _Adjusted Rand Index_ to validate its findings against _a-priori known bipartitions_.
 The discussed algorithm can be directly used to study organisms that have an ambivalent behavior and are, thus, more difficult to classify.
 
 This is an OpenMP parallelized Linux gcc implementation.
@@ -88,7 +88,7 @@ This is where the name of our project initially came from: __proc_hom__ i.e. __P
 ### A New Fast Algorithm For Detecting And Validating Horizontal Gene Transfer Events Using Phylogenetic Trees And Aggregation Functions
 
 [Chapter5/Main/hgt-qfunc.v.0.5.2/](Chapter5/Main/hgt-qfunc.v.0.5.2/) is a C++ software implementation of the Fast HGT detection algorithm which runs in quadratic time when HGTs between terminal branches are considered.
-It uses Q-functions, and a Monte Carlo p-value validation procedure, at the cost of the associated validation constant needed for maintaining precision.
+It uses __aggregation Q-functions__, and a Monte Carlo _p-value_ validation procedure, at the cost of the associated validation constant needed for maintaining precision.
 Because of its low time complexity, the new algorithm can be used in complex phylogenetic and genomic studies involving thousands of species.
 
 Even though the presented method is designed to identify complete HGT, we investigated how it copes with partial HGT (i.e. HGT followed by the intragenic sequence recombination) and showed that in many cases it can be used to identify both complete and partial HGT. 
