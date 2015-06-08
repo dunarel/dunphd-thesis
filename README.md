@@ -46,7 +46,7 @@ One nice property it has, is that the weighted scheme used, allows for having th
 
 As this project was developped during several years, we chose the Relational Algebra modeling framework, as Relational Databases allow for explicit control of variable states, and easy debugging.
 They also allow for better project extension, due to the connected nature of SQL.
-All the algorithms used were either originally parallelized, or they were submited using a parallel task scheduler. 
+All the algorithms used were either originally parallelized, or they were submited using a parallel task scheduler, either the one provided by the cluster system (for Complete HGT) or our own (for Partial HGT). 
 
 We also chose HSQLDB, due to its good parallel insert performances.
 [Chapter4/Supplementary/db_scripts/](Chapter4/Supplementary/db_scripts/) contain the scripts used to configure and launch the database.
@@ -60,28 +60,14 @@ Scripts were used to calculate Maximum Likelihood gene trees, using RAxML and fo
 [Chapter4/Supplementary/cluster-scripts/hgt-com-cluster-scripts/](Chapter4/Supplementary/cluster-scripts/hgt-com-cluster-scripts/) is a collection of scripts used for inferring and dating Complete Gene Transfers.
 [Chapter4/Supplementary/cluster-scripts/hgt-par-cluster-scripts/](Chapter4/Supplementary/cluster-scripts/hgt-par-cluster-scripts/) is taking the analysis one step further, into Partial Gene Transfers.
 
+Timing was done using TreePL and B.E.A.S.T. each, for both the Complete and Partial transfers.
+When applying time constraints on gene trees, some of them were not mutually compatible. 
+TreePL, one of the simulation software that we used, was not handling these conflicting constraints.
+
+[Chapter4/Supplementary/proc-hom-ex/](Chapter4/Supplementary/proc-hom-ex/) is a Java Netbeans project, able to handle managed execution.
 
 
 
-
-
-1) For the Complete Horizontal Gene Transfer, having a relatively reduced number of genes (110), we compacted the execution of multiple serial tasks using "bqsub", a scripting solution developped by MP2 cluster administrators. 
-
-2) When enlarging our study to the Partial Horizontal Gene Transfer, we faced an increased number of windows, in the thousands.
-We therefore developed our own task scheduler, to take better advantage of the "qsub" standard submission system and reduce the number of concurrent jobs.
-These are called:
-chap4-hgt-par-cluster-scripts/hgt/raxml/exec/sched-jobs-hgt-raxml.rb 
-and 
-chap4-hgt-par-cluster-scripts/hgt/raxml/exec/win-task-hgt-raxml.rb
-
-
-
-3) Later we added a Timing Step, which was done using TreePL and B.E.A.S.T. each, for both the Complete and Partial transfers.
-When applying time constraints on gene trees, some of them were not mutually compatible. As TreePL, one of the simulation software that we used was not handling these conflicting constraints, we developped a separate Java Netbeans project, able to handle managed execution.
-It is found in:
-chap4-proc_hom/ex_projects/proc-hom-ex/
-
-This Java application, dynamically runs successive instances of TreePL, and changes parameters as the software crashes.
 
 
 All these 3 stages have a different project structure.
