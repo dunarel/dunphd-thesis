@@ -36,7 +36,7 @@ Results were parsed and graphics drawn using [Chapter3/Supplementary/q_func_ruby
 ## Chapter IV 
 ### Complete And Partial Horizontal Gene Transfers At The Core Of Prokaryotic Ecology And Evolution
 
-[Chapter4/Main/linalgebra_impl/](Chapter4/Main/linalgebra_impl/) is a Python numpy/scipy Linear Algebra implementation of the custom clustering framework 
+[Chapter4/Main/linalgebra_impl/](Chapter4/Main/linalgebra_impl/) is a Python numpy/scipy Linear Algebra software implementation of the custom clustering framework 
 that we put in place, in order to characterise Complete HGT events, across Prokaryotic Families and Habitats.
 
 Its main purpose is to linearise tree events, between branches, into fragment leaf transfers based on their Most Recent Common Ancestor (MRCA). 
@@ -79,7 +79,7 @@ This is where the name of our project initially came from: __proc_hom__ i.e. __P
 ## CHAPTER V
 ### A New Fast Algorithm For Detecting And Validating Horizontal Gene Transfer Events Using Phylogenetic Trees And Aggregation Functions
 
-[Chapter5/Main/hgt-qfunc.v.0.5.2/](Chapter5/Main/hgt-qfunc.v.0.5.2/) software is a C++ implementation of the Fast HGT detection algorithm, using Q-functions.
+[Chapter5/Main/hgt-qfunc.v.0.5.2/](Chapter5/Main/hgt-qfunc.v.0.5.2/) is a C++ software implementation of the Fast HGT detection algorithm, using Q-functions.
 It is OpenMP parallelized and SSE vectorized.
 
 Simulations were performed using Chapter IV wrapper Rake scripts, inside:
