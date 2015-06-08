@@ -2,11 +2,11 @@
 
 This software implements the HGT detection method described in:
 
-## Dunarel Badescu Ph.D. Thesis - [UQAM](http://www.uqam.ca) 2015
-### Functional Genomic Region And Horizontal Gene Transfer Detection Using Sequence Variability Clustering: Applications To Viral And Prokaryotic Evolution
+#### Dunarel Badescu Ph.D. Thesis - [UQAM](http://www.uqam.ca) 2015
+#### Functional Genomic Region And Horizontal Gene Transfer Detection Using Sequence Variability Clustering: Applications To Viral And Prokaryotic Evolution
 #### Supervisor Prof. Vladimir Makarenkov, Co-supervisor Prof. Abdoulaye Banire Diallo, Coauthor: Dr. Alix Boc
-## CHAPTER V
-### A New Fast Algorithm For Detecting And Validating Horizontal Gene Transfer Events Using Phylogenetic Trees And Aggregation Functions
+#### CHAPTER V
+#### A New Fast Algorithm For Detecting And Validating Horizontal Gene Transfer Events Using Phylogenetic Trees And Aggregation Functions
 
 
 ### Copyright (C) 2015 Dunarel Badescu, Abdoulaye Banire Diallo and Vladimir Makarenkov
