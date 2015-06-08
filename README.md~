@@ -24,7 +24,7 @@ Detecting genomic regions associated with a disease using variability functions 
 ](http://www.biomedcentral.com/1471-2105/12/S9/S9)
 
 We also provide an initial Java implementation of Q-functions without bipartition optimisation: [Supplementary/q_func_java_ba](Supplementary/q_func_java_ba).
-Its Ruby wrapper [q_func_jruby_ba/](q_func_jruby_ba/) also contains code to extract Neisseria frpB outer membrane protein loops coordinates.
+Its Ruby wrapper [q_func_jruby_ba](q_func_jruby_ba) also contains code to extract Neisseria frpB outer membrane protein loops coordinates.
 
 
 
