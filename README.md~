@@ -1,6 +1,10 @@
-# Dunarel Badescu PhD Thesis
 
-This repository releases the source code implementations of the clustering algorithms described in Dunarel Badescu PhD Thesis (Universite du Quebec a Montreal).
+This repository releases the source code implementations of the clustering algorithms described in:
+
+# Dunarel Badescu Ph.D. Thesis, (Universite du Quebec a Montreal) 2015
+## Functional Genomic Region And Horizontal Gene Transfer Detection Using Sequence Variability Clustering: Applications To Viral And Prokaryotic Evolution See Chapter Iii: A New Fast Algorithm For Detecting And Validating Horizontal Gene Transfer Events Using Phylogenetic Trees And Aggregation Functions
+### Supervisor Prof. Vladimir Makarenkov, Co-supervisor Prof. Abdoulaye Baniré Diallo, Coauthor: Dr. Alix Boc
+
 There are three __main__ projects, partaining each to one chapter of the thesis. They are working, compilable, and executable, independent software releases.
 
 We also include __supplementary__ projects, those used to develop the current solution and to run simulations.
