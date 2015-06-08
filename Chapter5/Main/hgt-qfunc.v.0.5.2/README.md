@@ -1,4 +1,4 @@
-## HGT-QFUNC v.0.5.2
+### HGT-QFUNC v.0.5.2
 
 This software implements the HGT detection method described in:
 

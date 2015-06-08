@@ -1,57 +1,38 @@
-## HGT-QFUNC v.0.5.2
-
-This software implements the HGT detection method described in:
-
-##### CHAPTER V of Dunarel Badescu Ph.D. Thesis - UQAM 
-##### A New Fast Algorithm For Detecting And Validating Horizontal Gene Transfer Events Using Phylogenetic Trees And Aggregation Functions
+## QFUNC v.0.5
 
 
-###### Copyright (C) 2015 Dunarel Badescu, Abdoulaye Banire Diallo and Vladimir Makarenkov
+This software implements the algorithm for detecting regions associated with a disease. described in:
+
+[Badescu, D., Boc. A., Diallo, A. B., and Makarenkov, V. (2011),
+Detecting genomic regions associated with a disease using variability functions and Adjusted Rand Index, BMC Bioinformatics, 12(Suppl 9):S9.
+](http://www.biomedcentral.com/1471-2105/12/S9/S9)
+
+###### Copyright (C) 2015 Dunarel Badescu, Alix Boc, Abdoulaye Banire Diallo and Vladimir Makarenkov
 
 ### Licence 
    This software is distributed according to the BSD license (3-clause version).
-
-   Our most recent implementation is available at the following URL address:
-   http://www.info2.uqam.ca/~makarenkov_v/fastHGT.zip.
 
 ### Authors pages:
   * Dunarel Badescu:         https://ca.linkedin.com/pub/dunarel-badescu/26/107/887
   * Vladimir Makarenkov:     http://accueil.labunix.uqam.ca/~makarenkov_v
   * Abdoulaye Banire Diallo: http://ancestors.bioinfo.uqam.ca/BioinfoLab/index.php
+  * Alix Boc:                https://ca.linkedin.com/in/alixboc		
   
 ### Requirements
    * gcc/g++ and BOOST C++ libraries (they are present with major Linux package managers)
 
 ### Dependencies (found in [deps/](deps/) folder)
-  * [deps/yannisun] (https://sites.google.com/site/yannisun/)
-    Fasta file parser released by Yanni Sun @Michigan State University 
-      * http://www.cse.msu.edu/~yannisun/cse891/hmm-EM/fasta.c
-      * http://www.cse.msu.edu/~yannisun/cse891/hmm-EM/fasta.h
-
-  * [assoc_vector](https://github.com/wo3kie/AssocVector)
-    AssocVector is a sorted vector optimized for insert and erase operations 
-
-  * [fast-cpp-csv-parser](https://code.google.com/p/fast-cpp-csv-parser/ )
-    Small, easy-to-use and fast header-only library for reading comma separated value (CSV) files.
-    
-  * [simdpp](https://github.com/p12tic/libsimdpp)
-    Header-only zero-overhead C++ wrapper for SIMD intrinsics of multiple instruction sets.
 
   * [tclap](http://tclap.sourceforge.net/)
     Templatized C++ Command Line Parser Library
     
-  
-
 ### How to build code?
   * make TARGET=debug clean
   * make TARGET=debug 
   
     install gcc/g++ and BOOST using either yum, zypper on workstations, or module load commands on clusters.
-
-    We also provide a codelite 5.2 workspace (hgt-qfunc.workspace) and project file (hgtqfunc5.project) defining a custom build. 
-    This is convenient to use as an IDE, having the same standard Makefile build system.
  
-### HGT-QFUNC contents:
+### QFUNC contents:
 
   * README  - This file 
   * license - Full text of the BSD license (3-clause)
@@ -63,13 +44,7 @@ This software implements the HGT detection method described in:
   
   
 ### Usage:
-   We provide a binary Linux executable, compiled on the Compute Quebec/Canada Cluster Guillimin, using g++ and BOOST using:
-   module load gcc
-   module load BOOST
-   make TARGET=debug clean
-   make TARGET=debug
-
-   The executable name is: hgt-qfunc-deb 
+   
    Parameters are:
  
 1. (--f_opt_max)
@@ -104,7 +79,7 @@ This software implements the HGT detection method described in:
    Note that flE is denoting D(x0,y0) or xy throughout the text, while dXX,dYY and dXY are the intragroups and intergroup distances.    
 
 ### Example:
-   An example of execution is given in the example folder.
+   An example of execution, using HPV alignement is given in.
 
 ### Feedback and bug reports:
    Feedback is welcomed: dunarel(at)gmail(dot)com.
