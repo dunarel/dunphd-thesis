@@ -32,40 +32,6 @@ Simulations profiling the behaviour of Q-functions under Positive Selection/Line
 
 Results were parsed and graphics drawn using [Chapter3/Supplementary/q_func_ruby_parsing](Chapter3/Supplementary/q_func_ruby_parsing/).
 
----
-
-
-It consists of Ruby scripts running in a master/slave configuration.
-
-The controling script running on the master node is admin/spadb.rb.
-
-The original source code implementation of Q-functions, used at that time is found in q_funcb folder.
-It is a Netbeans IDE project, compiled with g++ 4.4
-The binary Linux executable used is simul_ruby/bin/q_funcb.
-
-The simulation is also using simul_ruby/create_tree/createTree for random tree generation:
-see Vladimir Makarenkov and Pierre Legendre. 
-Journal of Computational Biology. January 2004, 11(1): 195-212. doi:10.1089/106652704773416966. 
-implemented by Alix Boc - June 2008.
-
-To simulate mutated sequences along branches of the tree we used:
-Seqgen
-http://tree.bio.ed.ac.uk/software/seqgen/
-
-The simul_ruby/lib folder contains the Ruby scripts used for the simulations.
-
-These were inserted into an Apache Derby database.
-See http://db.apache.org/derby/. 
-
-Active Record migration scripts are provided to recreate the database structures supporting the simulations.
-They are found in the simul_ruby/migrate folder.
-
-In addition to the original Q-function implementation, we are providing the most up to date C++ version of the software that we posess, in chap3-qfuncp.v.0.9 folder.
-
-A Makefile is provided for compilation on Linux 64 bit architectures.
-
-
-
 ## Chapter IV 
 ### Complete And Partial Horizontal Gene Transfers At The Core Of Prokaryotic Ecology And Evolution
 
