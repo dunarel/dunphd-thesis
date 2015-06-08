@@ -16,13 +16,17 @@ Do not expect those to run outside the box, as they are taken out of their origi
 ## Chapter III 
 ### Detecting Genomic Regions Associated With A Disease Using Aggregation Functions And Adjusted Rand Index
 
-This software implments the algorithm for detecting regions associated with a disease.
-[Chapter3/Main/q_funcb](Chapter3/Main/q_funcb)
+[Chapter3/Main/q_funcb](Chapter3/Main/q_funcb) C++ software implements the algorithm for detecting regions associated with a disease.
 
 Refererence:
 [Badescu, D., Boc. A., Diallo, A. B., and Makarenkov, V. (2011),
 Detecting genomic regions associated with a disease using variability functions and Adjusted Rand Index, BMC Bioinformatics, 12(Suppl 9):S9.
 ](http://www.biomedcentral.com/1471-2105/12/S9/S9)
+
+We also provide an initial Java implementation of Q-functions without bipartition optimisation: [Supplementary/q_func_java_ba](Supplementary/q_func_java_ba).
+Its Ruby wrapper [q_func_jruby_ba](q_func_jruby_ba) also contains code to extract Neisseria frpB outer membrane protein loops coordinates.
+
+
 
 
 Simulations profiling the behaviour of Q-functions under Positive Selection/Lineage Specific Selection and Monophyletic/Polyphyletic conditions were conducted on the Licef Research Centre High Performance Cluster belonging to Université Teluq.
