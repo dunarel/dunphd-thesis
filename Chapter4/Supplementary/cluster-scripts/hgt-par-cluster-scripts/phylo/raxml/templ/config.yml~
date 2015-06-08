@@ -1,0 +1,18 @@
+---
+stage: "phylo"
+phylo_prog: "raxml"
+exec_loc: "lustre"
+local_dir: "hgt-par-110/phylo/raxml"
+job_name: "jpraxml"
+queue: "qwork@mp2"
+scratch: "/mnt/scratch_mp2/makarenk/badescud"
+home: "/home/badescud"
+lustre: "/mnt/lustre03/makarenk/badescud"
+results_files:
+- "RAxML_bipartitions.fen_align.re"
+- "RAxML_info.fen_align.tr"
+res_loc_files:
+- "RAxML_bootstrap.fen_align.bs"
+started_file: "RAxML_info.fen_align.tr"
+finished_file: "RAxML_bipartitions.fen_align.re"
+

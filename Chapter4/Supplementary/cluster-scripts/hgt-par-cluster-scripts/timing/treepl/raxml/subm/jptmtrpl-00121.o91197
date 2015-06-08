@@ -1,0 +1,24 @@
+----------------------------------------
+Begin PBS Prologue Mon Jul 29 17:23:43 EDT 2013 1375133023
+Job ID:		91197.mp2.m
+Username:	badescud
+Group:		nnx-284-aa
+Nodes:		cp2045
+End PBS Prologue Mon Jul 29 17:23:43 EDT 2013 1375133023
+----------------------------------------
+----------------------------------------
+Begin PBS Epilogue Mon Jul 29 17:26:32 EDT 2013 1375133192
+Job ID:		91197.mp2.m
+Username:	badescud
+Group:		nnx-284-aa
+Job Name:	jptmtrpl-00121
+Session:	5919
+Limits:		neednodes=1,nodes=1,walltime=36:00:00
+Resources:	cput=00:43:52,mem=387120kb,vmem=9508824kb,walltime=00:02:44
+Queue:		qwork4
+Account:		
+Nodes:	cp2045
+Killing leftovers...
+
+End PBS Epilogue Mon Jul 29 17:26:32 EDT 2013 1375133192
+----------------------------------------

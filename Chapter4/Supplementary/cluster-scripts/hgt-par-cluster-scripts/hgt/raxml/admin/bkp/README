@@ -1,0 +1,19 @@
+
+
+#values.txt needed for count-progress.rb
+
+
+#it appends to job-idx.txt
+
+
+
+#qsub job template file
+qsubs/qsub-job.ksh.erb
+
+#submit jobs in job-idx.txt file
+./submit-qsub-files.ksh
+
+#./gen-qsub-files.rb --range 100-100 --procs 2 --threads 10 --wall 8
+./gen-qsub-files.rb --range 100-100 --procs 10 --threads 2 --wall 36
+
+
