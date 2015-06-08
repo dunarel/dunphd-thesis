@@ -66,18 +66,14 @@ TreePL, one of the simulation software that we used, was not handling these conf
 
 [Chapter4/Supplementary/proc-hom-ex/](Chapter4/Supplementary/proc-hom-ex/) is a Java Netbeans project, able to handle managed execution.
 
+After running the simulations on the remote cluster, we performed an aggregating step, on the local computer.
+We accelerated Partial HGT recovering of transfers, from their multiple superposing window fragments, by calculating Connected Components inside a Graph, based on Jaccard distance.
+[Chapter4/Supplementary/proc-hom-sp/](Chapter4/Supplementary/proc-hom-sp/) is a custom JavaCL Java Stored Procedure.
+It uses the OpenCL heterogeneous parallelizing framework, on an NVIDIA Graphic Card. 
 
 
 
 
-All these 3 stages have a different project structure.
-
-4) After running the simulations on the remote cluster, we performed an aggregating step, on the local computer, which required the use of an NVIDIA Graphic Card, and JavaCL/OpenCL parallelizing software, for the Partial Horizontal Gene Transfer.
-
-We developed a custom Java Stored Procedure, that recover transfers from their multiple superposing window fragments by calculating Connected Components inside a Graph, based on Jaccard distance.
-
-This is a Java Netbeans IDE project at following location:
-chap4-proc_hom/ex_projects/proc-hom-ex/
 
 We also provide the code used to ensure orthology, as one of our earlier steps in validating the Multiple Sequence Alignemnts.
 We were doing reciprocal BLAST hits, and clustering using TribeMCL, in a separate project: 

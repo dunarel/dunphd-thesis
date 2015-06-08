@@ -60,16 +60,14 @@ Scripts were used to calculate Maximum Likelihood gene trees, using RAxML and fo
 [Chapter4/Supplementary/cluster-scripts/hgt-com-cluster-scripts/](Chapter4/Supplementary/cluster-scripts/hgt-com-cluster-scripts/) is a collection of scripts used for inferring and dating Complete Gene Transfers.
 [Chapter4/Supplementary/cluster-scripts/hgt-par-cluster-scripts/](Chapter4/Supplementary/cluster-scripts/hgt-par-cluster-scripts/) is taking the analysis one step further, into Partial Gene Transfers.
 
+Timing was done using TreePL and B.E.A.S.T. each, for both the Complete and Partial transfers.
+When applying time constraints on gene trees, some of them were not mutually compatible. 
+TreePL, one of the simulation software that we used, was not handling these conflicting constraints.
+
+[Chapter4/Supplementary/proc-hom-ex/](Chapter4/Supplementary/proc-hom-ex/) is a Java Netbeans project, able to handle managed execution.
 
 
 
-
-3) Later we added a Timing Step, which was done using TreePL and B.E.A.S.T. each, for both the Complete and Partial transfers.
-When applying time constraints on gene trees, some of them were not mutually compatible. As TreePL, one of the simulation software that we used was not handling these conflicting constraints, we developped a separate Java Netbeans project, able to handle managed execution.
-It is found in:
-chap4-proc_hom/ex_projects/proc-hom-ex/
-
-This Java application, dynamically runs successive instances of TreePL, and changes parameters as the software crashes.
 
 
 All these 3 stages have a different project structure.
