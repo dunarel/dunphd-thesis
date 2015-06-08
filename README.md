@@ -13,8 +13,8 @@ Some of them may be used independently for similar purposes, as they have their 
 Do not expect those to run outside the box, as they are taken out of their original context.
 
 
-# Chapter III 
-## Detecting Genomic Regions Associated With A Disease Using Aggregation Functions And Adjusted Rand Index
+## Chapter III 
+### Detecting Genomic Regions Associated With A Disease Using Aggregation Functions And Adjusted Rand Index
 
 This software implments the algorithm for detecting regions associated with a disease.
 [Chapter3/Main/q_funcb](Chapter3/Main/q_funcb)
@@ -60,8 +60,8 @@ A Makefile is provided for compilation on Linux 64 bit architectures.
 
 
 
-# Chapter IV 
-## Complete And Partial Horizontal Gene Transfers At The Core Of Prokaryotic Ecology And Evolution
+## Chapter IV 
+### Complete And Partial Horizontal Gene Transfers At The Core Of Prokaryotic Ecology And Evolution
 
 
 Our statistical framework and its application on clustering Complete and partial HGT events, across Prokaryotic Families, Habitats and Historical Age, was developped during several years. In order to explicitely control species and alleles behaviour, and to tame the project growing complexity, we used at its center a Relational Database, and its Relational Algebra paradigm. We chose HSQLDB, due to its good parallel insert performances.
@@ -140,8 +140,8 @@ We also provide another script file, able to also directly work with the core ge
 chap4-linalgebra_impl/core-files.R
 
 
-# CHAPTER V
-## A New Fast Algorithm For Detecting And Validating Horizontal Gene Transfer Events Using Phylogenetic Trees And Aggregation Functions
+## CHAPTER V
+### A New Fast Algorithm For Detecting And Validating Horizontal Gene Transfer Events Using Phylogenetic Trees And Aggregation Functions
 
 The C++ code, Makefile, CodeLite Project and example files are located in:
 chap5-hgt-qfunc.v.0.5.2
