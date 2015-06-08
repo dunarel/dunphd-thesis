@@ -22,6 +22,7 @@ Refererence:
 [Badescu, D., Boc. A., Diallo, A. B., and Makarenkov, V. (2011),
 Detecting genomic regions associated with a disease using variability functions and Adjusted Rand Index, BMC Bioinformatics, 12(Suppl 9):S9.
 ](http://www.biomedcentral.com/1471-2105/12/S9/S9)
+
 ---
 
 We also provide an initial Java implementation of Q-functions without bipartition optimisation: [Chapter3/Supplementary/q_func_java_ba](Chapter3/Supplementary/q_func_java_ba).
