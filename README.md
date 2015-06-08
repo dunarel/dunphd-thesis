@@ -16,7 +16,7 @@ Do not expect those to run outside the box, as they are taken out of their origi
 ## Chapter III 
 ### Detecting Genomic Regions Associated With A Disease Using Aggregation Functions And Adjusted Rand Index
 
-[Chapter3/Main/q_funcb](Chapter3/Main/q_funcb) C++ software implements the algorithm for detecting regions associated with a disease.
+[Chapter3/Main/q_funcb](Chapter3/Main/q_funcb) is a C++ software implementation of the algorithm for detecting regions associated with a disease.
 
 Refererence:
 [Badescu, D., Boc. A., Diallo, A. B., and Makarenkov, V. (2011),
