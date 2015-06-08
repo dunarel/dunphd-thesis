@@ -53,33 +53,33 @@ One nice property it has, is that the weighted scheme used, allows for having th
 As this project was developped during several years, we chose the Relational Algebra modeling framework, knowing that Relational Databases allow for explicit control of variable states, and easy debugging.
 They also allow for better project extension, due to the connected nature of SQL.
 All the algorithms used were either originally parallelized, or they were submited using a parallel task scheduler, either the one provided by the cluster system (for Complete HGT) or our own (for Partial HGT). 
-
 We also chose HSQLDB, due to its good parallel insert performances.
-[Chapter4/Supplementary/db_scripts/](Chapter4/Supplementary/db_scripts/) contain the scripts used to configure and launch the database.
-
 The Ruby on Rails architecture was chosen due to its Active Record Object Relational Model being a comprehensive framework able to efficiently script third party applications.
-[Chapter4/Supplementary/proc_hom/](Chapter4/Supplementary/proc_hom/) is the main Ruby on Rails project, also containing database migrations, and models. 
 
-Simulations were conducted on the Compute Canada/Calcul Quebec [Mammouth MP2 HPC](http://www.calculquebec.ca/en/resources/compute-servers/mammouth-parallele-ii) at the University of Sherbrooke.
+- [Chapter4/Supplementary/db_scripts/](Chapter4/Supplementary/db_scripts/) contain the scripts used to configure and launch the database.
+
+- [Chapter4/Supplementary/proc_hom/](Chapter4/Supplementary/proc_hom/) is the main Ruby on Rails project, also containing database migrations, and models. 
+
+- Simulations were conducted on the Compute Canada/Calcul Quebec [Mammouth MP2 HPC](http://www.calculquebec.ca/en/resources/compute-servers/mammouth-parallele-ii) at the University of Sherbrooke.
 Scripts were used to calculate Maximum Likelihood gene trees, 
 using [RAxML](http://sco.h-its.org/exelixis/web/software/raxml/index.html) and for infering Complete and respectively Partial Gene Transfers, 
 using [HGT-Detection](http://www.trex.uqam.ca/index.php?action=hgt) for Complete Transfers 
 and [HGT-Detection for Partial Transfers](http://www.trex.uqam.ca/index.php?action=hgt_partial&project=trex).
 
-[Chapter4/Supplementary/cluster-scripts/hgt-com-cluster-scripts/](Chapter4/Supplementary/cluster-scripts/hgt-com-cluster-scripts/) is a collection of scripts used for inferring and dating Complete Gene Transfers.
-[Chapter4/Supplementary/cluster-scripts/hgt-par-cluster-scripts/](Chapter4/Supplementary/cluster-scripts/hgt-par-cluster-scripts/) is taking the analysis one step further, into Partial Gene Transfers.
+-- [Chapter4/Supplementary/cluster-scripts/hgt-com-cluster-scripts/](Chapter4/Supplementary/cluster-scripts/hgt-com-cluster-scripts/) is a collection of scripts used for inferring and dating Complete Gene Transfers.
+-- [Chapter4/Supplementary/cluster-scripts/hgt-par-cluster-scripts/](Chapter4/Supplementary/cluster-scripts/hgt-par-cluster-scripts/) is taking the analysis one step further, into Partial Gene Transfers.
 
-Timing was done using TreePL and B.E.A.S.T. each, for both the Complete and Partial transfers.
+- Timing was done using TreePL and B.E.A.S.T. each, for both the Complete and Partial transfers.
 When applying time constraints on gene trees, some of them were not mutually compatible. 
 TreePL, one of the simulation software that we used, was not handling these conflicting constraints.
 [Chapter4/Supplementary/proc-hom-ex/](Chapter4/Supplementary/proc-hom-ex/) is a Java Netbeans project, able to handle managed execution.
 
-After running the simulations on the remote cluster, we performed an aggregating step, on the local computer.
+- After running the simulations on the remote cluster, we performed an aggregating step, on the local computer.
 We accelerated Partial HGT recovering of transfers, from their multiple superposing window fragments, by calculating Connected Components inside a Graph, based on Jaccard distance.
 [Chapter4/Supplementary/proc-hom-sp/](Chapter4/Supplementary/proc-hom-sp/) is a custom _JavaCL_/_Java Stored Procedure._
 It uses the _OpenCL_ heterogeneous parallelizing framework, on an _NVIDIA_ Graphic Card. 
 
-One of our earlier steps is validating the Multiple Sequence Alignments, ensuring orthology.
+- One of our earlier steps is validating the Multiple Sequence Alignments, ensuring orthology.
 This is where the name of our project initially came from: __proc_hom__ i.e. __Proc__ ariotic __Hom__ ology.
 [Chapter4/Supplementary/tribemcl/](Chapter4/Supplementary/tribemcl/) is a _bash_ script, doing reciprocal BLAST hits, and clustering using TribeMCL.
 
@@ -94,7 +94,7 @@ Because of its low time complexity, the new algorithm can be used in complex phy
 Even though the presented method is designed to identify complete HGT, we investigated how it copes with partial HGT (i.e. HGT followed by the intragenic sequence recombination) and showed that in many cases it can be used to identify both complete and partial HGT. 
 This is an _OpenMP_ parallelized and _SSE3_ vectorized Linux gcc version.
 
-Simulations were performed using Chapter IV wrapper Rake scripts, inside:
+- Simulations were performed using Chapter IV wrapper Rake scripts, inside:
 [Chapter4/Supplementary/proc_hom/lib/tasks/hgt_com.rake](Chapter4/Supplementary/proc_hom/lib/tasks/hgt_com.rake).
 
 

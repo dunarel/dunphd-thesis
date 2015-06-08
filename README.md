@@ -66,8 +66,8 @@ using [RAxML](http://sco.h-its.org/exelixis/web/software/raxml/index.html) and f
 using [HGT-Detection](http://www.trex.uqam.ca/index.php?action=hgt) for Complete Transfers 
 and [HGT-Detection for Partial Transfers](http://www.trex.uqam.ca/index.php?action=hgt_partial&project=trex).
 
--- [Chapter4/Supplementary/cluster-scripts/hgt-com-cluster-scripts/](Chapter4/Supplementary/cluster-scripts/hgt-com-cluster-scripts/) is a collection of scripts used for inferring and dating Complete Gene Transfers.
--- [Chapter4/Supplementary/cluster-scripts/hgt-par-cluster-scripts/](Chapter4/Supplementary/cluster-scripts/hgt-par-cluster-scripts/) is taking the analysis one step further, into Partial Gene Transfers.
+... [Chapter4/Supplementary/cluster-scripts/hgt-com-cluster-scripts/](Chapter4/Supplementary/cluster-scripts/hgt-com-cluster-scripts/) is a collection of scripts used for inferring and dating Complete Gene Transfers.
+... [Chapter4/Supplementary/cluster-scripts/hgt-par-cluster-scripts/](Chapter4/Supplementary/cluster-scripts/hgt-par-cluster-scripts/) is taking the analysis one step further, into Partial Gene Transfers.
 
 - Timing was done using TreePL and B.E.A.S.T. each, for both the Complete and Partial transfers.
 When applying time constraints on gene trees, some of them were not mutually compatible. 
@@ -94,7 +94,7 @@ Because of its low time complexity, the new algorithm can be used in complex phy
 Even though the presented method is designed to identify complete HGT, we investigated how it copes with partial HGT (i.e. HGT followed by the intragenic sequence recombination) and showed that in many cases it can be used to identify both complete and partial HGT. 
 This is an _OpenMP_ parallelized and _SSE3_ vectorized Linux gcc version.
 
-Simulations were performed using Chapter IV wrapper Rake scripts, inside:
+- Simulations were performed using Chapter IV wrapper Rake scripts, inside:
 [Chapter4/Supplementary/proc_hom/lib/tasks/hgt_com.rake](Chapter4/Supplementary/proc_hom/lib/tasks/hgt_com.rake).
 
 
