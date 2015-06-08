@@ -55,28 +55,12 @@ The Ruby on Rails architecture was chosen due to its Active Record Object Relati
 [Chapter4/Supplementary/proc_hom/](Chapter4/Supplementary/proc_hom/) is the main Ruby on Rails project, also containing database migrations, and models. 
 
 Simulations were conducted on the Compute Canada/Calcul Quebec High Performance Cluster Mammouth MP2 at the University of Sherbrooke.
-Scripts were used to calculate Maximum Likelihood gene trees, using RAxML and for infering Complete and respectively Partial Gene Transfers on Mammout MP2, using HGT-Detection software.
+Scripts were used to calculate Maximum Likelihood gene trees, using RAxML and for infering Complete and respectively Partial Gene Transfers, using HGT-Detection software.
 
 [Chapter4/Supplementary/cluster-scripts/hgt-com-cluster-scripts/](Chapter4/Supplementary/cluster-scripts/hgt-com-cluster-scripts/) is a collection of scripts used for inferring and dating Complete Gene Transfers.
 [Chapter4/Supplementary/cluster-scripts/hgt-par-cluster-scripts/](Chapter4/Supplementary/cluster-scripts/hgt-par-cluster-scripts/) is taking the analysis one step further, into Partial Gene Transfers.
 
 
-
-
-The Project folder containing the custom code to start and stop the database is located at:
-chap4-db_srv
-
-The main locally executing project scripts are located in: 
-chap4-proc_hom
-
-This project is extensively using Rake tasks, located in:
-chap4-proc_hom/lib/tasks
-
-Associated JRuby classes are in:
-chap4-proc_hom/lib
-
-Database migration scripts are located in:
-chap4-proc_hom/db/migrate 
 
 
 

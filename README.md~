@@ -46,12 +46,13 @@ One nice property it has, is that the weighted scheme used, allows for having th
 
 As this project was developped during several years, we chose the Relational Algebra modeling framework, as Relational Databases allow for explicit control of variable states, and easy debugging.
 They also allow for better project extension, due to the connected nature of SQL.
-
 All the algorithms used were either originally parallelized, or they were submited using a parallel task scheduler. 
+
 We also chose HSQLDB, due to its good parallel insert performances.
+[Chapter4/Supplementary/db_scripts/](Chapter4/Supplementary/db_scripts/) contain the scripts used to configure and launch the database.
 
 The Ruby on Rails architecture was chosen due to its Active Record Object Relational Model being a comprehensive framework able to efficiently script third party applications.
-
+[Chapter4/Supplementary/proc_hom/](Chapter4/Supplementary/proc_hom/) is the main Ruby on Rails project, also containing database migrations, and models. 
 
 Simulations were conducted on the Compute Canada/Calcul Quebec High Performance Cluster Mammouth MP2 at the University of Sherbrooke.
 Scripts were used to calculate Maximum Likelihood gene trees, using RAxML and for infering Complete and respectively Partial Gene Transfers on Mammout MP2, using HGT-Detection software.
