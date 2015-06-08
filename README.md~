@@ -44,13 +44,23 @@ One nice property it has, is that the weighted scheme used, allows for having th
 
 ---
 
-This project was was developped during several years. 
+As this project was developped during several years, we chose Relational Algebra as a modeling framework, as Relational Databases allow for explicit control of variable states, and easy debugging.
+They also allow for better project extension, due to the connected nature of SQL.
 
-In order to explicitely control species and alleles behaviour, and to tame the project growing complexity, we used at its center a Relational Database, and its Relational Algebra paradigm. 
-All the algorithms used were parallelized, or they were submited for parallel execution on 
-We chose HSQLDB, due to its good parallel insert performances.
+All the algorithms used were either originally parallelized, or they were submited using a parallel task scheduler. 
+We also chose HSQLDB, due to its good parallel insert performances.
 
 The Ruby on Rails architecture was chosen due to its Active Record Object Relational Model being a comprehensive framework able to efficiently script third party applications.
+
+
+Simulations were conducted on the Compute Canada/Calcul Quebec High Performance Cluster Mammouth MP2 at the University of Sherbrooke.
+Scripts were used to calculate Maximum Likelihood gene trees, using RAxML and for infering Complete and respectively Partial Gene Transfers on Mammout MP2, using HGT-Detection software.
+
+[Chapter4/Supplementary/cluster-scripts/hgt-com-cluster-scripts/](Chapter4/Supplementary/cluster-scripts/hgt-com-cluster-scripts/) is a collection of scripts used for inferring and dating Complete Gene Transfers.
+[Chapter4/Supplementary/cluster-scripts/hgt-par-cluster-scripts/](Chapter4/Supplementary/cluster-scripts/hgt-par-cluster-scripts/) is taking the analysis one step deeper, into Partial Gene Transfers.
+
+
+
 
 The Project folder containing the custom code to start and stop the database is located at:
 chap4-db_srv
@@ -67,11 +77,6 @@ chap4-proc_hom/lib
 Database migration scripts are located in:
 chap4-proc_hom/db/migrate 
 
-Simulations were conducted on the Compute Canada/Calcul Quebec High Performance Cluster Mammouth MP2 at the University of Sherbrooke.
-Those scripts used to calculate Maximum Likelihood gene trees, using RAxML and for infering Complete and respectively Partial Gene Transfers on Mammout MP2, using HGT-Detection are located in folowing folders:
-
-chap4-hgt-com-cluster-scripts
-chap4-hgt-par-cluster-scripts
 
 
 
