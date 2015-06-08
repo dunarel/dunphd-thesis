@@ -36,14 +36,19 @@ Results were parsed and graphics drawn using [Chapter3/Supplementary/q_func_ruby
 ### Complete And Partial Horizontal Gene Transfers At The Core Of Prokaryotic Ecology And Evolution
 
 [Chapter4/Main/linalgebra_impl/](Chapter4/Main/linalgebra_impl/) is a Python numpy/scipy Linear Algebra implementation of the custom clustering framework 
-that we put in place, in order to characterise Complete and Partial HGT events, across Prokaryotic Families and Habitats.
+that we put in place, in order to characterise Complete HGT events, across Prokaryotic Families and Habitats.
+
 Its main purpose is to linearise tree events, between branches, into fragment leaf transfers based on their Most Recent Common Ancestor (MRCA). 
 It then reassembles and averages these fragments into major clustering families or groups, according to subgroup memberships. 
 One nice property it has, is that the weighted scheme used, allows for having the same Weighted Average value, across classifications, even when one leaf (an Allele in our case) belonging to another subgroup (a Species in our case) belongs to multiple groups (one Habitat in our case). 
 
 ---
 
-, was developped during several years. In order to explicitely control species and alleles behaviour, and to tame the project growing complexity, we used at its center a Relational Database, and its Relational Algebra paradigm. We chose HSQLDB, due to its good parallel insert performances.
+This project was was developped during several years. 
+
+In order to explicitely control species and alleles behaviour, and to tame the project growing complexity, we used at its center a Relational Database, and its Relational Algebra paradigm. 
+All the algorithms used were parallelized, or they were submited for parallel execution on 
+We chose HSQLDB, due to its good parallel insert performances.
 
 The Ruby on Rails architecture was chosen due to its Active Record Object Relational Model being a comprehensive framework able to efficiently script third party applications.
 
