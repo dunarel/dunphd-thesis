@@ -58,7 +58,7 @@ The Ruby on Rails architecture was chosen due to its Active Record Object Relati
 Simulations were conducted on the Compute Canada/Calcul Quebec [Mammouth MP2 HPC](http://www.calculquebec.ca/en/resources/compute-servers/mammouth-parallele-ii) at the University of Sherbrooke.
 Scripts were used to calculate Maximum Likelihood gene trees, 
 using [RAxML](http://sco.h-its.org/exelixis/web/software/raxml/index.html) and for infering Complete and respectively Partial Gene Transfers, 
-using [HGT-Detection for Complete Transfers](http://www.trex.uqam.ca/index.php?action=hgt) 
+using [HGT-Detection](http://www.trex.uqam.ca/index.php?action=hgt) for Complete Transfers 
 and [HGT-Detection for Partial Transfers](http://www.trex.uqam.ca/index.php?action=hgt_partial&project=trex).
 
 [Chapter4/Supplementary/cluster-scripts/hgt-com-cluster-scripts/](Chapter4/Supplementary/cluster-scripts/hgt-com-cluster-scripts/) is a collection of scripts used for inferring and dating Complete Gene Transfers.
