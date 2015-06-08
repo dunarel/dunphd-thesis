@@ -37,7 +37,7 @@ Results were parsed and graphics drawn using [Chapter3/Supplementary/q_func_ruby
 
 [Chapter4/Main/linalgebra_impl/](Chapter4/Main/linalgebra_impl/) is a Python numpy/scipy Linear Algebra implementation of the custom clustering framework 
 that we put in place, in order to characterise Complete and Partial HGT events, across Prokaryotic Families and Habitats.
-Its main purpose is to linearise tree events, between branches, into fragment leaf transfers base on their Most Recent Common Ancestor (MRCA). 
+Its main purpose is to linearise tree events, between branches, into fragment leaf transfers based on their Most Recent Common Ancestor (MRCA). 
 It then reassembles and averages these fragments into major clustering families or groups, according to subgroup memberships. 
 One nice property it has, is that the weighted scheme used, allows for having the same Weighted Average value, across classifications, even when one leaf (an Allele in our case) belonging to another subgroup (a Species in our case) belongs to multiple groups (one Habitat in our case). 
 
