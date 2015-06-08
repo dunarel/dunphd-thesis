@@ -14,9 +14,9 @@ This software implments the algorithm for detecting regions associated with a di
 [Chapter3/Main/q_funcb](Chapter3/Main/q_funcb)
 
 Refererence:
-Badescu, D., Boc. A., Diallo, A. B., and Makarenkov, V. (2011), Detecting genomic regions associated with a disease using variability functions and Adjusted Rand Index, BMC Bioinformatics, 12(Suppl 9):S9.
-
-
+[Badescu, D., Boc. A., Diallo, A. B., and Makarenkov, V. (2011),
+Detecting genomic regions associated with a disease using variability functions and Adjusted Rand Index, BMC Bioinformatics, 12(Suppl 9):S9.
+](http://www.biomedcentral.com/1471-2105/12/S9/S9)
 
 
 Simulations profiling the behaviour of Q-functions under Positive Selection/Lineage Specific Selection and Monophyletic/Polyphyletic conditions were conducted on the Licef Research Centre High Performance Cluster belonging to Université Teluq.

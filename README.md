@@ -5,6 +5,7 @@ There are three __main__ projects, partaining each to one chapter of the thesis.
 
 We also include __supplementary__ projects, those used to develop the current solution and to run simulations.
 Some of them may be used independently for similar purposes, as they have their own build system.
+Do not expect those to run outside the box, as they are taken out of their original context.
 
 
 # Chapter III 
