@@ -1,0 +1,38 @@
+
+<h1>Listing gene_blo_runs</h1>
+
+<table>
+  <tr>
+    <th>Gene</th>
+    <th>Blo run</th>
+    <th>Oa length</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @gene_blo_runs.each do |gene_blo_run| %>
+  <tr>
+    <td><%= gene_blo_run.gene.name %></td>
+    <td><%= gene_blo_run.blo_run.params %></td>
+    <td><%= gene_blo_run.oa_length %></td>
+    <td><%= link_to 'Show', "#{ENV['RAILS_RELATIVE_URL_ROOT']}/#{gene_blo_run}" %></td>
+    <td><%= link_to 'Test', "gene_blo_runs/#{gene_blo_run.to_param}" %></td>
+    <td><%= link_to 'Test2', "gene_blo_runs" %></td>
+    <td><%=  "gene_blo_runs/#{gene_blo_run.to_param}" %></td>
+    <td><%=  gene_blo_runs_url(gene_blo_run) %></td>
+
+    <td><%= link_to 'Relative_url',  "#{ENV['RAILS_RELATIVE_URL_ROOT']}, #{ActionController::Base.config.relative_url_root}" %></td>
+
+    <td><%= "ok" %></td>
+
+    
+    <td><%= link_to 'Edit', edit_gene_blo_run_path(gene_blo_run) %></td>
+    <td><%= link_to 'Destroy', "gene_blo_runs/#{gene_blo_run.to_param}" , :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Gene blo run', new_gene_blo_run_path %>

@@ -1,0 +1,40 @@
+#include <iostream>
+
+#include <stdlib.h>
+#include <iostream>
+#include <time.h>
+
+#include "q_func_hgt_appl.hpp"
+
+#include <seqan/basic.h>
+#include <seqan/sequence.h>
+#include <seqan/file.h>
+
+using namespace std;
+using namespace uqam_doc;
+using namespace seqan;
+
+int main(int argc, char** argv) {
+  
+  
+  srand(0);
+	time_t t, t0;
+	t = time(NULL);
+
+	cout << "modif8" << endl;
+	//sleep(5);
+
+
+	QFuncHgtAppl *app = new QFuncHgtAppl(argc, argv);
+	app->run();
+	delete(app);
+
+
+	t0 = time(NULL) - t;
+	cout << "temps total: " << t0 << endl;
+	
+  
+    
+    return 0;
+}
+

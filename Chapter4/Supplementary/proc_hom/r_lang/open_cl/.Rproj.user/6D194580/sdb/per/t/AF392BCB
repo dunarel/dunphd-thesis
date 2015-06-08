@@ -1,0 +1,16 @@
+{
+    "contents" : "library(OpenCL)\nx <- clFloat(1:20000000/2)\nprint(x)\nlength(x)\nas.double(x)\nas.character(x)\nas.integer(x)\nis.clFloat(x)\nidentical(x, as.clFloat(as.numeric(x)))\nx[1:5]\nx[1] <- 0\n## clFloat is the return type of oclRun(..., native.result=TRUE)\n## for single-precision kernels. It can also be used instead of\n## numeric vectors in such kernels to avoid conversions.\n## See oclRun() examples.\n",
+    "created" : 1376322578286.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2945933502",
+    "id" : "AF392BCB",
+    "lastKnownWriteTime" : 1376322725,
+    "path" : "~/devel/proc_hom/r_lang/open_cl/ocl_clfloat.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : true,
+    "type" : "r_source"
+}

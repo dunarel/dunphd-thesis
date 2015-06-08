@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="79">
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <gizmo_options version="3">
+        <configurationname>GizmoSimple</configurationname>
+      </gizmo_options>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem></runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" </runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" --msa_fasta C:\ECLIPSE\q_func_cpp\files\hpv_e6_prot\pdz_prot_msa.fa --x_ident_csv  C:\ECLIPSE\q_func_cpp\files\hpv_e6_prot\x_ident.csv  --q_func_csv  C:\ECLIPSE\q_func_cpp\files\hpv_e6_prot\scoredist_results.csv --calc_type auto --f_opt_max 4 --align_type prot --dist scoredist --winl 20 --win_step 1 --optim km</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" --msa_fasta /data/simul_ruby/files/sm3.fa --x_ident_csv  /data/simul_ruby/files/x_ident.csv  --q_func_csv  /data/simul_ruby/q_auto.csv --calc_type auto --f_opt_max 6 --align_type dna --dist ham --winl 21 --win_step 1 --optim km</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" --msa_fasta /data/simul_ruby/files/sm3.fa --x_ident_csv  /data/simul_ruby/files/x_ident.csv  --q_func_csv  /data/simul_ruby/q_auto.csv --calc_type auto --f_opt_max 7 --align_type dna --dist ham --winl 21 --win_step 1 --optim km</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" --msa_fasta /data/PROJETS3/dunarel_cluster/simul_ruby/files/sm3.fa --x_ident_csv  /data/PROJETS3/dunarel_cluster/simul_ruby/files/x_ident.csv  --q_func_csv  /data/PROJETS3/dunarel_cluster/simul_ruby/q_auto.csv --calc_type auto --f_opt_max 7 --align_type dna --dist ham --winl 21 --win_step 1 --optim km</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" --msa_fasta /data/PROJETS3/dunarel_cluster/simul_ruby/files/sm3.fa --x_ident_csv  /data/PROJETS3/dunarel_cluster/simul_ruby/files/x_ident_test.csv  --q_func_csv  /data/PROJETS3/dunarel_cluster/simul_ruby/q_auto.csv --calc_type auto --f_opt_max 7 --align_type dna --dist ham --winl 21 --win_step 1 --optim km</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" --msa_fasta /data/PROJETS3/dunarel_cluster/simul_ruby/files/sm3.fa --x_ident_csv  /data/PROJETS3/dunarel_cluster/simul_ruby/files/x_ident_test.csv  --q_func_csv  /data/PROJETS3/dunarel_cluster/simul_ruby/q_auto.csv --calc_type auto --f_opt_max 4 --align_type dna --dist ham --winl 21 --win_step 1 --optim km</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" --msa_fasta /data/PROJETS3/dunarel_cluster/simul_ruby/files/sm3.fa --x_ident_csv  /data/PROJETS3/dunarel_cluster/simul_ruby/files/x_ident_test.csv  --q_func_csv  /data/PROJETS3/dunarel_cluster/simul_ruby/q_auto.csv --calc_type auto --f_opt_max 5 --align_type dna --dist ham --winl 21 --win_step 1 --optim km</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" --msa_fasta /data/PROJETS3/dunarel_cluster/simul_ruby/files/sm3.fa --x_ident_csv  /data/PROJETS3/dunarel_cluster/simul_ruby/files/x_ident_test.csv  --q_func_csv  /data/PROJETS3/dunarel_cluster/simul_ruby/q_auto.csv --calc_type auto --f_opt_max 6 --align_type dna --dist ham --winl 21 --win_step 1 --optim km</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}" --msa_fasta /data/PROJETS3/dunarel_cluster/simul_ruby/files/sm3.fa --x_ident_csv  /data/PROJETS3/dunarel_cluster/simul_ruby/files/x_ident_test.csv  --q_func_csv  /data/PROJETS3/dunarel_cluster/simul_ruby/q_auto.csv --calc_type auto --f_opt_max 6 --align_type dna --dist ham --winl 21 --win_step 1 --optim km</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <gizmo_options version="3">
+        <configurationname>GizmoSimple</configurationname>
+      </gizmo_options>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>

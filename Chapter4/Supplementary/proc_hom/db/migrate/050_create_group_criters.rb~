@@ -1,0 +1,37 @@
+class CreateGroupCriters < ActiveRecord::Migration
+
+  def self.insert_data()
+
+  puts "ok insert data"
+  
+  #  ['family','habitat'].each { |crit|
+      
+  #   execute "insert into group_criters
+  #           (name)
+#	     values
+#	     (#{crit})"      
+ #     }
+    
+    
+  end
+
+  
+  def up
+    insert_data()
+  #  create_table :group_criters do |t|
+  #    t.string :name
+  #    t.integer :len
+
+  #    t.timestamps
+   # end
+    #add_index :group_criters, :name
+    
+  end
+  
+  def down
+    drop_table :group_criters
+  end
+  
+  
+  
+end

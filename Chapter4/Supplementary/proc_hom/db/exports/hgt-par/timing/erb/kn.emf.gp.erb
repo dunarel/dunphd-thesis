@@ -1,0 +1,18 @@
+set term emf size 1600,1300 font "Arial,32" dashed enhanced 
+set output "<%= tm_kn_name %>.emf"
+min=0
+max=3500
+
+set xrange [min:max]
+set yrange [0:0.0075]
+set xtics min,(max-min)/10,max rotate by 90 out offset 0,-2.0 nomirror
+
+set ytics out nomirror
+
+set xlabel "Time Distribution (Million years) - kernel density" offset 0,-1.0
+set ylabel "Density"
+
+plot "<%= tm_csv_f(:abs,:med,:treepl) %>" u ($1):(1.0/362.0):(0.0) smooth kdensity with lines lw 3 lc rgb"red" t "TreePL" axis x1y1, \
+     "<%= tm_csv_f(:abs,:med,:beast) %>" u ($1):(1.0/362.0):(0.0) smooth kdensity with lines lw 3 lc rgb"black" t "B.E.A.S.T" axis x1y1, \
+     "<%= tm_csv_f(:abs,:hpd5,:beast) %>" u ($1):(1.0/362.0):(0.0) smooth kdensity with lines lw 3 lc rgb"blue" t "B.E.A.S.T HPD 5%" axis x1y1, \
+     "<%= tm_csv_f(:abs,:hpd95,:beast) %>" u ($1):(1.0/362.0):(0.0) smooth kdensity with lines lw 3 lc rgb"violet" t "B.E.A.S.T HPD 95%" axis x1y1

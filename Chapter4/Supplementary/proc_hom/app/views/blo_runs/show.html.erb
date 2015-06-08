@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @blo_run.name %>
+</p>
+
+<p>
+  <b>Params:</b>
+  <%= @blo_run.params %>
+</p>
+
+
+<%= link_to 'Edit', edit_blo_run_path(@blo_run) %> |
+<%= link_to 'Back', blo_runs_path %>

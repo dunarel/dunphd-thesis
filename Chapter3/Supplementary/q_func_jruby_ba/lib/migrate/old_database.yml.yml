@@ -1,0 +1,47 @@
+# JDBC Setup
+# Adjust JDBC driver URLs as necessary.
+development:
+      host: localhost
+      adapter: jdbc
+      driver: oracle.jdbc.OracleDriver
+      url: jdbc:oracle:thin:@132.208.137.51:1521:xe
+      username: ror
+      password: tor
+
+postgres:
+      host: adn.bioinfo.uqam.ca
+      adapter: jdbc
+      database: papil
+      port: 5432
+      username: dunarel_b
+      password: bioinfo1234
+
+postgres2:
+      adapter: jdbcpostgresql
+      encoding: unicode
+      host: adn.bioinfo.uqam.ca
+      database: papil
+      username: dunarel_b
+      password: bioinfo1234
+
+
+# Warning: The database defined as 'test' will be erased and
+# re-generated from your development database when you run 'rake'.
+# Do not set this db to the same as development or production.
+test:
+      host: localhost
+      adapter: jdbc
+
+production:
+      host: localhost
+      adapter: jdbc
+      driver: oracle.jdbc.OracleDriver
+      url: jdbc:oracle:thin:@132.208.137.51:1521:xe
+      username: ror
+      password: tor
+
+
+
+#    adapter: jdbc
+#    jndi: jdbc:ror
+#    driver: oracle.jdbc.driver.OracleDriver

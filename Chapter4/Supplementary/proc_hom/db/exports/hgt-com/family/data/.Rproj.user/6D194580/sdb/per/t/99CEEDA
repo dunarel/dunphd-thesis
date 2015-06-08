@@ -1,0 +1,21 @@
+{
+    "contents" : "",
+    "created" : 1375388969015.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "99CEEDA",
+    "lastKnownWriteTime" : 1375388672,
+    "path" : null,
+    "properties" : {
+        "caption" : "rl_gr_mtx",
+        "contentUrl" : "content?title=rl_gr_mtx&file=556119c710a147c3a22278623c165dec.htm",
+        "displayedObservations" : "23",
+        "displayedVariables" : 23,
+        "totalObservations" : "23",
+        "variables" : "23"
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

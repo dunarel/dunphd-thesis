@@ -1,0 +1,15 @@
+{
+    "contents" : "library(OpenCL)\np = oclPlatforms()\nd = oclDevices(p[[1]])\n\ncode = c(\"\n         __kernel void dnorm(\n         __global float* output,\n         const unsigned int count,\n         __global float* input,\n         const float mu, const float sigma)\n{\n         int i = get_global_id(0);\n         if(i < count)\n         output[i] = exp(-0.5f * ((input[i] - mu) / sigma) * ((input[i] - mu) / sigma))\n         / (sigma * sqrt( 2 * 3.14159265358979323846264338327950288 ) );\n};\")\nk.dnorm <- oclSimpleKernel(d[[1]], \"dnorm\", code, \"single\")\nf <- function(x, mu=0, sigma=1, ...)\n  oclRun(k.dnorm, length(x), x, mu, sigma, ...)\n\n## expect differences since the above uses single-precision but\n## it should be close enough\nf(1:10/2) - dnorm(1:10/2)\n\n## this is optional - use floats instead of regular numeric vectors\n#x <- clFloat(1:1000000000/2)\n#print(f(x, native.result=TRUE))\n\n## does the device support double-precision?\nif (any(grepl(\"cl_khr_fp64\", oclInfo(d[[1]])$exts))) {\n  code = c(\"#pragma OPENCL EXTENSION cl_khr_fp64 : enable\n__kernel void dnorm(\n  __global double* output,\n const unsigned int count,\n  __global double* input,\n const double mu, const double sigma)\n{\n  int i = get_global_id(0);\n  if(i < count)\n      output[i] = exp(-0.5f * ((input[i] - mu) / sigma) * ((input[i] - mu) / sigma))\n      / (sigma * sqrt( 2 * 3.14159265358979323846264338327950288 ) );\n};\")\n  k.dnorm <- oclSimpleKernel(d[[1]], \"dnorm\", code, \"double\")\n  f <- function(x, mu=0, sigma=1)\n    oclRun(k.dnorm, length(x), x, mu, sigma)\n  \n  ## probably not identical, but close...\n  #f(1:100000000/2)\n  print(f(1:10/2) - dnorm(1:10/2))\n} else cat(\"\\nSorry, your device doesn't support double-precision\\n\")\n\n## Note that in practice you can use precision=\"best\" in the first\n## example which will pick \"double\" on devices that support it and\n## \"single\" elsewhere\n",
+    "created" : 1376321052284.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3539147144",
+    "id" : "67CC4B57",
+    "lastKnownWriteTime" : 1376322243,
+    "path" : "~/devel/proc_hom/r_lang/open_cl/opencl_pack_test.R",
+    "properties" : {
+    },
+    "source_on_save" : true,
+    "type" : "r_source"
+}

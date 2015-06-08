@@ -1,0 +1,71 @@
+#Commande à lancer
+#command="sh calc_test.sh"
+#command=sleep 100;echo "my 100 sec calculation finished">output.dat
+command=cat range.dat |xargs -n 2 ksh hgt-com.ksh > output.dat
+
+
+#Options de soumission supplémentaires
+# 10 min
+#submitOptions=-q qfbb@mp2 -l nodes=1:ppn=4; -l walltime=2:10:00
+submitOptions= -q qwork@mp2 -l walltime=48:00:00
+
+
+
+############
+#Optionnels#
+############
+
+#Nom de la tache
+batchName=hgt-com-raxml
+
+#Fichiers à envoyer avec la tâche. Pour plusieurs fichiers,
+#les séparer par des ';'.
+linkFiles=./bin/hgt3.4;./bin/run_hgt3.4.pl;./bin/hgt-com.ksh
+
+#Fichier template; voire plus bas. Pour plusieurs fichiers,
+#les séparer par des ';'.
+templateFiles=./range.dat
+
+#Adresse courriel; un message sera envoyé a cette adresse
+#lorsque le calcul sera terminé ou si une erreur survient.
+#emailAddress=lemelino@ccs.usherbrooke.ca
+
+#Commande à exécuter suite au traitement
+#postBatch=./getCombineResults.py
+
+postJob = echo "postJob running on `hostname` in directory `pwd` at `date`" >postJob.txt
+
+
+#Nombre de tâches fonctionnant en parallèle.
+#concurrentJobs=2
+##########################
+# Paramètres de la tache #
+##########################
+
+# Rayon du cercle.  Ce paramètre vient remplacer le token 
+# ~~CircleRadius~~.
+#CircleRadius=100000000
+
+# Le couple (min,max) prend successivement les valeurs spécifiées à
+# sa suite. dans un cas réel, on  utilise plutôt la méthode par
+# fichier.
+#param1 = (min,max) = [(1, 125000000), (125000001, 250000000), 
+#(250000001,375000000), (375000001,500000000), (500000001, 625000000), 
+#(625000001,750000000), (750000001,875000000), (875000001,1000000000)];
+
+#Méthode par fichier; On charge un fichier qui contient les valeurs.
+param1 = (id,gene) = load values.txt
+
+# "runJobsPerNode" change the number of concurents jobs runned on
+# one node at a given time.  This option can be useful if you launch
+# multi-thread, openMP jobs or very high memory bandwidth jobs. Most
+# serial jobs users can keep the default (number of cores per nodes).
+# Example, to reduce to 12 runnings jobs on MP2 (instead of 24 ):
+#runJobsPerNode=12
+
+
+# "accJobsPerNodes" if the number of job to accumultate on one node.
+# Can be useful for high number of small jobs.
+# Example, to accumulate 48 jobs on one node:
+#accJobsPerNode=12
+

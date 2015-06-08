@@ -1,0 +1,1 @@
+--msa_fasta /data/PROJETS2/q_func_ruby_parsing/files/hpv_e6/E6_RECOMB.fa --x_ident_csv /data/PROJETS2/q_func_ruby_parsing/files/hpv_e6/x_ident_adeno.csv --q_func_csv /data/PROJETS2/q_func_ruby_parsing/files/hpv_e6/q_auto_E6.csv --calc_type auto  --f_opt_max 2 --align_type dna --dist ham --winl 20 --win_step 20

@@ -1,0 +1,1 @@
+--msa_fasta /data/simul_ruby/files/pdz_prot_msa.fa --x_ident_csv  /data/simul_ruby/files/x_ident.csv  --q_func_csv  /data/simul_ruby/filesscoredist_results.csv --calc_type auto --f_opt_max 6 --align_type dna --dist ham --winl 21 --win_step 1 --optim km

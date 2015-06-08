@@ -1,0 +1,4114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   width="1300"
+   height="1300"
+   viewBox="0 0 1300 1300"
+   id="svg5233">
+  <title
+     id="title5235">Gnuplot</title>
+  <desc
+     id="desc5237">Produced by GNUPLOT 4.6 patchlevel 0 </desc>
+  <metadata
+     id="metadata7479">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Gnuplot</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs7477">
+    <defs
+       id="defs5242">
+      <circle
+         cx="0"
+         cy="0"
+         r="0.5"
+         id="gpDot"
+         style="stroke-width:0.5" />
+      <path
+         d="M -1,0 H 1 M 0,-1 v 2"
+         id="gpPt0"
+         style="stroke:currentColor;stroke-width:0.26699999" />
+      <path
+         d="M -1,-1 1,1 M 1,-1 -1,1"
+         id="gpPt1"
+         style="stroke:currentColor;stroke-width:0.26699999" />
+      <path
+         d="M -1,0 1,0 M 0,-1 0,1 m -1,-2 2,2 m -2,0 2,-2"
+         id="gpPt2"
+         style="stroke:currentColor;stroke-width:0.26699999" />
+      <rect
+         width="2"
+         height="2"
+         x="-1"
+         y="-1"
+         id="gpPt3"
+         style="stroke:currentColor;stroke-width:0.26699999" />
+      <rect
+         width="2"
+         height="2"
+         x="-1"
+         y="-1"
+         id="gpPt4"
+         style="fill:currentColor;stroke:currentColor;stroke-width:0.26699999" />
+      <circle
+         cx="0"
+         cy="0"
+         r="1"
+         id="gpPt5"
+         style="stroke:currentColor;stroke-width:0.26699999" />
+      <use
+         id="gpPt6"
+         style="fill:currentColor;stroke:none"
+         x="0"
+         y="0"
+         width="1300"
+         height="1300"
+         xlink:href="#gpPt5" />
+      <path
+         d="m 0,-1.33 -1.33,2 2.66,0 z"
+         id="gpPt7"
+         style="stroke:currentColor;stroke-width:0.26699999" />
+      <use
+         id="gpPt8"
+         style="fill:currentColor;stroke:none"
+         x="0"
+         y="0"
+         width="1300"
+         height="1300"
+         xlink:href="#gpPt7" />
+      <use
+         transform="scale(-1,-1)"
+         id="gpPt9"
+         style="stroke:currentColor"
+         x="0"
+         y="0"
+         width="1300"
+         height="1300"
+         xlink:href="#gpPt7" />
+      <use
+         id="gpPt10"
+         style="fill:currentColor;stroke:none"
+         x="0"
+         y="0"
+         width="1300"
+         height="1300"
+         xlink:href="#gpPt9" />
+      <use
+         transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,0,0)"
+         id="gpPt11"
+         style="stroke:currentColor"
+         x="0"
+         y="0"
+         width="1300"
+         height="1300"
+         xlink:href="#gpPt3" />
+      <use
+         id="gpPt12"
+         style="fill:currentColor;stroke:none"
+         x="0"
+         y="0"
+         width="1300"
+         height="1300"
+         xlink:href="#gpPt11" />
+    </defs>
+  </defs>
+  <rect
+     width="1300"
+     height="1300"
+     x="0"
+     y="0"
+     id="rect5240"
+     style="fill:none" />
+  <path
+     d="m 325,432.8 m 649.9,0 h 0.01"
+     id="path5262"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(318,436.5)"
+     id="g5264"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5266">
+      <tspan
+         id="tspan5268">Nanoarchaeota</tspan>
+    </text>
+  </g>
+  <path
+     d="m 325,466.1 m 649.9,0 h 0.01"
+     id="path5270"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(318,469.8)"
+     id="g5272"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5274">
+      <tspan
+         id="tspan5276">Euryarchaeota</tspan>
+    </text>
+  </g>
+  <path
+     d="m 325,499.5 m 649.9,0 h 0.01"
+     id="path5278"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(318,503.2)"
+     id="g5280"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5282">
+      <tspan
+         id="tspan5284">Crenarchaeota</tspan>
+    </text>
+  </g>
+  <path
+     d="m 325,532.8 m 649.9,0 h 0.01"
+     id="path5286"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(318,536.5)"
+     id="g5288"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5290">
+      <tspan
+         id="tspan5292">Other Archaea</tspan>
+    </text>
+  </g>
+  <path
+     d="m 325,566.1 m 649.9,0 h 0.01"
+     id="path5294"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(318,569.8)"
+     id="g5296"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5298">
+      <tspan
+         id="tspan5300">Spirochaetes</tspan>
+    </text>
+  </g>
+  <path
+     d="m 325,599.5 m 649.9,0 h 0.01"
+     id="path5302"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(318,603.2)"
+     id="g5304"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5306">
+      <tspan
+         id="tspan5308">Planctomycetes</tspan>
+    </text>
+  </g>
+  <path
+     d="m 325,632.8 m 649.9,0 h 0.01"
+     id="path5310"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(318,636.5)"
+     id="g5312"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5314">
+      <tspan
+         id="tspan5316">Actinobacteria</tspan>
+    </text>
+  </g>
+  <path
+     d="m 325,666.2 m 649.9,0 h 0.01"
+     id="path5318"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(318,669.9)"
+     id="g5320"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5322">
+      <tspan
+         id="tspan5324">Thermotogae</tspan>
+    </text>
+  </g>
+  <path
+     d="m 325,699.5 m 649.9,0 h 0.01"
+     id="path5326"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(318,703.2)"
+     id="g5328"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5330">
+      <tspan
+         id="tspan5332">Chloroflexi</tspan>
+    </text>
+  </g>
+  <path
+     d="m 325,732.9 m 649.9,0 h 0.01"
+     id="path5334"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(318,736.6)"
+     id="g5336"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5338">
+      <tspan
+         id="tspan5340">Aquificae</tspan>
+    </text>
+  </g>
+  <path
+     d="m 325,766.2 m 649.9,0 h 0.01"
+     id="path5342"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(318,769.9)"
+     id="g5344"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5346">
+      <tspan
+         id="tspan5348">Bacteroidetes/Chlorobi</tspan>
+    </text>
+  </g>
+  <path
+     d="m 325,799.5 m 649.9,0 h 0.01"
+     id="path5350"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(318,803.2)"
+     id="g5352"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5354">
+      <tspan
+         id="tspan5356">Chlamydiae/Verrucomicrobia</tspan>
+    </text>
+  </g>
+  <path
+     d="m 325,832.9 m 649.9,0 h 0.01"
+     id="path5358"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(318,836.6)"
+     id="g5360"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5362">
+      <tspan
+         id="tspan5364">Fusobacteria</tspan>
+    </text>
+  </g>
+  <path
+     d="m 325,866.2 m 649.9,0 h 0.01"
+     id="path5366"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(318,869.9)"
+     id="g5368"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5370">
+      <tspan
+         id="tspan5372">Deinococcus-Thermus</tspan>
+    </text>
+  </g>
+  <path
+     d="m 325,899.6 m 649.9,0 h 0.01"
+     id="path5374"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(318,903.3)"
+     id="g5376"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5378">
+      <tspan
+         id="tspan5380">Firmicutes</tspan>
+    </text>
+  </g>
+  <path
+     d="m 325,932.9 m 649.9,0 h 0.01"
+     id="path5382"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(318,936.6)"
+     id="g5384"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5386">
+      <tspan
+         id="tspan5388">Epsilonproteobacteria</tspan>
+    </text>
+  </g>
+  <path
+     d="m 325,966.3 m 649.9,0 h 0.01"
+     id="path5390"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(318,970)"
+     id="g5392"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5394">
+      <tspan
+         id="tspan5396">Deltaproteobacteria</tspan>
+    </text>
+  </g>
+  <path
+     d="m 325,999.6 m 649.9,0 h 0.01"
+     id="path5398"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(318,1003.3)"
+     id="g5400"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5402">
+      <tspan
+         id="tspan5404">Betaproteobacteria</tspan>
+    </text>
+  </g>
+  <path
+     d="m 325,1033 m 649.9,0 h 0.01"
+     id="path5406"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(318,1036.7)"
+     id="g5408"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5410">
+      <tspan
+         id="tspan5412">Alphaproteobacteria</tspan>
+    </text>
+  </g>
+  <path
+     d="m 325,1066.3 m 649.9,0 h 0.01"
+     id="path5414"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(318,1070)"
+     id="g5416"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5418">
+      <tspan
+         id="tspan5420">Gammaproteobacteria</tspan>
+    </text>
+  </g>
+  <path
+     d="m 325,1099.6 m 649.9,0 h 0.01"
+     id="path5422"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(318,1103.3)"
+     id="g5424"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5426">
+      <tspan
+         id="tspan5428">Cyanobacteria</tspan>
+    </text>
+  </g>
+  <path
+     d="m 325,1133 m 649.9,0 h 0.01"
+     id="path5430"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(318,1136.7)"
+     id="g5432"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5434">
+      <tspan
+         id="tspan5436">Acidobacteria</tspan>
+    </text>
+  </g>
+  <path
+     d="m 325,1166.3 m 649.9,0 h 0.01"
+     id="path5438"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(318,1170)"
+     id="g5440"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5442">
+      <tspan
+         id="tspan5444">Other Bacteria</tspan>
+    </text>
+  </g>
+  <path
+     d="m 339.1,1183 m 0,-766.9 h 0.01"
+     id="path5446"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(339.1,1201.7)"
+     id="g5448"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5450" />
+  </g>
+  <path
+     d="m 480.4,1183 m 0,-766.9 h 0.01"
+     id="path5452"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(480.4,1201.7)"
+     id="g5454"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5456" />
+  </g>
+  <path
+     d="m 621.7,1183 m 0,-766.9 h 0.01"
+     id="path5458"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(621.7,1201.7)"
+     id="g5460"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5462" />
+  </g>
+  <path
+     d="m 763,1183 m 0,-766.9 h 0.01"
+     id="path5464"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(763,1201.7)"
+     id="g5466"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5468" />
+  </g>
+  <path
+     d="m 904.3,1183 m 0,-766.9 h 0.01"
+     id="path5470"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(904.3,1201.7)"
+     id="g5472"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5474" />
+  </g>
+  <path
+     d="m 339.1,416.1 h 0.01"
+     id="path5476"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,342.8,409.1)"
+     id="g5478"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5480">
+      <tspan
+         id="tspan5482">Nanoarchaeota</tspan>
+    </text>
+  </g>
+  <path
+     d="m 367.4,416.1 h 0.01"
+     id="path5484"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,371.1,409.1)"
+     id="g5486"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5488">
+      <tspan
+         id="tspan5490">Euryarchaeota</tspan>
+    </text>
+  </g>
+  <path
+     d="m 395.6,416.1 h 0.01"
+     id="path5492"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,399.3,409.1)"
+     id="g5494"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5496">
+      <tspan
+         id="tspan5498">Crenarchaeota</tspan>
+    </text>
+  </g>
+  <path
+     d="m 423.9,416.1 h 0.01"
+     id="path5500"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,427.6,409.1)"
+     id="g5502"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5504">
+      <tspan
+         id="tspan5506">Other Archaea</tspan>
+    </text>
+  </g>
+  <path
+     d="m 452.2,416.1 h 0.01"
+     id="path5508"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,455.9,409.1)"
+     id="g5510"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5512">
+      <tspan
+         id="tspan5514">Spirochaetes</tspan>
+    </text>
+  </g>
+  <path
+     d="m 480.4,416.1 h 0.01"
+     id="path5516"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,484.1,409.1)"
+     id="g5518"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5520">
+      <tspan
+         id="tspan5522">Planctomycetes</tspan>
+    </text>
+  </g>
+  <path
+     d="m 508.7,416.1 h 0.01"
+     id="path5524"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,512.4,409.1)"
+     id="g5526"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5528">
+      <tspan
+         id="tspan5530">Actinobacteria</tspan>
+    </text>
+  </g>
+  <path
+     d="m 536.9,416.1 h 0.01"
+     id="path5532"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,540.6,409.1)"
+     id="g5534"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5536">
+      <tspan
+         id="tspan5538">Thermotogae</tspan>
+    </text>
+  </g>
+  <path
+     d="m 565.2,416.1 h 0.01"
+     id="path5540"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,568.9,409.1)"
+     id="g5542"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5544">
+      <tspan
+         id="tspan5546">Chloroflexi</tspan>
+    </text>
+  </g>
+  <path
+     d="m 593.4,416.1 h 0.01"
+     id="path5548"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,597.1,409.1)"
+     id="g5550"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5552">
+      <tspan
+         id="tspan5554">Aquificae</tspan>
+    </text>
+  </g>
+  <path
+     d="m 621.7,416.1 h 0.01"
+     id="path5556"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,625.4,409.1)"
+     id="g5558"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5560">
+      <tspan
+         id="tspan5562">Bacteroidetes/Chlorobi</tspan>
+    </text>
+  </g>
+  <path
+     d="m 650,416.1 h 0.01"
+     id="path5564"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,653.7,409.1)"
+     id="g5566"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5568">
+      <tspan
+         id="tspan5570">Chlamydiae/Verrucomicrobia</tspan>
+    </text>
+  </g>
+  <path
+     d="m 678.2,416.1 h 0.01"
+     id="path5572"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,681.9,409.1)"
+     id="g5574"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5576">
+      <tspan
+         id="tspan5578">Fusobacteria</tspan>
+    </text>
+  </g>
+  <path
+     d="m 706.5,416.1 h 0.01"
+     id="path5580"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,710.2,409.1)"
+     id="g5582"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5584">
+      <tspan
+         id="tspan5586">Deinococcus-Thermus</tspan>
+    </text>
+  </g>
+  <path
+     d="m 734.7,416.1 h 0.01"
+     id="path5588"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,738.4,409.1)"
+     id="g5590"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5592">
+      <tspan
+         id="tspan5594">Firmicutes</tspan>
+    </text>
+  </g>
+  <path
+     d="m 763,416.1 h 0.01"
+     id="path5596"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,766.7,409.1)"
+     id="g5598"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5600">
+      <tspan
+         id="tspan5602">Epsilonproteobacteria</tspan>
+    </text>
+  </g>
+  <path
+     d="m 791.2,416.1 h 0.01"
+     id="path5604"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,794.9,409.1)"
+     id="g5606"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5608">
+      <tspan
+         id="tspan5610">Deltaproteobacteria</tspan>
+    </text>
+  </g>
+  <path
+     d="m 819.5,416.1 h 0.01"
+     id="path5612"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,823.2,409.1)"
+     id="g5614"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5616">
+      <tspan
+         id="tspan5618">Betaproteobacteria</tspan>
+    </text>
+  </g>
+  <path
+     d="m 847.7,416.1 h 0.01"
+     id="path5620"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,851.4,409.1)"
+     id="g5622"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5624">
+      <tspan
+         id="tspan5626">Alphaproteobacteria</tspan>
+    </text>
+  </g>
+  <path
+     d="m 876,416.1 h 0.01"
+     id="path5628"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,879.7,409.1)"
+     id="g5630"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5632">
+      <tspan
+         id="tspan5634">Gammaproteobacteria</tspan>
+    </text>
+  </g>
+  <path
+     d="m 904.3,416.1 h 0.01"
+     id="path5636"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,908,409.1)"
+     id="g5638"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5640">
+      <tspan
+         id="tspan5642">Cyanobacteria</tspan>
+    </text>
+  </g>
+  <path
+     d="m 932.5,416.1 h 0.01"
+     id="path5644"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,936.2,409.1)"
+     id="g5646"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5648">
+      <tspan
+         id="tspan5650">Acidobacteria</tspan>
+    </text>
+  </g>
+  <path
+     d="m 960.8,416.1 h 0.01"
+     id="path5652"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,964.5,409.1)"
+     id="g5654"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5656">
+      <tspan
+         id="tspan5658">Other Bacteria</tspan>
+    </text>
+  </g>
+  <path
+     d="m 325,416.1 0,766.9 649.9,0 0,-766.9 -649.9,0 z m 0,0 h 0.01"
+     id="path5660"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(226.1,303.1)"
+     id="g5662"
+     style="font-size:27.5px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Delicious-Bold">
+    <text
+       id="text5664">
+      <tspan
+         id="tspan5666">a</tspan>
+    </text>
+  </g>
+  <g
+     id="g5671"
+     style="color:#ff0000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter"><image
+   xlink:href="gp_image_01.png"
+   id="image5673"
+   preserveAspectRatio="none"
+   height="766.90002"
+   width="649.90002"
+   y="416.10001"
+   x="325" />
+;
+</g>
+  <path
+     d="m 325,416.1 0,766.9 649.9,0 0,-766.9 -649.9,0 z m 0,0 h 0.01"
+     id="path5677"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     id="g5679"
+     style="color:#000000;fill:none;stroke:none">
+    <polygon
+       points="1117.8,1170 1117.8,1164.1 1091.9,1164.1 1091.9,1170 "
+       id="polygon5681"
+       style="fill:#7f00ff" />
+    <polygon
+       points="1117.8,1164.2 1117.8,1158.2 1091.9,1158.2 1091.9,1164.2 "
+       id="polygon5683"
+       style="fill:#7c06ff" />
+    <polygon
+       points="1117.8,1158.3 1117.8,1152.3 1091.9,1152.3 1091.9,1158.3 "
+       id="polygon5685"
+       style="fill:#780dff" />
+    <polygon
+       points="1117.8,1152.4 1117.8,1146.4 1091.9,1146.4 1091.9,1152.4 "
+       id="polygon5687"
+       style="fill:#7413ff" />
+    <polygon
+       points="1117.8,1146.5 1117.8,1140.5 1091.9,1140.5 1091.9,1146.5 "
+       id="polygon5689"
+       style="fill:#7019ff" />
+    <polygon
+       points="1117.8,1140.6 1117.8,1134.6 1091.9,1134.6 1091.9,1140.6 "
+       id="polygon5691"
+       style="fill:#6c1fff" />
+    <polygon
+       points="1117.8,1134.7 1117.8,1128.7 1091.9,1128.7 1091.9,1134.7 "
+       id="polygon5693"
+       style="fill:#6825fe" />
+    <polygon
+       points="1117.8,1128.8 1117.8,1122.8 1091.9,1122.8 1091.9,1128.8 "
+       id="polygon5695"
+       style="fill:#642cfe" />
+    <polygon
+       points="1117.8,1122.9 1117.8,1116.9 1091.9,1116.9 1091.9,1122.9 "
+       id="polygon5697"
+       style="fill:#6032fe" />
+    <polygon
+       points="1117.8,1117 1117.8,1111.1 1091.9,1111.1 1091.9,1117 "
+       id="polygon5699"
+       style="fill:#5c38fd" />
+    <polygon
+       points="1117.8,1111.2 1117.8,1105.2 1091.9,1105.2 1091.9,1111.2 "
+       id="polygon5701"
+       style="fill:#583efd" />
+    <polygon
+       points="1117.8,1105.3 1117.8,1099.3 1091.9,1099.3 1091.9,1105.3 "
+       id="polygon5703"
+       style="fill:#5444fd" />
+    <polygon
+       points="1117.8,1099.4 1117.8,1093.4 1091.9,1093.4 1091.9,1099.4 "
+       id="polygon5705"
+       style="fill:#504afc" />
+    <polygon
+       points="1117.8,1093.5 1117.8,1087.5 1091.9,1087.5 1091.9,1093.5 "
+       id="polygon5707"
+       style="fill:#4c50fc" />
+    <polygon
+       points="1117.8,1087.6 1117.8,1081.6 1091.9,1081.6 1091.9,1087.6 "
+       id="polygon5709"
+       style="fill:#4856fb" />
+    <polygon
+       points="1117.8,1081.7 1117.8,1075.7 1091.9,1075.7 1091.9,1081.7 "
+       id="polygon5711"
+       style="fill:#445cfb" />
+    <polygon
+       points="1117.8,1075.8 1117.8,1069.8 1091.9,1069.8 1091.9,1075.8 "
+       id="polygon5713"
+       style="fill:#4062fa" />
+    <polygon
+       points="1117.8,1069.9 1117.8,1063.9 1091.9,1063.9 1091.9,1069.9 "
+       id="polygon5715"
+       style="fill:#3c67f9" />
+    <polygon
+       points="1117.8,1064 1117.8,1058 1091.9,1058 1091.9,1064 "
+       id="polygon5717"
+       style="fill:#386df9" />
+    <polygon
+       points="1117.8,1058.1 1117.8,1052.2 1091.9,1052.2 1091.9,1058.1 "
+       id="polygon5719"
+       style="fill:#3473f8" />
+    <polygon
+       points="1117.8,1052.3 1117.8,1046.3 1091.9,1046.3 1091.9,1052.3 "
+       id="polygon5721"
+       style="fill:#3078f7" />
+    <polygon
+       points="1117.8,1046.4 1117.8,1040.4 1091.9,1040.4 1091.9,1046.4 "
+       id="polygon5723"
+       style="fill:#2c7ef7" />
+    <polygon
+       points="1117.8,1040.5 1117.8,1034.5 1091.9,1034.5 1091.9,1040.5 "
+       id="polygon5725"
+       style="fill:#2883f6" />
+    <polygon
+       points="1117.8,1034.6 1117.8,1028.6 1091.9,1028.6 1091.9,1034.6 "
+       id="polygon5727"
+       style="fill:#2488f5" />
+    <polygon
+       points="1117.8,1028.7 1117.8,1022.7 1091.9,1022.7 1091.9,1028.7 "
+       id="polygon5729"
+       style="fill:#208ef4" />
+    <polygon
+       points="1117.8,1022.8 1117.8,1016.8 1091.9,1016.8 1091.9,1022.8 "
+       id="polygon5731"
+       style="fill:#1c93f3" />
+    <polygon
+       points="1117.8,1016.9 1117.8,1010.9 1091.9,1010.9 1091.9,1016.9 "
+       id="polygon5733"
+       style="fill:#1898f2" />
+    <polygon
+       points="1117.8,1011 1117.8,1005 1091.9,1005 1091.9,1011 "
+       id="polygon5735"
+       style="fill:#149df1" />
+    <polygon
+       points="1117.8,1005.1 1117.8,999.1 1091.9,999.1 1091.9,1005.1 "
+       id="polygon5737"
+       style="fill:#10a2f0" />
+    <polygon
+       points="1117.8,999.2 1117.8,993.3 1091.9,993.3 1091.9,999.2 "
+       id="polygon5739"
+       style="fill:#0ca7ef" />
+    <polygon
+       points="1117.8,993.4 1117.8,987.4 1091.9,987.4 1091.9,993.4 "
+       id="polygon5741"
+       style="fill:#08abee" />
+    <polygon
+       points="1117.8,987.5 1117.8,981.5 1091.9,981.5 1091.9,987.5 "
+       id="polygon5743"
+       style="fill:#04b0ed" />
+    <polygon
+       points="1117.8,981.6 1117.8,975.6 1091.9,975.6 1091.9,981.6 "
+       id="polygon5745"
+       style="fill:#00b4ec" />
+    <polygon
+       points="1117.8,975.7 1117.8,969.7 1091.9,969.7 1091.9,975.7 "
+       id="polygon5747"
+       style="fill:#04b9ea" />
+    <polygon
+       points="1117.8,969.8 1117.8,963.8 1091.9,963.8 1091.9,969.8 "
+       id="polygon5749"
+       style="fill:#08bde9" />
+    <polygon
+       points="1117.8,963.9 1117.8,957.9 1091.9,957.9 1091.9,963.9 "
+       id="polygon5751"
+       style="fill:#0cc1e8" />
+    <polygon
+       points="1117.8,958 1117.8,952 1091.9,952 1091.9,958 "
+       id="polygon5753"
+       style="fill:#10c5e7" />
+    <polygon
+       points="1117.8,952.1 1117.8,946.1 1091.9,946.1 1091.9,952.1 "
+       id="polygon5755"
+       style="fill:#14c9e5" />
+    <polygon
+       points="1117.8,946.2 1117.8,940.2 1091.9,940.2 1091.9,946.2 "
+       id="polygon5757"
+       style="fill:#18cde4" />
+    <polygon
+       points="1117.8,940.3 1117.8,934.4 1091.9,934.4 1091.9,940.3 "
+       id="polygon5759"
+       style="fill:#1cd1e2" />
+    <polygon
+       points="1117.8,934.5 1117.8,928.5 1091.9,928.5 1091.9,934.5 "
+       id="polygon5761"
+       style="fill:#20d4e1" />
+    <polygon
+       points="1117.8,928.6 1117.8,922.6 1091.9,922.6 1091.9,928.6 "
+       id="polygon5763"
+       style="fill:#24d7df" />
+    <polygon
+       points="1117.8,922.7 1117.8,916.7 1091.9,916.7 1091.9,922.7 "
+       id="polygon5765"
+       style="fill:#28dbde" />
+    <polygon
+       points="1117.8,916.8 1117.8,910.8 1091.9,910.8 1091.9,916.8 "
+       id="polygon5767"
+       style="fill:#2cdedc" />
+    <polygon
+       points="1117.8,910.9 1117.8,904.9 1091.9,904.9 1091.9,910.9 "
+       id="polygon5769"
+       style="fill:#30e1db" />
+    <polygon
+       points="1117.8,905 1117.8,899 1091.9,899 1091.9,905 "
+       id="polygon5771"
+       style="fill:#34e4d9" />
+    <polygon
+       points="1117.8,899.1 1117.8,893.1 1091.9,893.1 1091.9,899.1 "
+       id="polygon5773"
+       style="fill:#38e7d7" />
+    <polygon
+       points="1117.8,893.2 1117.8,887.2 1091.9,887.2 1091.9,893.2 "
+       id="polygon5775"
+       style="fill:#3ce9d6" />
+    <polygon
+       points="1117.8,887.3 1117.8,881.3 1091.9,881.3 1091.9,887.3 "
+       id="polygon5777"
+       style="fill:#40ecd4" />
+    <polygon
+       points="1117.8,881.4 1117.8,875.5 1091.9,875.5 1091.9,881.4 "
+       id="polygon5779"
+       style="fill:#44eed2" />
+    <polygon
+       points="1117.8,875.6 1117.8,869.6 1091.9,869.6 1091.9,875.6 "
+       id="polygon5781"
+       style="fill:#48f0d0" />
+    <polygon
+       points="1117.8,869.7 1117.8,863.7 1091.9,863.7 1091.9,869.7 "
+       id="polygon5783"
+       style="fill:#4cf2cf" />
+    <polygon
+       points="1117.8,863.8 1117.8,857.8 1091.9,857.8 1091.9,863.8 "
+       id="polygon5785"
+       style="fill:#50f4cd" />
+    <polygon
+       points="1117.8,857.9 1117.8,851.9 1091.9,851.9 1091.9,857.9 "
+       id="polygon5787"
+       style="fill:#54f6cb" />
+    <polygon
+       points="1117.8,852 1117.8,846 1091.9,846 1091.9,852 "
+       id="polygon5789"
+       style="fill:#58f7c9" />
+    <polygon
+       points="1117.8,846.1 1117.8,840.1 1091.9,840.1 1091.9,846.1 "
+       id="polygon5791"
+       style="fill:#5cf9c7" />
+    <polygon
+       points="1117.8,840.2 1117.8,834.2 1091.9,834.2 1091.9,840.2 "
+       id="polygon5793"
+       style="fill:#60fac5" />
+    <polygon
+       points="1117.8,834.3 1117.8,828.3 1091.9,828.3 1091.9,834.3 "
+       id="polygon5795"
+       style="fill:#64fbc3" />
+    <polygon
+       points="1117.8,828.4 1117.8,822.4 1091.9,822.4 1091.9,828.4 "
+       id="polygon5797"
+       style="fill:#68fcc1" />
+    <polygon
+       points="1117.8,822.5 1117.8,816.6 1091.9,816.6 1091.9,822.5 "
+       id="polygon5799"
+       style="fill:#6cfdbf" />
+    <polygon
+       points="1117.8,816.7 1117.8,810.7 1091.9,810.7 1091.9,816.7 "
+       id="polygon5801"
+       style="fill:#70febd" />
+    <polygon
+       points="1117.8,810.8 1117.8,804.8 1091.9,804.8 1091.9,810.8 "
+       id="polygon5803"
+       style="fill:#74febb" />
+    <polygon
+       points="1117.8,804.9 1117.8,798.9 1091.9,798.9 1091.9,804.9 "
+       id="polygon5805"
+       style="fill:#78ffb9" />
+    <polygon
+       points="1117.8,799 1117.8,793 1091.9,793 1091.9,799 "
+       id="polygon5807"
+       style="fill:#7cffb6" />
+    <polygon
+       points="1117.8,793.1 1117.8,787.1 1091.9,787.1 1091.9,793.1 "
+       id="polygon5809"
+       style="fill:#80ffb4" />
+    <polygon
+       points="1117.8,787.2 1117.8,781.2 1091.9,781.2 1091.9,787.2 "
+       id="polygon5811"
+       style="fill:#84ffb2" />
+    <polygon
+       points="1117.8,781.3 1117.8,775.3 1091.9,775.3 1091.9,781.3 "
+       id="polygon5813"
+       style="fill:#88ffb0" />
+    <polygon
+       points="1117.8,775.4 1117.8,769.4 1091.9,769.4 1091.9,775.4 "
+       id="polygon5815"
+       style="fill:#8cfeae" />
+    <polygon
+       points="1117.8,769.5 1117.8,763.6 1091.9,763.6 1091.9,769.5 "
+       id="polygon5817"
+       style="fill:#8ffeab" />
+    <polygon
+       points="1117.8,763.7 1117.8,757.7 1091.9,757.7 1091.9,763.7 "
+       id="polygon5819"
+       style="fill:#93fda9" />
+    <polygon
+       points="1117.8,757.8 1117.8,751.8 1091.9,751.8 1091.9,757.8 "
+       id="polygon5821"
+       style="fill:#97fca7" />
+    <polygon
+       points="1117.8,751.9 1117.8,745.9 1091.9,745.9 1091.9,751.9 "
+       id="polygon5823"
+       style="fill:#9bfba4" />
+    <polygon
+       points="1117.8,746 1117.8,740 1091.9,740 1091.9,746 "
+       id="polygon5825"
+       style="fill:#9ffaa2" />
+    <polygon
+       points="1117.8,740.1 1117.8,734.1 1091.9,734.1 1091.9,740.1 "
+       id="polygon5827"
+       style="fill:#a3f99f" />
+    <polygon
+       points="1117.8,734.2 1117.8,728.2 1091.9,728.2 1091.9,734.2 "
+       id="polygon5829"
+       style="fill:#a7f79d" />
+    <polygon
+       points="1117.8,728.3 1117.8,722.3 1091.9,722.3 1091.9,728.3 "
+       id="polygon5831"
+       style="fill:#abf69a" />
+    <polygon
+       points="1117.8,722.4 1117.8,716.4 1091.9,716.4 1091.9,722.4 "
+       id="polygon5833"
+       style="fill:#aff498" />
+    <polygon
+       points="1117.8,716.5 1117.8,710.5 1091.9,710.5 1091.9,716.5 "
+       id="polygon5835"
+       style="fill:#b3f295" />
+    <polygon
+       points="1117.8,710.6 1117.8,704.7 1091.9,704.7 1091.9,710.6 "
+       id="polygon5837"
+       style="fill:#b7f093" />
+    <polygon
+       points="1117.8,704.8 1117.8,698.8 1091.9,698.8 1091.9,704.8 "
+       id="polygon5839"
+       style="fill:#bbee90" />
+    <polygon
+       points="1117.8,698.9 1117.8,692.9 1091.9,692.9 1091.9,698.9 "
+       id="polygon5841"
+       style="fill:#bfec8e" />
+    <polygon
+       points="1117.8,693 1117.8,687 1091.9,687 1091.9,693 "
+       id="polygon5843"
+       style="fill:#c3e98b" />
+    <polygon
+       points="1117.8,687.1 1117.8,681.1 1091.9,681.1 1091.9,687.1 "
+       id="polygon5845"
+       style="fill:#c7e788" />
+    <polygon
+       points="1117.8,681.2 1117.8,675.2 1091.9,675.2 1091.9,681.2 "
+       id="polygon5847"
+       style="fill:#cbe486" />
+    <polygon
+       points="1117.8,675.3 1117.8,669.3 1091.9,669.3 1091.9,675.3 "
+       id="polygon5849"
+       style="fill:#cfe183" />
+    <polygon
+       points="1117.8,669.4 1117.8,663.4 1091.9,663.4 1091.9,669.4 "
+       id="polygon5851"
+       style="fill:#d3de80" />
+    <polygon
+       points="1117.8,663.5 1117.8,657.5 1091.9,657.5 1091.9,663.5 "
+       id="polygon5853"
+       style="fill:#d7db7e" />
+    <polygon
+       points="1117.8,657.6 1117.8,651.6 1091.9,651.6 1091.9,657.6 "
+       id="polygon5855"
+       style="fill:#dbd77b" />
+    <polygon
+       points="1117.8,651.7 1117.8,645.8 1091.9,645.8 1091.9,651.7 "
+       id="polygon5857"
+       style="fill:#dfd478" />
+    <polygon
+       points="1117.8,645.9 1117.8,639.9 1091.9,639.9 1091.9,645.9 "
+       id="polygon5859"
+       style="fill:#e3d075" />
+    <polygon
+       points="1117.8,640 1117.8,634 1091.9,634 1091.9,640 "
+       id="polygon5861"
+       style="fill:#e7cd73" />
+    <polygon
+       points="1117.8,634.1 1117.8,628.1 1091.9,628.1 1091.9,634.1 "
+       id="polygon5863"
+       style="fill:#ebc970" />
+    <polygon
+       points="1117.8,628.2 1117.8,622.2 1091.9,622.2 1091.9,628.2 "
+       id="polygon5865"
+       style="fill:#efc56d" />
+    <polygon
+       points="1117.8,622.3 1117.8,616.3 1091.9,616.3 1091.9,622.3 "
+       id="polygon5867"
+       style="fill:#f3c16a" />
+    <polygon
+       points="1117.8,616.4 1117.8,610.4 1091.9,610.4 1091.9,616.4 "
+       id="polygon5869"
+       style="fill:#f7bd67" />
+    <polygon
+       points="1117.8,610.5 1117.8,604.5 1091.9,604.5 1091.9,610.5 "
+       id="polygon5871"
+       style="fill:#fbb964" />
+    <polygon
+       points="1117.8,604.6 1117.8,598.6 1091.9,598.6 1091.9,604.6 "
+       id="polygon5873"
+       style="fill:#ffb462" />
+    <polygon
+       points="1117.8,598.7 1117.8,592.7 1091.9,592.7 1091.9,598.7 "
+       id="polygon5875"
+       style="fill:#ffb05f" />
+    <polygon
+       points="1117.8,592.8 1117.8,586.9 1091.9,586.9 1091.9,592.8 "
+       id="polygon5877"
+       style="fill:#ffab5c" />
+    <polygon
+       points="1117.8,587 1117.8,581 1091.9,581 1091.9,587 "
+       id="polygon5879"
+       style="fill:#ffa759" />
+    <polygon
+       points="1117.8,581.1 1117.8,575.1 1091.9,575.1 1091.9,581.1 "
+       id="polygon5881"
+       style="fill:#ffa256" />
+    <polygon
+       points="1117.8,575.2 1117.8,569.2 1091.9,569.2 1091.9,575.2 "
+       id="polygon5883"
+       style="fill:#ff9d53" />
+    <polygon
+       points="1117.8,569.3 1117.8,563.3 1091.9,563.3 1091.9,569.3 "
+       id="polygon5885"
+       style="fill:#ff9850" />
+    <polygon
+       points="1117.8,563.4 1117.8,557.4 1091.9,557.4 1091.9,563.4 "
+       id="polygon5887"
+       style="fill:#ff934d" />
+    <polygon
+       points="1117.8,557.5 1117.8,551.5 1091.9,551.5 1091.9,557.5 "
+       id="polygon5889"
+       style="fill:#ff8e4a" />
+    <polygon
+       points="1117.8,551.6 1117.8,545.6 1091.9,545.6 1091.9,551.6 "
+       id="polygon5891"
+       style="fill:#ff8847" />
+    <polygon
+       points="1117.8,545.7 1117.8,539.7 1091.9,539.7 1091.9,545.7 "
+       id="polygon5893"
+       style="fill:#ff8344" />
+    <polygon
+       points="1117.8,539.8 1117.8,533.8 1091.9,533.8 1091.9,539.8 "
+       id="polygon5895"
+       style="fill:#ff7e41" />
+    <polygon
+       points="1117.8,533.9 1117.8,528 1091.9,528 1091.9,533.9 "
+       id="polygon5897"
+       style="fill:#ff783e" />
+    <polygon
+       points="1117.8,528.1 1117.8,522.1 1091.9,522.1 1091.9,528.1 "
+       id="polygon5899"
+       style="fill:#ff733b" />
+    <polygon
+       points="1117.8,522.2 1117.8,516.2 1091.9,516.2 1091.9,522.2 "
+       id="polygon5901"
+       style="fill:#ff6d38" />
+    <polygon
+       points="1117.8,516.3 1117.8,510.3 1091.9,510.3 1091.9,516.3 "
+       id="polygon5903"
+       style="fill:#ff6735" />
+    <polygon
+       points="1117.8,510.4 1117.8,504.4 1091.9,504.4 1091.9,510.4 "
+       id="polygon5905"
+       style="fill:#ff6232" />
+    <polygon
+       points="1117.8,504.5 1117.8,498.5 1091.9,498.5 1091.9,504.5 "
+       id="polygon5907"
+       style="fill:#ff5c2f" />
+    <polygon
+       points="1117.8,498.6 1117.8,492.6 1091.9,492.6 1091.9,498.6 "
+       id="polygon5909"
+       style="fill:#ff562c" />
+    <polygon
+       points="1117.8,492.7 1117.8,486.7 1091.9,486.7 1091.9,492.7 "
+       id="polygon5911"
+       style="fill:#ff5028" />
+    <polygon
+       points="1117.8,486.8 1117.8,480.8 1091.9,480.8 1091.9,486.8 "
+       id="polygon5913"
+       style="fill:#ff4a25" />
+    <polygon
+       points="1117.8,480.9 1117.8,474.9 1091.9,474.9 1091.9,480.9 "
+       id="polygon5915"
+       style="fill:#ff4422" />
+    <polygon
+       points="1117.8,475 1117.8,469.1 1091.9,469.1 1091.9,475 "
+       id="polygon5917"
+       style="fill:#ff3e1f" />
+    <polygon
+       points="1117.8,469.2 1117.8,463.2 1091.9,463.2 1091.9,469.2 "
+       id="polygon5919"
+       style="fill:#ff381c" />
+    <polygon
+       points="1117.8,463.3 1117.8,457.3 1091.9,457.3 1091.9,463.3 "
+       id="polygon5921"
+       style="fill:#ff3219" />
+    <polygon
+       points="1117.8,457.4 1117.8,451.4 1091.9,451.4 1091.9,457.4 "
+       id="polygon5923"
+       style="fill:#ff2c16" />
+    <polygon
+       points="1117.8,451.5 1117.8,445.5 1091.9,445.5 1091.9,451.5 "
+       id="polygon5925"
+       style="fill:#ff2513" />
+    <polygon
+       points="1117.8,445.6 1117.8,439.6 1091.9,439.6 1091.9,445.6 "
+       id="polygon5927"
+       style="fill:#ff1f10" />
+    <polygon
+       points="1117.8,439.7 1117.8,433.7 1091.9,433.7 1091.9,439.7 "
+       id="polygon5929"
+       style="fill:#ff190c" />
+    <polygon
+       points="1117.8,433.8 1117.8,427.8 1091.9,427.8 1091.9,433.8 "
+       id="polygon5931"
+       style="fill:#ff1309" />
+    <polygon
+       points="1117.8,427.9 1117.8,421.9 1091.9,421.9 1091.9,427.9 "
+       id="polygon5933"
+       style="fill:#ff0c06" />
+    <polygon
+       points="1117.8,422 1117.8,416.1 1091.9,416.1 1091.9,422 "
+       id="polygon5935"
+       style="fill:#ff0603" />
+  </g>
+  <path
+     d="m 1091.9,1170 25.9,0 0,-753.9 -25.9,0 0,753.9 z m 0,0 h 0.01"
+     id="path5937"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <path
+     d="m 1117.8,1170.1 h 0.01"
+     id="path5939"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(1128.3,1173.8)"
+     id="g5941"
+     style="font-size:22.5px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5943">
+      <tspan
+         id="tspan5945">0.0</tspan>
+    </text>
+  </g>
+  <path
+     d="m 1091.9,1170.1 m 25.9,-251.3 h 0.01"
+     id="path5947"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(1128.3,922.5)"
+     id="g5949"
+     style="font-size:22.5px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5951">
+      <tspan
+         id="tspan5953">0.1</tspan>
+    </text>
+  </g>
+  <path
+     d="m 1091.9,918.8 m 25.9,-251.4 h 0.01"
+     id="path5955"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(1128.3,671.1)"
+     id="g5957"
+     style="font-size:22.5px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5959">
+      <tspan
+         id="tspan5961">1.0</tspan>
+    </text>
+  </g>
+  <path
+     d="m 1091.9,667.4 m 25.9,-251.3 h 0.01"
+     id="path5963"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(1128.3,419.8)"
+     id="g5965"
+     style="font-size:22.5px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5967">
+      <tspan
+         id="tspan5969">10.0</tspan>
+    </text>
+  </g>
+  <path
+     d="m 1091.9,416.1 h 0.01"
+     id="path5971"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,1209,778.1)"
+     id="g5973"
+     style="font-size:22.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5975">
+      <tspan
+         id="tspan5977">Complete HGTs, 75 % confidence</tspan>
+    </text>
+  </g>
+  <path
+     d="m 988,432.8 m 51.9,0 h 0.01"
+     id="path5979"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(981,436.5)"
+     id="g5981"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5983" />
+  </g>
+  <path
+     d="m 988,599.5 m 51.9,0 h 0.01"
+     id="path5985"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(981,603.2)"
+     id="g5987"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5989" />
+  </g>
+  <path
+     d="m 988,766.2 m 51.9,0 h 0.01"
+     id="path5991"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(981,769.9)"
+     id="g5993"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text5995" />
+  </g>
+  <path
+     d="m 988,932.9 m 51.9,0 h 0.01"
+     id="path5997"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(981,936.6)"
+     id="g5999"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6001" />
+  </g>
+  <path
+     d="m 988,1099.6 m 51.9,0 h 0.01"
+     id="path6003"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(981,1103.3)"
+     id="g6005"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6007" />
+  </g>
+  <path
+     d="m 994,1183 m 0,-766.9 h 0.01"
+     id="path6009"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(994,1201.7)"
+     id="g6011"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6013" />
+  </g>
+  <path
+     d="m 1002,1183 m 0,-766.9 h 0.01"
+     id="path6015"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(1002,1201.7)"
+     id="g6017"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6019" />
+  </g>
+  <path
+     d="m 1010,1183 m 0,-766.9 h 0.01"
+     id="path6021"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(1010,1201.7)"
+     id="g6023"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6025" />
+  </g>
+  <path
+     d="m 1017.9,1183 m 0,-766.9 h 0.01"
+     id="path6027"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(1017.9,1201.7)"
+     id="g6029"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6031" />
+  </g>
+  <path
+     d="m 1025.9,1183 m 0,-766.9 h 0.01"
+     id="path6033"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(1025.9,1201.7)"
+     id="g6035"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6037" />
+  </g>
+  <path
+     d="m 1033.9,1183 m 0,-766.9 h 0.01"
+     id="path6039"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(1033.9,1201.7)"
+     id="g6041"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6043" />
+  </g>
+  <path
+     d="m 989.1,416.1 h 0.01"
+     id="path6045"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,992.8,409.1)"
+     id="g6047"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6049" />
+  </g>
+  <path
+     d="m 1000.4,416.1 h 0.01"
+     id="path6051"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,1004.1,409.1)"
+     id="g6053"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6055" />
+  </g>
+  <path
+     d="m 1011.7,416.1 h 0.01"
+     id="path6057"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,1015.4,409.1)"
+     id="g6059"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6061" />
+  </g>
+  <path
+     d="m 1023,416.1 h 0.01"
+     id="path6063"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,1026.7,409.1)"
+     id="g6065"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6067" />
+  </g>
+  <path
+     d="m 1034.3,416.1 h 0.01"
+     id="path6069"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,1038,409.1)"
+     id="g6071"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6073" />
+  </g>
+  <g
+     transform="translate(986,406.5)"
+     id="g6075"
+     style="font-size:17.5px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Delicious-Bold">
+    <text
+       id="text6077">
+      <tspan
+         id="tspan6079">0%</tspan>
+    </text>
+  </g>
+  <g
+     transform="translate(1021.9,406.5)"
+     id="g6081"
+     style="font-size:17.5px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Delicious-Bold">
+    <text
+       id="text6083">
+      <tspan
+         id="tspan6085">100 %</tspan>
+    </text>
+  </g>
+  <g
+     transform="translate(1002,303.1)"
+     id="g6087"
+     style="font-size:27.5px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Delicious-Bold">
+    <text
+       id="text6089">
+      <tspan
+         id="tspan6091">b</tspan>
+    </text>
+  </g>
+  <path
+     d="m 988,416.1 51.9,0 h 0.01"
+     id="path6095"
+     style="color:#ff0000;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     id="g6103"
+     style="color:#ffffff;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     id="g6105"
+     style="color:#0000ff;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter">
+    <path
+       d="m 994,432.8 39.9,0 m -39.9,33.3 39.9,0 m -39.9,33.4 39.9,0 m -39.9,33.3 39.9,0 m -39.9,33.3 39.9,0 m -39.9,33.4 39.9,0 m -39.9,33.3 39.9,0 m -39.9,33.4 39.9,0 m -39.9,33.3 39.9,0 m -39.9,33.4 39.9,0 m -39.9,33.3 39.9,0 m -39.9,33.3 39.9,0 m -39.9,33.4 39.9,0 m -39.9,33.3 39.9,0 m -39.9,33.4 39.9,0 m -39.9,33.3 39.9,0 m -39.9,33.4 39.9,0 m -39.9,33.3 39.9,0 m -39.9,33.4 39.9,0 m -39.9,33.3 39.9,0 m -39.9,33.3 39.9,0 m -39.9,33.4 39.9,0 m -39.9,33.3 39.9,0 h 0.01"
+       id="path6107"
+       style="stroke:#000000;stroke-dasharray:1, 4" />
+  </g>
+  <g
+     id="g6112"
+     style="color:#ff0000;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter">
+    <path
+       d="m 994,424.4 0,16.7 m 0,16.7 0,16.7 m 0,16.6 0,16.7 m 0,16.7 0,16.6 m 0,16.7 0,16.7 m 0,16.7 0,16.6 m 0,16.7 0,16.7 m 0,16.6 0,16.7 m 0,16.7 0,16.7 m 0,16.6 0,16.7 m 0,16.7 0,16.6 m 0,16.7 0,16.7 m 0,16.7 0,16.6 m 0,16.7 0,16.7 m 0,16.6 0,16.7 m 0,16.7 0,16.7 m 0,16.6 0,16.7 m 0,16.7 0,16.6 m 0,16.7 0,16.7 m 0,16.7 0,16.6 m 0,16.7 0,16.7 m 0,16.6 0,16.7 m 0,16.7 0,16.7 h 0.01"
+       id="path6114"
+       style="stroke:#000000" />
+  </g>
+  <g
+     id="g6119"
+     style="color:#ff0000;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter">
+    <path
+       d="m 1033.9,424.4 0,16.7 m 0,16.7 0,16.7 m 0,16.6 0,16.7 m 0,16.7 0,16.6 m 0,16.7 0,16.7 m 0,16.7 0,16.6 m 0,16.7 0,16.7 m 0,16.6 0,16.7 m 0,16.7 0,16.7 m 0,16.6 0,16.7 m 0,16.7 0,16.6 m 0,16.7 0,16.7 m 0,16.7 0,16.6 m 0,16.7 0,16.7 m 0,16.6 0,16.7 m 0,16.7 0,16.7 m 0,16.6 0,16.7 m 0,16.7 0,16.6 m 0,16.7 0,16.7 m 0,16.7 0,16.6 m 0,16.7 0,16.7 m 0,16.6 0,16.7 m 0,16.7 0,16.7 h 0.01"
+       id="path6121"
+       style="stroke:#000000" />
+  </g>
+  <path
+     d="m 988,432.8 m 51.9,0 h 0.01"
+     id="path6127"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(981,436.5)"
+     id="g6129"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6131" />
+  </g>
+  <path
+     d="m 988,599.5 m 51.9,0 h 0.01"
+     id="path6133"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(981,603.2)"
+     id="g6135"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6137" />
+  </g>
+  <path
+     d="m 988,766.2 m 51.9,0 h 0.01"
+     id="path6139"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(981,769.9)"
+     id="g6141"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6143" />
+  </g>
+  <path
+     d="m 988,932.9 m 51.9,0 h 0.01"
+     id="path6145"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(981,936.6)"
+     id="g6147"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6149" />
+  </g>
+  <path
+     d="m 988,1099.6 m 51.9,0 h 0.01"
+     id="path6151"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(981,1103.3)"
+     id="g6153"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6155" />
+  </g>
+  <path
+     d="m 994,1183 m 0,-766.9 h 0.01"
+     id="path6157"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(994,1201.7)"
+     id="g6159"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6161" />
+  </g>
+  <path
+     d="m 1002,1183 m 0,-766.9 h 0.01"
+     id="path6163"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(1002,1201.7)"
+     id="g6165"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6167" />
+  </g>
+  <path
+     d="m 1010,1183 m 0,-766.9 h 0.01"
+     id="path6169"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(1010,1201.7)"
+     id="g6171"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6173" />
+  </g>
+  <path
+     d="m 1017.9,1183 m 0,-766.9 h 0.01"
+     id="path6175"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(1017.9,1201.7)"
+     id="g6177"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6179" />
+  </g>
+  <path
+     d="m 1025.9,1183 m 0,-766.9 h 0.01"
+     id="path6181"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(1025.9,1201.7)"
+     id="g6183"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6185" />
+  </g>
+  <path
+     d="m 1033.9,1183 m 0,-766.9 h 0.01"
+     id="path6187"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(1033.9,1201.7)"
+     id="g6189"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6191" />
+  </g>
+  <path
+     d="m 989.1,416.1 h 0.01"
+     id="path6193"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,992.8,409.1)"
+     id="g6195"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6197" />
+  </g>
+  <path
+     d="m 1000.4,416.1 h 0.01"
+     id="path6199"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,1004.1,409.1)"
+     id="g6201"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6203" />
+  </g>
+  <path
+     d="m 1011.7,416.1 h 0.01"
+     id="path6205"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,1015.4,409.1)"
+     id="g6207"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6209" />
+  </g>
+  <path
+     d="m 1023,416.1 h 0.01"
+     id="path6211"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,1026.7,409.1)"
+     id="g6213"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6215" />
+  </g>
+  <path
+     d="m 1034.3,416.1 h 0.01"
+     id="path6217"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,1038,409.1)"
+     id="g6219"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6221" />
+  </g>
+  <g
+     transform="translate(986,406.5)"
+     id="g6223"
+     style="font-size:17.5px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Delicious-Bold">
+    <text
+       id="text6225">
+      <tspan
+         id="tspan6227">0%</tspan>
+    </text>
+  </g>
+  <g
+     transform="translate(1021.9,406.5)"
+     id="g6229"
+     style="font-size:17.5px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Delicious-Bold">
+    <text
+       id="text6231">
+      <tspan
+         id="tspan6233">100 %</tspan>
+    </text>
+  </g>
+  <g
+     transform="translate(1002,303.1)"
+     id="g6235"
+     style="font-size:27.5px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Delicious-Bold">
+    <text
+       id="text6237">
+      <tspan
+         id="tspan6239">b</tspan>
+    </text>
+  </g>
+  <path
+     d="m 988,416.1 51.9,0 h 0.01"
+     id="path6243"
+     style="color:#ff0000;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     id="g6251"
+     style="color:#ff0000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter">
+    <g
+       id="g6253"
+       style="stroke:none">
+      <polygon
+         points="1027.6,439.8 1027.6,425.7 1014.7,425.7 1014.7,439.8 "
+         id="polygon6255"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 1014.7,425.8 0,14 12.8,0 0,-14 -12.8,0 z m 0,0 h 0.01"
+       id="path6257"
+       style="stroke:#000000" />
+    <g
+       id="g6259"
+       style="stroke:none">
+      <polygon
+         points="1030,473.1 1030,459 1017.1,459 1017.1,473.1 "
+         id="polygon6261"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 1017.1,459.1 0,14 12.8,0 0,-14 -12.8,0 z m 0,0 h 0.01"
+       id="path6263"
+       style="stroke:#000000" />
+    <g
+       id="g6265"
+       style="stroke:none">
+      <polygon
+         points="1033.2,506.5 1033.2,492.4 1020.3,492.4 1020.3,506.5 "
+         id="polygon6267"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 1020.3,492.5 0,14 12.8,0 0,-14 -12.8,0 z m 0,0 h 0.01"
+       id="path6269"
+       style="stroke:#000000" />
+    <g
+       id="g6271"
+       style="stroke:none">
+      <polygon
+         points="1003.7,539.8 1003.7,525.7 990.8,525.7 990.8,539.8 "
+         id="polygon6273"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 990.8,525.8 0,14 12.8,0 0,-14 -12.8,0 z m 0,0 h 0.01"
+       id="path6275"
+       style="stroke:#000000" />
+    <g
+       id="g6277"
+       style="stroke:none">
+      <polygon
+         points="1034.4,573.1 1034.4,559 1021.5,559 1021.5,573.1 "
+         id="polygon6279"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 1021.5,559.1 0,14 12.8,0 0,-14 -12.8,0 z m 0,0 h 0.01"
+       id="path6281"
+       style="stroke:#000000" />
+    <g
+       id="g6283"
+       style="stroke:none">
+      <polygon
+         points="1034.8,606.5 1034.8,592.4 1021.9,592.4 1021.9,606.5 "
+         id="polygon6285"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 1021.9,592.5 0,14 12.8,0 0,-14 -12.8,0 z m 0,0 h 0.01"
+       id="path6287"
+       style="stroke:#000000" />
+    <g
+       id="g6289"
+       style="stroke:none">
+      <polygon
+         points="1024.8,639.8 1024.8,625.7 1012,625.7 1012,639.8 "
+         id="polygon6291"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 1012,625.8 0,14 12.7,0 0,-14 -12.7,0 z m 0,0 h 0.01"
+       id="path6293"
+       style="stroke:#000000" />
+    <g
+       id="g6295"
+       style="stroke:none">
+      <polygon
+         points="1018.8,673.2 1018.8,659.1 1006,659.1 1006,673.2 "
+         id="polygon6297"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 1006,659.2 0,14 12.7,0 0,-14 -12.7,0 z m 0,0 h 0.01"
+       id="path6299"
+       style="stroke:#000000" />
+    <g
+       id="g6301"
+       style="stroke:none">
+      <polygon
+         points="1019.2,706.5 1019.2,692.4 1006.4,692.4 1006.4,706.5 "
+         id="polygon6303"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 1006.4,692.5 0,14 12.7,0 0,-14 -12.7,0 z m 0,0 h 0.01"
+       id="path6305"
+       style="stroke:#000000" />
+    <g
+       id="g6307"
+       style="stroke:none">
+      <polygon
+         points="1022,739.9 1022,725.8 1009.2,725.8 1009.2,739.9 "
+         id="polygon6309"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 1009.2,725.9 0,14 12.7,0 0,-14 -12.7,0 z m 0,0 h 0.01"
+       id="path6311"
+       style="stroke:#000000" />
+    <g
+       id="g6313"
+       style="stroke:none">
+      <polygon
+         points="1008.5,773.2 1008.5,759.1 995.6,759.1 995.6,773.2 "
+         id="polygon6315"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 995.6,759.2 0,14 12.8,0 0,-14 -12.8,0 z m 0,0 h 0.01"
+       id="path6317"
+       style="stroke:#000000" />
+    <g
+       id="g6319"
+       style="stroke:none">
+      <polygon
+         points="1006.5,806.6 1006.5,792.4 993.6,792.4 993.6,806.6 "
+         id="polygon6321"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 993.6,792.5 0,14.1 12.8,0 0,-14.1 -12.8,0 z m 0,0 h 0.01"
+       id="path6323"
+       style="stroke:#000000" />
+    <g
+       id="g6325"
+       style="stroke:none">
+      <polygon
+         points="1033.6,839.9 1033.6,825.8 1020.7,825.8 1020.7,839.9 "
+         id="polygon6327"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 1020.7,825.9 0,14 12.8,0 0,-14 -12.8,0 z m 0,0 h 0.01"
+       id="path6329"
+       style="stroke:#000000" />
+    <g
+       id="g6331"
+       style="stroke:none">
+      <polygon
+         points="1014.4,873.2 1014.4,859.1 1001.6,859.1 1001.6,873.2 "
+         id="polygon6333"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 1001.6,859.2 0,14 12.7,0 0,-14 -12.7,0 z m 0,0 h 0.01"
+       id="path6335"
+       style="stroke:#000000" />
+    <g
+       id="g6337"
+       style="stroke:none">
+      <polygon
+         points="1009.3,906.6 1009.3,892.5 996.4,892.5 996.4,906.6 "
+         id="polygon6339"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 996.4,892.6 0,14 12.8,0 0,-14 -12.8,0 z m 0,0 h 0.01"
+       id="path6341"
+       style="stroke:#000000" />
+    <g
+       id="g6343"
+       style="stroke:none">
+      <polygon
+         points="1005.7,939.9 1005.7,925.8 992.8,925.8 992.8,939.9 "
+         id="polygon6345"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 992.8,925.9 0,14 12.8,0 0,-14 -12.8,0 z m 0,0 h 0.01"
+       id="path6347"
+       style="stroke:#000000" />
+    <g
+       id="g6349"
+       style="stroke:none">
+      <polygon
+         points="1025.2,973.3 1025.2,959.2 1012.4,959.2 1012.4,973.3 "
+         id="polygon6351"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 1012.4,959.3 0,14 12.7,0 0,-14 -12.7,0 z m 0,0 h 0.01"
+       id="path6353"
+       style="stroke:#000000" />
+    <g
+       id="g6355"
+       style="stroke:none">
+      <polygon
+         points="1019.6,1006.6 1019.6,992.5 1006.8,992.5 1006.8,1006.6 "
+         id="polygon6357"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 1006.8,992.6 0,14 12.7,0 0,-14 -12.7,0 z m 0,0 h 0.01"
+       id="path6359"
+       style="stroke:#000000" />
+    <g
+       id="g6361"
+       style="stroke:none">
+      <polygon
+         points="1010.9,1040 1010.9,1025.9 998,1025.9 998,1040 "
+         id="polygon6363"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 998,1026 0,14 12.8,0 0,-14 -12.8,0 z m 0,0 h 0.01"
+       id="path6365"
+       style="stroke:#000000" />
+    <g
+       id="g6367"
+       style="stroke:none">
+      <polygon
+         points="1022,1073.3 1022,1059.2 1009.2,1059.2 1009.2,1073.3 "
+         id="polygon6369"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 1009.2,1059.3 0,14 12.7,0 0,-14 -12.7,0 z m 0,0 h 0.01"
+       id="path6371"
+       style="stroke:#000000" />
+    <g
+       id="g6373"
+       style="stroke:none">
+      <polygon
+         points="1027.6,1106.6 1027.6,1092.5 1014.7,1092.5 1014.7,1106.6 "
+         id="polygon6375"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 1014.7,1092.6 0,14 12.8,0 0,-14 -12.8,0 z m 0,0 h 0.01"
+       id="path6377"
+       style="stroke:#000000" />
+    <g
+       id="g6379"
+       style="stroke:none">
+      <polygon
+         points="1022.4,1140 1022.4,1125.9 1009.6,1125.9 1009.6,1140 "
+         id="polygon6381"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 1009.6,1126 0,14 12.7,0 0,-14 -12.7,0 z m 0,0 h 0.01"
+       id="path6383"
+       style="stroke:#000000" />
+    <g
+       id="g6385"
+       style="stroke:none">
+      <polygon
+         points="1017.6,1173.3 1017.6,1159.2 1004.8,1159.2 1004.8,1173.3 "
+         id="polygon6387"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 1004.8,1159.3 0,14 12.7,0 0,-14 -12.7,0 z m 0,0 h 0.01"
+       id="path6389"
+       style="stroke:#000000" />
+  </g>
+  <path
+     d="m 988,432.8 m 51.9,0 h 0.01"
+     id="path6393"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(981,436.5)"
+     id="g6395"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6397" />
+  </g>
+  <path
+     d="m 988,599.5 m 51.9,0 h 0.01"
+     id="path6399"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(981,603.2)"
+     id="g6401"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6403" />
+  </g>
+  <path
+     d="m 988,766.2 m 51.9,0 h 0.01"
+     id="path6405"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(981,769.9)"
+     id="g6407"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6409" />
+  </g>
+  <path
+     d="m 988,932.9 m 51.9,0 h 0.01"
+     id="path6411"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(981,936.6)"
+     id="g6413"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6415" />
+  </g>
+  <path
+     d="m 988,1099.6 m 51.9,0 h 0.01"
+     id="path6417"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(981,1103.3)"
+     id="g6419"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6421" />
+  </g>
+  <path
+     d="m 994,1183 m 0,-766.9 h 0.01"
+     id="path6423"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(994,1201.7)"
+     id="g6425"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6427" />
+  </g>
+  <path
+     d="m 1002,1183 m 0,-766.9 h 0.01"
+     id="path6429"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(1002,1201.7)"
+     id="g6431"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6433" />
+  </g>
+  <path
+     d="m 1010,1183 m 0,-766.9 h 0.01"
+     id="path6435"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(1010,1201.7)"
+     id="g6437"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6439" />
+  </g>
+  <path
+     d="m 1017.9,1183 m 0,-766.9 h 0.01"
+     id="path6441"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(1017.9,1201.7)"
+     id="g6443"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6445" />
+  </g>
+  <path
+     d="m 1025.9,1183 m 0,-766.9 h 0.01"
+     id="path6447"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(1025.9,1201.7)"
+     id="g6449"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6451" />
+  </g>
+  <path
+     d="m 1033.9,1183 m 0,-766.9 h 0.01"
+     id="path6453"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(1033.9,1201.7)"
+     id="g6455"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6457" />
+  </g>
+  <path
+     d="m 989.1,416.1 h 0.01"
+     id="path6459"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,992.8,409.1)"
+     id="g6461"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6463" />
+  </g>
+  <path
+     d="m 1000.4,416.1 h 0.01"
+     id="path6465"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,1004.1,409.1)"
+     id="g6467"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6469" />
+  </g>
+  <path
+     d="m 1011.7,416.1 h 0.01"
+     id="path6471"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,1015.4,409.1)"
+     id="g6473"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6475" />
+  </g>
+  <path
+     d="m 1023,416.1 h 0.01"
+     id="path6477"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,1026.7,409.1)"
+     id="g6479"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6481" />
+  </g>
+  <path
+     d="m 1034.3,416.1 h 0.01"
+     id="path6483"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,1038,409.1)"
+     id="g6485"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6487" />
+  </g>
+  <g
+     transform="translate(986,406.5)"
+     id="g6489"
+     style="font-size:17.5px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Delicious-Bold">
+    <text
+       id="text6491">
+      <tspan
+         id="tspan6493">0%</tspan>
+    </text>
+  </g>
+  <g
+     transform="translate(1021.9,406.5)"
+     id="g6495"
+     style="font-size:17.5px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Delicious-Bold">
+    <text
+       id="text6497">
+      <tspan
+         id="tspan6499">100 %</tspan>
+    </text>
+  </g>
+  <g
+     transform="translate(1002,303.1)"
+     id="g6501"
+     style="font-size:27.5px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Delicious-Bold">
+    <text
+       id="text6503">
+      <tspan
+         id="tspan6505">b</tspan>
+    </text>
+  </g>
+  <path
+     d="m 988,416.1 51.9,0 h 0.01"
+     id="path6509"
+     style="color:#ff0000;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     id="g6517"
+     style="color:#ff0000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter">
+    <g
+       id="g6519"
+       style="stroke:none">
+      <polygon
+         points="1013.3,439.8 1013.3,425.7 1000.4,425.7 1000.4,439.8 "
+         id="polygon6521"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 1000.4,425.8 0,14 12.8,0 0,-14 -12.8,0 z m 0,0 h 0.01"
+       id="path6523"
+       style="stroke:#000000" />
+    <g
+       id="g6525"
+       style="stroke:none">
+      <polygon
+         points="1010.9,473.1 1010.9,459 998,459 998,473.1 "
+         id="polygon6527"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 998,459.1 0,14 12.8,0 0,-14 -12.8,0 z m 0,0 h 0.01"
+       id="path6529"
+       style="stroke:#000000" />
+    <g
+       id="g6531"
+       style="stroke:none">
+      <polygon
+         points="1007.7,506.5 1007.7,492.4 994.8,492.4 994.8,506.5 "
+         id="polygon6533"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 994.8,492.5 0,14 12.8,0 0,-14 -12.8,0 z m 0,0 h 0.01"
+       id="path6535"
+       style="stroke:#000000" />
+    <g
+       id="g6537"
+       style="stroke:none">
+      <polygon
+         points="1037.2,539.8 1037.2,525.7 1024.3,525.7 1024.3,539.8 "
+         id="polygon6539"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 1024.3,525.8 0,14 12.8,0 0,-14 -12.8,0 z m 0,0 h 0.01"
+       id="path6541"
+       style="stroke:#000000" />
+    <g
+       id="g6543"
+       style="stroke:none">
+      <polygon
+         points="1006.5,573.1 1006.5,559 993.6,559 993.6,573.1 "
+         id="polygon6545"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 993.6,559.1 0,14 12.8,0 0,-14 -12.8,0 z m 0,0 h 0.01"
+       id="path6547"
+       style="stroke:#000000" />
+    <g
+       id="g6549"
+       style="stroke:none">
+      <polygon
+         points="1006.1,606.5 1006.1,592.4 993.2,592.4 993.2,606.5 "
+         id="polygon6551"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 993.2,592.5 0,14 12.8,0 0,-14 -12.8,0 z m 0,0 h 0.01"
+       id="path6553"
+       style="stroke:#000000" />
+    <g
+       id="g6555"
+       style="stroke:none">
+      <polygon
+         points="1016,639.8 1016,625.7 1003.2,625.7 1003.2,639.8 "
+         id="polygon6557"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 1003.2,625.8 0,14 12.7,0 0,-14 -12.7,0 z m 0,0 h 0.01"
+       id="path6559"
+       style="stroke:#000000" />
+    <g
+       id="g6561"
+       style="stroke:none">
+      <polygon
+         points="1022,673.2 1022,659.1 1009.2,659.1 1009.2,673.2 "
+         id="polygon6563"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 1009.2,659.2 0,14 12.7,0 0,-14 -12.7,0 z m 0,0 h 0.01"
+       id="path6565"
+       style="stroke:#000000" />
+    <g
+       id="g6567"
+       style="stroke:none">
+      <polygon
+         points="1021.6,706.5 1021.6,692.4 1008.8,692.4 1008.8,706.5 "
+         id="polygon6569"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 1008.8,692.5 0,14 12.7,0 0,-14 -12.7,0 z m 0,0 h 0.01"
+       id="path6571"
+       style="stroke:#000000" />
+    <g
+       id="g6573"
+       style="stroke:none">
+      <polygon
+         points="1018.8,739.9 1018.8,725.8 1006,725.8 1006,739.9 "
+         id="polygon6575"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 1006,725.9 0,14 12.7,0 0,-14 -12.7,0 z m 0,0 h 0.01"
+       id="path6577"
+       style="stroke:#000000" />
+    <g
+       id="g6579"
+       style="stroke:none">
+      <polygon
+         points="1032.4,773.2 1032.4,759.1 1019.5,759.1 1019.5,773.2 "
+         id="polygon6581"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 1019.5,759.2 0,14 12.8,0 0,-14 -12.8,0 z m 0,0 h 0.01"
+       id="path6583"
+       style="stroke:#000000" />
+    <g
+       id="g6585"
+       style="stroke:none">
+      <polygon
+         points="1034.4,806.6 1034.4,792.4 1021.5,792.4 1021.5,806.6 "
+         id="polygon6587"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 1021.5,792.5 0,14.1 12.8,0 0,-14.1 -12.8,0 z m 0,0 h 0.01"
+       id="path6589"
+       style="stroke:#000000" />
+    <g
+       id="g6591"
+       style="stroke:none">
+      <polygon
+         points="1007.3,839.9 1007.3,825.8 994.4,825.8 994.4,839.9 "
+         id="polygon6593"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 994.4,825.9 0,14 12.8,0 0,-14 -12.8,0 z m 0,0 h 0.01"
+       id="path6595"
+       style="stroke:#000000" />
+    <g
+       id="g6597"
+       style="stroke:none">
+      <polygon
+         points="1026.4,873.2 1026.4,859.1 1013.6,859.1 1013.6,873.2 "
+         id="polygon6599"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 1013.6,859.2 0,14 12.7,0 0,-14 -12.7,0 z m 0,0 h 0.01"
+       id="path6601"
+       style="stroke:#000000" />
+    <g
+       id="g6603"
+       style="stroke:none">
+      <polygon
+         points="1031.6,906.6 1031.6,892.5 1018.7,892.5 1018.7,906.6 "
+         id="polygon6605"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 1018.7,892.6 0,14 12.8,0 0,-14 -12.8,0 z m 0,0 h 0.01"
+       id="path6607"
+       style="stroke:#000000" />
+    <g
+       id="g6609"
+       style="stroke:none">
+      <polygon
+         points="1035.2,939.9 1035.2,925.8 1022.3,925.8 1022.3,939.9 "
+         id="polygon6611"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 1022.3,925.9 0,14 12.8,0 0,-14 -12.8,0 z m 0,0 h 0.01"
+       id="path6613"
+       style="stroke:#000000" />
+    <g
+       id="g6615"
+       style="stroke:none">
+      <polygon
+         points="1015.6,973.3 1015.6,959.2 1002.8,959.2 1002.8,973.3 "
+         id="polygon6617"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 1002.8,959.3 0,14 12.7,0 0,-14 -12.7,0 z m 0,0 h 0.01"
+       id="path6619"
+       style="stroke:#000000" />
+    <g
+       id="g6621"
+       style="stroke:none">
+      <polygon
+         points="1021.2,1006.6 1021.2,992.5 1008.4,992.5 1008.4,1006.6 "
+         id="polygon6623"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 1008.4,992.6 0,14 12.7,0 0,-14 -12.7,0 z m 0,0 h 0.01"
+       id="path6625"
+       style="stroke:#000000" />
+    <g
+       id="g6627"
+       style="stroke:none">
+      <polygon
+         points="1030,1040 1030,1025.9 1017.1,1025.9 1017.1,1040 "
+         id="polygon6629"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 1017.1,1026 0,14 12.8,0 0,-14 -12.8,0 z m 0,0 h 0.01"
+       id="path6631"
+       style="stroke:#000000" />
+    <g
+       id="g6633"
+       style="stroke:none">
+      <polygon
+         points="1018.8,1073.3 1018.8,1059.2 1006,1059.2 1006,1073.3 "
+         id="polygon6635"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 1006,1059.3 0,14 12.7,0 0,-14 -12.7,0 z m 0,0 h 0.01"
+       id="path6637"
+       style="stroke:#000000" />
+    <g
+       id="g6639"
+       style="stroke:none">
+      <polygon
+         points="1013.3,1106.6 1013.3,1092.5 1000.4,1092.5 1000.4,1106.6 "
+         id="polygon6641"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 1000.4,1092.6 0,14 12.8,0 0,-14 -12.8,0 z m 0,0 h 0.01"
+       id="path6643"
+       style="stroke:#000000" />
+    <g
+       id="g6645"
+       style="stroke:none">
+      <polygon
+         points="1018.4,1140 1018.4,1125.9 1005.6,1125.9 1005.6,1140 "
+         id="polygon6647"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 1005.6,1126 0,14 12.7,0 0,-14 -12.7,0 z m 0,0 h 0.01"
+       id="path6649"
+       style="stroke:#000000" />
+    <g
+       id="g6651"
+       style="stroke:none">
+      <polygon
+         points="1023.2,1173.3 1023.2,1159.2 1010.4,1159.2 1010.4,1173.3 "
+         id="polygon6653"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 1010.4,1159.3 0,14 12.7,0 0,-14 -12.7,0 z m 0,0 h 0.01"
+       id="path6655"
+       style="stroke:#000000" />
+  </g>
+  <path
+     d="m 325,1203.6 m 649.9,0 h 0.01"
+     id="path6659"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(318,1207.3)"
+     id="g6661"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6663" />
+  </g>
+  <path
+     d="m 325,1213.6 m 649.9,0 h 0.01"
+     id="path6665"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(318,1217.3)"
+     id="g6667"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6669" />
+  </g>
+  <path
+     d="m 325,1223.6 m 649.9,0 h 0.01"
+     id="path6671"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(318,1227.3)"
+     id="g6673"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6675" />
+  </g>
+  <path
+     d="m 325,1233.5 m 649.9,0 h 0.01"
+     id="path6677"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(318,1237.2)"
+     id="g6679"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6681" />
+  </g>
+  <path
+     d="m 325,1243.5 m 649.9,0 h 0.01"
+     id="path6683"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(318,1247.2)"
+     id="g6685"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6687" />
+  </g>
+  <path
+     d="m 325,1253.5 m 649.9,0 h 0.01"
+     id="path6689"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(318,1257.2)"
+     id="g6691"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6693" />
+  </g>
+  <path
+     d="m 339.1,1261 m 0,-64.9 h 0.01"
+     id="path6695"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(339.1,1279.7)"
+     id="g6697"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6699" />
+  </g>
+  <path
+     d="m 480.4,1261 m 0,-64.9 h 0.01"
+     id="path6701"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(480.4,1279.7)"
+     id="g6703"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6705" />
+  </g>
+  <path
+     d="m 621.7,1261 m 0,-64.9 h 0.01"
+     id="path6707"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(621.7,1279.7)"
+     id="g6709"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6711" />
+  </g>
+  <path
+     d="m 763,1261 m 0,-64.9 h 0.01"
+     id="path6713"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(763,1279.7)"
+     id="g6715"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6717" />
+  </g>
+  <path
+     d="m 904.3,1261 m 0,-64.9 h 0.01"
+     id="path6719"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(904.3,1279.7)"
+     id="g6721"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6723" />
+  </g>
+  <path
+     d="m 339.1,1196.1 h 0.01"
+     id="path6725"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,342.8,1189.1)"
+     id="g6727"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6729" />
+  </g>
+  <path
+     d="m 480.4,1196.1 h 0.01"
+     id="path6731"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,484.1,1189.1)"
+     id="g6733"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6735" />
+  </g>
+  <path
+     d="m 621.7,1196.1 h 0.01"
+     id="path6737"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,625.4,1189.1)"
+     id="g6739"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6741" />
+  </g>
+  <path
+     d="m 763,1196.1 h 0.01"
+     id="path6743"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,766.7,1189.1)"
+     id="g6745"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6747" />
+  </g>
+  <path
+     d="m 904.3,1196.1 h 0.01"
+     id="path6749"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,908,1189.1)"
+     id="g6751"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6753" />
+  </g>
+  <g
+     transform="translate(288.3,1209.8)"
+     id="g6755"
+     style="font-size:17.5px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Delicious-Bold">
+    <text
+       id="text6757">
+      <tspan
+         id="tspan6759">0%</tspan>
+    </text>
+  </g>
+  <g
+     transform="translate(260,1259.7)"
+     id="g6761"
+     style="font-size:17.5px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Delicious-Bold">
+    <text
+       id="text6763">
+      <tspan
+         id="tspan6765">100 %</tspan>
+    </text>
+  </g>
+  <g
+     transform="translate(226.1,1217.3)"
+     id="g6767"
+     style="font-size:27.5px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Delicious-Bold">
+    <text
+       id="text6769">
+      <tspan
+         id="tspan6771">c</tspan>
+    </text>
+  </g>
+  <path
+     d="m 325,1198.6 0,55.9 h 0.01"
+     id="path6775"
+     style="color:#ff0000;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     id="g6783"
+     style="color:#ffffff;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     id="g6785"
+     style="color:#0000ff;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter">
+    <path
+       d="m 339.1,1203.6 0,49.9 m 28.3,-49.9 0,49.9 m 28.2,-49.9 0,49.9 m 28.3,-49.9 0,49.9 m 28.3,-49.9 0,49.9 m 28.2,-49.9 0,49.9 m 28.3,-49.9 0,49.9 m 28.2,-49.9 0,49.9 m 28.3,-49.9 0,49.9 m 28.2,-49.9 0,49.9 m 28.3,-49.9 0,49.9 m 28.3,-49.9 0,49.9 m 28.2,-49.9 0,49.9 m 28.3,-49.9 0,49.9 m 28.2,-49.9 0,49.9 m 28.3,-49.9 0,49.9 m 28.2,-49.9 0,49.9 m 28.3,-49.9 0,49.9 m 28.2,-49.9 0,49.9 m 28.3,-49.9 0,49.9 m 28.3,-49.9 0,49.9 m 28.2,-49.9 0,49.9 m 28.3,-49.9 0,49.9 h 0.01"
+       id="path6787"
+       style="stroke:#000000;stroke-dasharray:1, 4" />
+  </g>
+  <g
+     id="g6793"
+     style="color:#ff0000;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter">
+    <path
+       d="m 332.1,1203.6 14.1,0 m 14.1,0 14.1,0 m 14.2,0 14.1,0 m 14.1,0 14.2,0 m 14.1,0 14.1,0 m 14.1,0 14.2,0 m 14.1,0 14.1,0 m 14.2,0 14.1,0 m 14.1,0 14.1,0 m 14.2,0 14.1,0 m 14.1,0 14.2,0 m 14.1,0 14.1,0 m 14.1,0 14.2,0 m 14.1,0 14.1,0 m 14.2,0 14.1,0 m 14.1,0 14.1,0 m 14.2,0 14.1,0 m 14.1,0 14.2,0 m 14.1,0 14.1,0 m 14.1,0 14.2,0 m 14.1,0 14.1,0 m 14.2,0 14.1,0 m 14.1,0 14.1,0 h 0.01"
+       id="path6795"
+       style="stroke:#000000" />
+  </g>
+  <g
+     id="g6801"
+     style="color:#ff0000;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter">
+    <path
+       d="m 332.1,1253.5 14.1,0 m 14.1,0 14.1,0 m 14.2,0 14.1,0 m 14.1,0 14.2,0 m 14.1,0 14.1,0 m 14.1,0 14.2,0 m 14.1,0 14.1,0 m 14.2,0 14.1,0 m 14.1,0 14.1,0 m 14.2,0 14.1,0 m 14.1,0 14.2,0 m 14.1,0 14.1,0 m 14.1,0 14.2,0 m 14.1,0 14.1,0 m 14.2,0 14.1,0 m 14.1,0 14.1,0 m 14.2,0 14.1,0 m 14.1,0 14.2,0 m 14.1,0 14.1,0 m 14.1,0 14.2,0 m 14.1,0 14.1,0 m 14.2,0 14.1,0 m 14.1,0 14.1,0 h 0.01"
+       id="path6803"
+       style="stroke:#000000" />
+  </g>
+  <path
+     d="m 325,1203.6 m 649.9,0 h 0.01"
+     id="path6809"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(318,1207.3)"
+     id="g6811"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6813" />
+  </g>
+  <path
+     d="m 325,1213.6 m 649.9,0 h 0.01"
+     id="path6815"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(318,1217.3)"
+     id="g6817"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6819" />
+  </g>
+  <path
+     d="m 325,1223.6 m 649.9,0 h 0.01"
+     id="path6821"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(318,1227.3)"
+     id="g6823"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6825" />
+  </g>
+  <path
+     d="m 325,1233.5 m 649.9,0 h 0.01"
+     id="path6827"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(318,1237.2)"
+     id="g6829"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6831" />
+  </g>
+  <path
+     d="m 325,1243.5 m 649.9,0 h 0.01"
+     id="path6833"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(318,1247.2)"
+     id="g6835"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6837" />
+  </g>
+  <path
+     d="m 325,1253.5 m 649.9,0 h 0.01"
+     id="path6839"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(318,1257.2)"
+     id="g6841"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6843" />
+  </g>
+  <path
+     d="m 339.1,1261 m 0,-64.9 h 0.01"
+     id="path6845"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(339.1,1279.7)"
+     id="g6847"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6849" />
+  </g>
+  <path
+     d="m 480.4,1261 m 0,-64.9 h 0.01"
+     id="path6851"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(480.4,1279.7)"
+     id="g6853"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6855" />
+  </g>
+  <path
+     d="m 621.7,1261 m 0,-64.9 h 0.01"
+     id="path6857"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(621.7,1279.7)"
+     id="g6859"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6861" />
+  </g>
+  <path
+     d="m 763,1261 m 0,-64.9 h 0.01"
+     id="path6863"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(763,1279.7)"
+     id="g6865"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6867" />
+  </g>
+  <path
+     d="m 904.3,1261 m 0,-64.9 h 0.01"
+     id="path6869"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(904.3,1279.7)"
+     id="g6871"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6873" />
+  </g>
+  <path
+     d="m 339.1,1196.1 h 0.01"
+     id="path6875"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,342.8,1189.1)"
+     id="g6877"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6879" />
+  </g>
+  <path
+     d="m 480.4,1196.1 h 0.01"
+     id="path6881"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,484.1,1189.1)"
+     id="g6883"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6885" />
+  </g>
+  <path
+     d="m 621.7,1196.1 h 0.01"
+     id="path6887"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,625.4,1189.1)"
+     id="g6889"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6891" />
+  </g>
+  <path
+     d="m 763,1196.1 h 0.01"
+     id="path6893"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,766.7,1189.1)"
+     id="g6895"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6897" />
+  </g>
+  <path
+     d="m 904.3,1196.1 h 0.01"
+     id="path6899"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,908,1189.1)"
+     id="g6901"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text6903" />
+  </g>
+  <g
+     transform="translate(288.3,1209.8)"
+     id="g6905"
+     style="font-size:17.5px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Delicious-Bold">
+    <text
+       id="text6907">
+      <tspan
+         id="tspan6909">0%</tspan>
+    </text>
+  </g>
+  <g
+     transform="translate(260,1259.7)"
+     id="g6911"
+     style="font-size:17.5px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Delicious-Bold">
+    <text
+       id="text6913">
+      <tspan
+         id="tspan6915">100 %</tspan>
+    </text>
+  </g>
+  <g
+     transform="translate(226.1,1217.3)"
+     id="g6917"
+     style="font-size:27.5px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Delicious-Bold">
+    <text
+       id="text6919">
+      <tspan
+         id="tspan6921">c</tspan>
+    </text>
+  </g>
+  <path
+     d="m 325,1198.6 0,55.9 h 0.01"
+     id="path6925"
+     style="color:#ff0000;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     id="g6933"
+     style="color:#ff0000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter">
+    <g
+       id="g6935"
+       style="stroke:none">
+      <polygon
+         points="345.2,1211.6 345.2,1196 333.2,1196 333.2,1211.6 "
+         id="polygon6937"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 333.2,1196.1 0,15.5 11.9,0 0,-15.5 -11.9,0 z m 0,0 h 0.01"
+       id="path6939"
+       style="stroke:#000000" />
+    <g
+       id="g6941"
+       style="stroke:none">
+      <polygon
+         points="373.4,1246.5 373.4,1230.4 361.5,1230.4 361.5,1246.5 "
+         id="polygon6943"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 361.5,1230.5 0,16 11.8,0 0,-16 -11.8,0 z m 0,0 h 0.01"
+       id="path6945"
+       style="stroke:#000000" />
+    <g
+       id="g6947"
+       style="stroke:none">
+      <polygon
+         points="401.7,1211.6 401.7,1196 389.7,1196 389.7,1211.6 "
+         id="polygon6949"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 389.7,1196.1 0,15.5 11.9,0 0,-15.5 -11.9,0 z m 0,0 h 0.01"
+       id="path6951"
+       style="stroke:#000000" />
+    <g
+       id="g6953"
+       style="stroke:none">
+      <polygon
+         points="429.9,1211.6 429.9,1196 418,1196 418,1211.6 "
+         id="polygon6955"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 418,1196.1 0,15.5 11.8,0 0,-15.5 -11.8,0 z m 0,0 h 0.01"
+       id="path6957"
+       style="stroke:#000000" />
+    <g
+       id="g6959"
+       style="stroke:none">
+      <polygon
+         points="458.2,1220.1 458.2,1204 446.2,1204 446.2,1220.1 "
+         id="polygon6961"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 446.2,1204.1 0,16 11.9,0 0,-16 -11.9,0 z m 0,0 h 0.01"
+       id="path6963"
+       style="stroke:#000000" />
+    <g
+       id="g6965"
+       style="stroke:none">
+      <polygon
+         points="486.4,1211.6 486.4,1196 474.5,1196 474.5,1211.6 "
+         id="polygon6967"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 474.5,1196.1 0,15.5 11.8,0 0,-15.5 -11.8,0 z m 0,0 h 0.01"
+       id="path6969"
+       style="stroke:#000000" />
+    <g
+       id="g6971"
+       style="stroke:none">
+      <polygon
+         points="514.7,1235 514.7,1219 502.7,1219 502.7,1235 "
+         id="polygon6973"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 502.7,1219.1 0,15.9 11.9,0 0,-15.9 -11.9,0 z m 0,0 h 0.01"
+       id="path6975"
+       style="stroke:#000000" />
+    <g
+       id="g6977"
+       style="stroke:none">
+      <polygon
+         points="543,1211.6 543,1196 531,1196 531,1211.6 "
+         id="polygon6979"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 531,1196.1 0,15.5 11.9,0 0,-15.5 -11.9,0 z m 0,0 h 0.01"
+       id="path6981"
+       style="stroke:#000000" />
+    <g
+       id="g6983"
+       style="stroke:none">
+      <polygon
+         points="571.2,1211.6 571.2,1196 559.2,1196 559.2,1211.6 "
+         id="polygon6985"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 559.2,1196.1 0,15.5 11.9,0 0,-15.5 -11.9,0 z m 0,0 h 0.01"
+       id="path6987"
+       style="stroke:#000000" />
+    <g
+       id="g6989"
+       style="stroke:none">
+      <polygon
+         points="599.5,1211.6 599.5,1196 587.5,1196 587.5,1211.6 "
+         id="polygon6991"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 587.5,1196.1 0,15.5 11.9,0 0,-15.5 -11.9,0 z m 0,0 h 0.01"
+       id="path6993"
+       style="stroke:#000000" />
+    <g
+       id="g6995"
+       style="stroke:none">
+      <polygon
+         points="627.7,1229 627.7,1213 615.8,1213 615.8,1229 "
+         id="polygon6997"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 615.8,1213.1 0,15.9 11.8,0 0,-15.9 -11.8,0 z m 0,0 h 0.01"
+       id="path6999"
+       style="stroke:#000000" />
+    <g
+       id="g7001"
+       style="stroke:none">
+      <polygon
+         points="656,1211.6 656,1196 644,1196 644,1211.6 "
+         id="polygon7003"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 644,1196.1 0,15.5 11.9,0 0,-15.5 -11.9,0 z m 0,0 h 0.01"
+       id="path7005"
+       style="stroke:#000000" />
+    <g
+       id="g7007"
+       style="stroke:none">
+      <polygon
+         points="684.2,1211.6 684.2,1196 672.3,1196 672.3,1211.6 "
+         id="polygon7009"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 672.3,1196.1 0,15.5 11.8,0 0,-15.5 -11.8,0 z m 0,0 h 0.01"
+       id="path7011"
+       style="stroke:#000000" />
+    <g
+       id="g7013"
+       style="stroke:none">
+      <polygon
+         points="712.5,1211.6 712.5,1196 700.5,1196 700.5,1211.6 "
+         id="polygon7015"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 700.5,1196.1 0,15.5 11.9,0 0,-15.5 -11.9,0 z m 0,0 h 0.01"
+       id="path7017"
+       style="stroke:#000000" />
+    <g
+       id="g7019"
+       style="stroke:none">
+      <polygon
+         points="740.8,1232.5 740.8,1216.5 728.8,1216.5 728.8,1232.5 "
+         id="polygon7021"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 728.8,1216.6 0,15.9 11.9,0 0,-15.9 -11.9,0 z m 0,0 h 0.01"
+       id="path7023"
+       style="stroke:#000000" />
+    <g
+       id="g7025"
+       style="stroke:none">
+      <polygon
+         points="769,1221.1 769,1205 757,1205 757,1221.1 "
+         id="polygon7027"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 757,1205.1 0,16 11.9,0 0,-16 -11.9,0 z m 0,0 h 0.01"
+       id="path7029"
+       style="stroke:#000000" />
+    <g
+       id="g7031"
+       style="stroke:none">
+      <polygon
+         points="797.3,1211.6 797.3,1196 785.3,1196 785.3,1211.6 "
+         id="polygon7033"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 785.3,1196.1 0,15.5 11.9,0 0,-15.5 -11.9,0 z m 0,0 h 0.01"
+       id="path7035"
+       style="stroke:#000000" />
+    <g
+       id="g7037"
+       style="stroke:none">
+      <polygon
+         points="825.5,1237.5 825.5,1221.5 813.6,1221.5 813.6,1237.5 "
+         id="polygon7039"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 813.6,1221.6 0,15.9 11.8,0 0,-15.9 -11.8,0 z m 0,0 h 0.01"
+       id="path7041"
+       style="stroke:#000000" />
+    <g
+       id="g7043"
+       style="stroke:none">
+      <polygon
+         points="853.8,1238.5 853.8,1222.5 841.8,1222.5 841.8,1238.5 "
+         id="polygon7045"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 841.8,1222.6 0,15.9 11.9,0 0,-15.9 -11.9,0 z m 0,0 h 0.01"
+       id="path7047"
+       style="stroke:#000000" />
+    <g
+       id="g7049"
+       style="stroke:none">
+      <polygon
+         points="882,1216.6 882,1200.5 870.1,1200.5 870.1,1216.6 "
+         id="polygon7051"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 870.1,1200.6 0,16 11.8,0 0,-16 -11.8,0 z m 0,0 h 0.01"
+       id="path7053"
+       style="stroke:#000000" />
+    <g
+       id="g7055"
+       style="stroke:none">
+      <polygon
+         points="910.3,1248 910.3,1231.9 898.3,1231.9 898.3,1248 "
+         id="polygon7057"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 898.3,1232 0,16 11.9,0 0,-16 -11.9,0 z m 0,0 h 0.01"
+       id="path7059"
+       style="stroke:#000000" />
+    <g
+       id="g7061"
+       style="stroke:none">
+      <polygon
+         points="938.5,1211.6 938.5,1196 926.6,1196 926.6,1211.6 "
+         id="polygon7063"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 926.6,1196.1 0,15.5 11.8,0 0,-15.5 -11.8,0 z m 0,0 h 0.01"
+       id="path7065"
+       style="stroke:#000000" />
+    <g
+       id="g7067"
+       style="stroke:none">
+      <polygon
+         points="966.8,1212.1 966.8,1196 954.8,1196 954.8,1212.1 "
+         id="polygon7069"
+         style="fill:#333333" />
+    </g>
+    <path
+       d="m 954.8,1196.1 0,16 11.9,0 0,-16 -11.9,0 z m 0,0 h 0.01"
+       id="path7071"
+       style="stroke:#000000" />
+  </g>
+  <path
+     d="m 325,1203.6 m 649.9,0 h 0.01"
+     id="path7075"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(318,1207.3)"
+     id="g7077"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text7079" />
+  </g>
+  <path
+     d="m 325,1213.6 m 649.9,0 h 0.01"
+     id="path7081"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(318,1217.3)"
+     id="g7083"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text7085" />
+  </g>
+  <path
+     d="m 325,1223.6 m 649.9,0 h 0.01"
+     id="path7087"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(318,1227.3)"
+     id="g7089"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text7091" />
+  </g>
+  <path
+     d="m 325,1233.5 m 649.9,0 h 0.01"
+     id="path7093"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(318,1237.2)"
+     id="g7095"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text7097" />
+  </g>
+  <path
+     d="m 325,1243.5 m 649.9,0 h 0.01"
+     id="path7099"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(318,1247.2)"
+     id="g7101"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text7103" />
+  </g>
+  <path
+     d="m 325,1253.5 m 649.9,0 h 0.01"
+     id="path7105"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(318,1257.2)"
+     id="g7107"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text7109" />
+  </g>
+  <path
+     d="m 339.1,1261 m 0,-64.9 h 0.01"
+     id="path7111"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(339.1,1279.7)"
+     id="g7113"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text7115" />
+  </g>
+  <path
+     d="m 480.4,1261 m 0,-64.9 h 0.01"
+     id="path7117"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(480.4,1279.7)"
+     id="g7119"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text7121" />
+  </g>
+  <path
+     d="m 621.7,1261 m 0,-64.9 h 0.01"
+     id="path7123"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(621.7,1279.7)"
+     id="g7125"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text7127" />
+  </g>
+  <path
+     d="m 763,1261 m 0,-64.9 h 0.01"
+     id="path7129"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(763,1279.7)"
+     id="g7131"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text7133" />
+  </g>
+  <path
+     d="m 904.3,1261 m 0,-64.9 h 0.01"
+     id="path7135"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(904.3,1279.7)"
+     id="g7137"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text7139" />
+  </g>
+  <path
+     d="m 339.1,1196.1 h 0.01"
+     id="path7141"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,342.8,1189.1)"
+     id="g7143"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text7145" />
+  </g>
+  <path
+     d="m 480.4,1196.1 h 0.01"
+     id="path7147"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,484.1,1189.1)"
+     id="g7149"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text7151" />
+  </g>
+  <path
+     d="m 621.7,1196.1 h 0.01"
+     id="path7153"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,625.4,1189.1)"
+     id="g7155"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text7157" />
+  </g>
+  <path
+     d="m 763,1196.1 h 0.01"
+     id="path7159"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,766.7,1189.1)"
+     id="g7161"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text7163" />
+  </g>
+  <path
+     d="m 904.3,1196.1 h 0.01"
+     id="path7165"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,908,1189.1)"
+     id="g7167"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text7169" />
+  </g>
+  <g
+     transform="translate(288.3,1209.8)"
+     id="g7171"
+     style="font-size:17.5px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Delicious-Bold">
+    <text
+       id="text7173">
+      <tspan
+         id="tspan7175">0%</tspan>
+    </text>
+  </g>
+  <g
+     transform="translate(260,1259.7)"
+     id="g7177"
+     style="font-size:17.5px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Delicious-Bold">
+    <text
+       id="text7179">
+      <tspan
+         id="tspan7181">100 %</tspan>
+    </text>
+  </g>
+  <g
+     transform="translate(226.1,1217.3)"
+     id="g7183"
+     style="font-size:27.5px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Delicious-Bold">
+    <text
+       id="text7185">
+      <tspan
+         id="tspan7187">c</tspan>
+    </text>
+  </g>
+  <path
+     d="m 325,1198.6 0,55.9 h 0.01"
+     id="path7191"
+     style="color:#ff0000;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     id="g7199"
+     style="color:#ff0000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter">
+    <g
+       id="g7201"
+       style="stroke:none">
+      <polygon
+         points="345.2,1261 345.2,1245.4 333.2,1245.4 333.2,1261 "
+         id="polygon7203"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 333.2,1245.5 0,15.5 11.9,0 0,-15.5 -11.9,0 z m 0,0 h 0.01"
+       id="path7205"
+       style="stroke:#000000" />
+    <g
+       id="g7207"
+       style="stroke:none">
+      <polygon
+         points="373.4,1226.6 373.4,1210.5 361.5,1210.5 361.5,1226.6 "
+         id="polygon7209"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 361.5,1210.6 0,16 11.8,0 0,-16 -11.8,0 z m 0,0 h 0.01"
+       id="path7211"
+       style="stroke:#000000" />
+    <g
+       id="g7213"
+       style="stroke:none">
+      <polygon
+         points="401.7,1261 401.7,1245.4 389.7,1245.4 389.7,1261 "
+         id="polygon7215"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 389.7,1245.5 0,15.5 11.9,0 0,-15.5 -11.9,0 z m 0,0 h 0.01"
+       id="path7217"
+       style="stroke:#000000" />
+    <g
+       id="g7219"
+       style="stroke:none">
+      <polygon
+         points="429.9,1261 429.9,1245.4 418,1245.4 418,1261 "
+         id="polygon7221"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 418,1245.5 0,15.5 11.8,0 0,-15.5 -11.8,0 z m 0,0 h 0.01"
+       id="path7223"
+       style="stroke:#000000" />
+    <g
+       id="g7225"
+       style="stroke:none">
+      <polygon
+         points="458.2,1253 458.2,1236.9 446.2,1236.9 446.2,1253 "
+         id="polygon7227"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 446.2,1237 0,16 11.9,0 0,-16 -11.9,0 z m 0,0 h 0.01"
+       id="path7229"
+       style="stroke:#000000" />
+    <g
+       id="g7231"
+       style="stroke:none">
+      <polygon
+         points="486.4,1261 486.4,1245.4 474.5,1245.4 474.5,1261 "
+         id="polygon7233"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 474.5,1245.5 0,15.5 11.8,0 0,-15.5 -11.8,0 z m 0,0 h 0.01"
+       id="path7235"
+       style="stroke:#000000" />
+    <g
+       id="g7237"
+       style="stroke:none">
+      <polygon
+         points="514.7,1238 514.7,1222 502.7,1222 502.7,1238 "
+         id="polygon7239"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 502.7,1222.1 0,15.9 11.9,0 0,-15.9 -11.9,0 z m 0,0 h 0.01"
+       id="path7241"
+       style="stroke:#000000" />
+    <g
+       id="g7243"
+       style="stroke:none">
+      <polygon
+         points="543,1261 543,1245.4 531,1245.4 531,1261 "
+         id="polygon7245"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 531,1245.5 0,15.5 11.9,0 0,-15.5 -11.9,0 z m 0,0 h 0.01"
+       id="path7247"
+       style="stroke:#000000" />
+    <g
+       id="g7249"
+       style="stroke:none">
+      <polygon
+         points="571.2,1261 571.2,1245.4 559.2,1245.4 559.2,1261 "
+         id="polygon7251"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 559.2,1245.5 0,15.5 11.9,0 0,-15.5 -11.9,0 z m 0,0 h 0.01"
+       id="path7253"
+       style="stroke:#000000" />
+    <g
+       id="g7255"
+       style="stroke:none">
+      <polygon
+         points="599.5,1261 599.5,1245.4 587.5,1245.4 587.5,1261 "
+         id="polygon7257"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 587.5,1245.5 0,15.5 11.9,0 0,-15.5 -11.9,0 z m 0,0 h 0.01"
+       id="path7259"
+       style="stroke:#000000" />
+    <g
+       id="g7261"
+       style="stroke:none">
+      <polygon
+         points="627.7,1244 627.7,1228 615.8,1228 615.8,1244 "
+         id="polygon7263"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 615.8,1228.1 0,15.9 11.8,0 0,-15.9 -11.8,0 z m 0,0 h 0.01"
+       id="path7265"
+       style="stroke:#000000" />
+    <g
+       id="g7267"
+       style="stroke:none">
+      <polygon
+         points="656,1261 656,1245.4 644,1245.4 644,1261 "
+         id="polygon7269"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 644,1245.5 0,15.5 11.9,0 0,-15.5 -11.9,0 z m 0,0 h 0.01"
+       id="path7271"
+       style="stroke:#000000" />
+    <g
+       id="g7273"
+       style="stroke:none">
+      <polygon
+         points="684.2,1261 684.2,1245.4 672.3,1245.4 672.3,1261 "
+         id="polygon7275"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 672.3,1245.5 0,15.5 11.8,0 0,-15.5 -11.8,0 z m 0,0 h 0.01"
+       id="path7277"
+       style="stroke:#000000" />
+    <g
+       id="g7279"
+       style="stroke:none">
+      <polygon
+         points="712.5,1261 712.5,1245.4 700.5,1245.4 700.5,1261 "
+         id="polygon7281"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 700.5,1245.5 0,15.5 11.9,0 0,-15.5 -11.9,0 z m 0,0 h 0.01"
+       id="path7283"
+       style="stroke:#000000" />
+    <g
+       id="g7285"
+       style="stroke:none">
+      <polygon
+         points="740.8,1240.5 740.8,1224.5 728.8,1224.5 728.8,1240.5 "
+         id="polygon7287"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 728.8,1224.6 0,15.9 11.9,0 0,-15.9 -11.9,0 z m 0,0 h 0.01"
+       id="path7289"
+       style="stroke:#000000" />
+    <g
+       id="g7291"
+       style="stroke:none">
+      <polygon
+         points="769,1252 769,1235.9 757,1235.9 757,1252 "
+         id="polygon7293"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 757,1236 0,16 11.9,0 0,-16 -11.9,0 z m 0,0 h 0.01"
+       id="path7295"
+       style="stroke:#000000" />
+    <g
+       id="g7297"
+       style="stroke:none">
+      <polygon
+         points="797.3,1261 797.3,1245.4 785.3,1245.4 785.3,1261 "
+         id="polygon7299"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 785.3,1245.5 0,15.5 11.9,0 0,-15.5 -11.9,0 z m 0,0 h 0.01"
+       id="path7301"
+       style="stroke:#000000" />
+    <g
+       id="g7303"
+       style="stroke:none">
+      <polygon
+         points="825.5,1235.5 825.5,1219.5 813.6,1219.5 813.6,1235.5 "
+         id="polygon7305"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 813.6,1219.6 0,15.9 11.8,0 0,-15.9 -11.8,0 z m 0,0 h 0.01"
+       id="path7307"
+       style="stroke:#000000" />
+    <g
+       id="g7309"
+       style="stroke:none">
+      <polygon
+         points="853.8,1234.5 853.8,1218.5 841.8,1218.5 841.8,1234.5 "
+         id="polygon7311"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 841.8,1218.6 0,15.9 11.9,0 0,-15.9 -11.9,0 z m 0,0 h 0.01"
+       id="path7313"
+       style="stroke:#000000" />
+    <g
+       id="g7315"
+       style="stroke:none">
+      <polygon
+         points="882,1256.5 882,1240.4 870.1,1240.4 870.1,1256.5 "
+         id="polygon7317"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 870.1,1240.5 0,16 11.8,0 0,-16 -11.8,0 z m 0,0 h 0.01"
+       id="path7319"
+       style="stroke:#000000" />
+    <g
+       id="g7321"
+       style="stroke:none">
+      <polygon
+         points="910.3,1225.1 910.3,1209 898.3,1209 898.3,1225.1 "
+         id="polygon7323"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 898.3,1209.1 0,16 11.9,0 0,-16 -11.9,0 z m 0,0 h 0.01"
+       id="path7325"
+       style="stroke:#000000" />
+    <g
+       id="g7327"
+       style="stroke:none">
+      <polygon
+         points="938.5,1261 938.5,1245.4 926.6,1245.4 926.6,1261 "
+         id="polygon7329"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 926.6,1245.5 0,15.5 11.8,0 0,-15.5 -11.8,0 z m 0,0 h 0.01"
+       id="path7331"
+       style="stroke:#000000" />
+    <g
+       id="g7333"
+       style="stroke:none">
+      <polygon
+         points="966.8,1261 966.8,1244.9 954.8,1244.9 954.8,1261 "
+         id="polygon7335"
+         style="fill:#cccccc" />
+    </g>
+    <path
+       d="m 954.8,1245 0,16 11.9,0 0,-16 -11.9,0 z m 0,0 h 0.01"
+       id="path7337"
+       style="stroke:#000000" />
+  </g>
+  <path
+     d="m 234,26.1 m 740.9,0 h 0.01"
+     id="path7341"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(227,29.8)"
+     id="g7343"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text7345" />
+  </g>
+  <path
+     d="m 234,72.9 m 740.9,0 h 0.01"
+     id="path7347"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(227,76.6)"
+     id="g7349"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text7351" />
+  </g>
+  <path
+     d="m 234,119.7 m 740.9,0 h 0.01"
+     id="path7353"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(227,123.4)"
+     id="g7355"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text7357" />
+  </g>
+  <path
+     d="m 234,166.4 m 740.9,0 h 0.01"
+     id="path7359"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(227,170.1)"
+     id="g7361"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text7363" />
+  </g>
+  <path
+     d="m 234,213.2 m 740.9,0 h 0.01"
+     id="path7365"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(227,216.9)"
+     id="g7367"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text7369" />
+  </g>
+  <path
+     d="m 234,260 m 740.9,0 h 0.01"
+     id="path7371"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(227,263.7)"
+     id="g7373"
+     style="font-size:20px;text-anchor:end;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text7375" />
+  </g>
+  <path
+     d="m 234,260 m 0,-233.9 h 0.01"
+     id="path7377"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(234,278.7)"
+     id="g7379"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text7381" />
+  </g>
+  <path
+     d="m 382.2,260 m 0,-233.9 h 0.01"
+     id="path7383"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(382.2,278.7)"
+     id="g7385"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text7387" />
+  </g>
+  <path
+     d="m 530.4,260 m 0,-233.9 h 0.01"
+     id="path7389"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(530.4,278.7)"
+     id="g7391"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text7393" />
+  </g>
+  <path
+     d="m 678.5,260 m 0,-233.9 h 0.01"
+     id="path7395"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(678.5,278.7)"
+     id="g7397"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text7399" />
+  </g>
+  <path
+     d="m 826.7,260 m 0,-233.9 h 0.01"
+     id="path7401"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(826.7,278.7)"
+     id="g7403"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text7405" />
+  </g>
+  <path
+     d="m 974.9,260 m 0,-233.9 h 0.01"
+     id="path7407"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="translate(974.9,278.7)"
+     id="g7409"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text7411" />
+  </g>
+  <path
+     d="m 250.1,26.1 h 0.01"
+     id="path7413"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,253.8,19.1)"
+     id="g7415"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text7417" />
+  </g>
+  <path
+     d="m 411.2,26.1 h 0.01"
+     id="path7419"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,414.9,19.1)"
+     id="g7421"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text7423" />
+  </g>
+  <path
+     d="m 572.2,26.1 h 0.01"
+     id="path7425"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,575.9,19.1)"
+     id="g7427"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text7429" />
+  </g>
+  <path
+     d="m 733.3,26.1 h 0.01"
+     id="path7431"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,737,19.1)"
+     id="g7433"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text7435" />
+  </g>
+  <path
+     d="m 894.4,26.1 h 0.01"
+     id="path7437"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     transform="matrix(0,-1,1,0,898.1,19.1)"
+     id="g7439"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text7441" />
+  </g>
+  <g
+     transform="translate(337.7,29.8)"
+     id="g7443"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text7445">
+      <tspan
+         id="tspan7447">Archaea</tspan>
+    </text>
+  </g>
+  <g
+     transform="translate(641.5,29.8)"
+     id="g7449"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text7451">
+      <tspan
+         id="tspan7453">Bacteria</tspan>
+    </text>
+  </g>
+  <g
+     transform="translate(752.6,81.3)"
+     id="g7455"
+     style="font-size:20px;text-anchor:start;color:#000000;fill:#000000;stroke:none;font-family:Sans">
+    <text
+       id="text7457">
+      <tspan
+         id="tspan7459">Proteobacteria</tspan>
+    </text>
+  </g>
+  <path
+     d="m 322.9,42.5 103.7,0 m 14.9,0 526,0 m -214.9,53.8 140.8,0 h 0.01"
+     id="path7463"
+     style="color:#ff0000;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     id="g7471"
+     style="color:#ff0000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+</svg>

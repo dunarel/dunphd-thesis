@@ -1,0 +1,15 @@
+{
+    "contents" : "library(MASS)\nlibrary(reshape2)\nlibrary(sqldf)\n\n\nrm(list=ls(all=TRUE))\n\nsetwd(\"/root/devel/proc_hom/db/exports/hgt-com/family/data\")\n\nab_gr_mtx <- as.matrix(read.csv(\"hgt-com-family-raxml-75-regular-tr-ab-mtx.csv\", sep=\",\",header=FALSE))\nrl_gr_mtx <- as.matrix(read.csv(\"hgt-com-family-raxml-75-regular-tr-rl-mtx.csv\", sep=\",\",header=FALSE))\n\nrownames(rl_gr_mtx) <- 1:23\ncolnames(rl_gr_mtx) <- 1:23\nx <- melt(rl_gr_mtx)\n\n#colnames(x) <- 1:23 #letters[1:23]\ncolnames(x) <- c(\"x\", \"y\",\"valx\")\nz <- sqldf(\"select * from BOD where Time > 4\")\n\n",
+    "created" : 1374870675472.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2873496690",
+    "id" : "CBAFCD83",
+    "lastKnownWriteTime" : 1375389491,
+    "path" : "~/devel/proc_hom/db/exports/hgt-com/family/data/test_matrix.R",
+    "properties" : {
+    },
+    "source_on_save" : true,
+    "type" : "r_source"
+}

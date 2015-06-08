@@ -1,0 +1,605 @@
+select sum(WEIGHT_TR_TX)/110
+from HGT_COM_TRSF_TAXONS
+
+select count(*)
+from GENES gn
+
+
+--genes 
+age in nb of taxons
+select gn_cov.gene_id,
+       gn_cov.cover
+from 
+(
+ select txn.gene_id,
+        count(*)/1.11 as cover
+ from 
+ (
+ select gbs.GENE_ID,
+        tx.ID,
+        tx.TREE_NAME,
+        count(*)
+ from gene_blo_seqs gbs
+  join NCBI_SEQS ns on ns.ID = gbs.NCBI_SEQ_ID
+  join TAXONS tx on tx.ID = ns.TAXON_ID
+ group by gbs.GENE_ID,
+        tx.ID,
+        tx.TREE_NAME
+ order by gbs.gene_id,
+          count(*) desc
+ ) txn
+ group by txn.gene_id
+) gn_cov
+where gn_cov.cover >=95
+
+
+
+--
+select gn_pg.gene_id,
+       gn_pg.prok_group_id,
+       count(*) as tx_in_pg
+from 
+(
+
+
+ select gbs.GENE_ID,
+        gbs.NCBI_SEQ_ID,
+        ns.VERS_ACCESS,
+        tx.ID,
+        tx.TREE_NAME,
+        tg.PROK_GROUP_ID
+ from gene_blo_seqs gbs
+  join NCBI_SEQS ns on ns.ID = gbs.NCBI_SEQ_ID
+  join TAXONS tx on tx.ID = ns.TAXON_ID
+  join TAXON_GROUPS tg on tg.TAXON_ID = ns.TAXON_ID
+ where tg.PROK_GROUP_ID between 0 and 22 and
+       gene_id = 110
+ order by gbs.GENE_ID,
+          tx.TREE_NAME
+
+) gn_pg 
+group by gn_pg.gene_id,
+         gn_pg.prok_group_id
+         
+
+
+
+
+
+select gn.id,
+       gn.NAME,
+       count(*)
+from GENE_BLO_SEQS gbs
+ join genes gn on gn.ID = gbs.GENE_ID
+group by gn.id
+order by count(*) desc
+
+
+select gbs.GENE_ID,
+        gbs.NCBI_SEQ_ID,
+        ns.VERS_ACCESS,
+        tx.ID,
+        tx.TREE_NAME,
+        tg.PROK_GROUP_ID
+ from gene_blo_seqs gbs
+  join NCBI_SEQS ns on ns.ID = gbs.NCBI_SEQ_ID
+  join TAXONS tx on tx.ID = ns.TAXON_ID
+  join TAXON_GROUPS tg on tg.TAXON_ID = ns.TAXON_ID
+ where tg.PROK_GROUP_ID between 0 and 22 and
+       gene_id = 110
+ order by gbs.GENE_ID,
+          tx.TREE_NAME
+
+
+--
+select alg.gene_id,
+       alg.prok_group_id,
+       alg.taxon_id,
+       count(*) as ncbi_seq_id_cnt
+from 
+(
+
+select gbs.GENE_ID,
+        tg.PROK_GROUP_ID,
+        ns.TAXON_ID,        
+        gbs.NCBI_SEQ_ID
+ from gene_blo_seqs gbs
+  join NCBI_SEQS ns on ns.ID = gbs.NCBI_SEQ_ID
+  join TAXONS tx on tx.ID = ns.TAXON_ID
+  join TAXON_GROUPS tg on tg.TAXON_ID = ns.TAXON_ID
+ where tg.PROK_GROUP_ID between 0 and 22 
+       and gene_id = 152
+ order by gbs.GENE_ID,
+        tg.PROK_GROUP_ID,
+        ns.TAXON_ID,        
+        gbs.NCBI_SEQ_ID
+
+) alg
+group by alg.gene_id,
+         alg.prok_group_id,
+         alg.taxon_id
+
+
+
+
+
+
+
+--
+create view aff_seqs as 
+
+select gn.name,
+       alg2.gn,
+       alg2.pg_cnt,
+       alg2.tx_cnt,
+       alg2.al_cnt
+from
+(
+with alg(gn,pg,tx,al) as (select gbs.GENE_ID,
+        tg.PROK_GROUP_ID,
+        ns.TAXON_ID,        
+        gbs.NCBI_SEQ_ID
+ from gene_blo_seqs gbs
+  join NCBI_SEQS ns on ns.ID = gbs.NCBI_SEQ_ID
+  join TAXONS tx on tx.ID = ns.TAXON_ID
+  join TAXON_GROUPS tg on tg.TAXON_ID = ns.TAXON_ID
+ where tg.PROK_GROUP_ID between 0 and 22 
+       --and gene_id = 152
+ order by gbs.GENE_ID,
+        tg.PROK_GROUP_ID,
+        ns.TAXON_ID,        
+        gbs.NCBI_SEQ_ID) 
+select alg.gn,
+       count(distinct gn,pg) as pg_cnt,
+       count(distinct gn,pg,tx) as tx_cnt,
+       count(distinct gn,pg,tx,al) as al_cnt
+from alg
+group by alg.gn
+) alg2
+join genes gn on gn.ID = alg2.gn
+join GENES_CORE_INTER gci on gci.ID = gn.ID
+
+        
+select alg.gn,
+       0,
+       0,
+       count(*) as al_cnt
+from alg
+group by alg.gn
+ union
+select alg.gn,
+       0,
+       0,
+       count(*) as al_cnt
+from alg
+group by alg.gn
+
+
+
+select gn.id,
+       gci.name       
+from GENES_CORE_INTER gci
+ join GENES gn on gn.name = gci.name
+
+--
+
+ select sum(WEIGHT_TR_TX)/36.0
+ from HGT_COM_TRSF_TAXONS hctt
+   join GENES_CORE_INTER gci on gci.id = hctt.GENE_ID
+
+--
+
+ select sum(WEIGHT_TR_TX)/110.0
+ from HGT_COM_TRSF_TAXONS hctt
+   join GENES gn on gn.id = hctt.GENE_ID
+
+
+ select sum(weight)/121
+ from HGT_COM_INT_TRANSFERS
+
+ select sum(weight)/100
+ from HGT_PAR_TRANSFERS
+
+ 
+
+
+
+ select gci.id,
+        gci.NAME,
+        sum(hctt.WEIGHT_TR_TX)
+ from HGT_COM_TRSF_TAXONS hctt
+   join GENES_CORE_INTER gci on gci.id = hctt.GENE_ID
+ group by gci.id,
+        gci.NAME
+
+
+
+
+
+
+
+
+
+--
+select gci.*
+from GENES_CORE_INTER gci
+
+
+ select tx_aff.*
+ from
+(
+
+
+select *
+from GENES_CORE_INTER gci
+ join (
+ 
+ 
+select count(*)
+from 
+(
+ select TXSRC_ID
+ from HGT_COM_TRSF_TAXONS hctt_src
+ where hctt_src.GENE_ID = 112
+  union 
+ select TXDST_ID
+ from HGT_COM_TRSF_TAXONS hctt_dst
+ where hctt_dst.GENE_ID = 112
+) tx_un
+
+
+
+CREATE FUNCTION test( in x INT)
+returns table(id integer)
+reads sql data 
+BEGIN ATOMIC
+   return TABLE(select count(*) from HGT_COM_TRSF_TAXONS hctt_dst where hctt_dst.GENE_ID = x);
+end 
+
+CREATE FUNCTION test( in x INT) returns table(id integer)
+BEGIN ATOMIC
+   return TABLE(select id from HGT_COM_TRSF_TAXONS where id < x)
+end
+
+CREATE FUNCTION test( in x INT)
+returns table(id integer)
+reads sql data BEGIN ATOMIC
+   return TABLE(select gene_id from HGT_COM_TRSF_TAXONS where id < x);
+end
+
+
+ CREATE FUNCTION txd (geneid integer)
+   RETURNS integer
+   begin atomic
+    select count(*)
+    into 
+    from HGT_COM_TRSF_TAXONS;
+   end   
+
+
+ 
+   join HGT_COM_TRSF_TAXONS hctt_dst on hctt_dst.GENE_ID = hctt_src.gene_id
+ 
+ where hctt.GENE_ID = 112
+ union
+ select hctt.TXDST_ID
+ from HGT_COM_TRSF_TAXONS hctt
+ where hctt.GENE_ID = 112
+
+
+
+
+) as tx_aff
+
+
+
+drop view AFF
+
+
+
+
+
+
+select tx_un.gene_id,
+       count(*) as pg_aff
+from 
+(select gci.id as gene_id,
+       hctt.TXSRC_ID as txid
+
+
+select 
+from GENES gn
+ join HGT_COM_TRSF_TAXONS hctt on hctt.GENE_ID = gn.ID
+union
+select gci.id,
+       hctt.TXDST_ID as txid
+from GENES gn
+ join HGT_COM_TRSF_TAXONS hctt on hctt.GENE_ID = gci.ID
+) tx_un
+group by tx_un.gene_id
+order by tx_un.gene_id
+
+
+
+
+--test
+select gci.id as gene_id,
+       hctt.TXSRC_ID as txid
+from GENES_CORE_INTER gci
+ join HGT_COM_TRSF_TAXONS hctt on hctt.GENE_ID = gci.ID
+ where gci.ID = 183
+union
+select gci.id,
+       hctt.TXDST_ID as txid
+from GENES_CORE_INTER gci
+ join HGT_COM_TRSF_TAXONS hctt on hctt.GENE_ID = gci.ID
+ where gci.id = 183
+
+
+select hctt.TXSRC_ID
+ from HGT_COM_TRSF_TAXONS hctt
+ where hctt.GENE_ID = 183
+union
+select hctt.TXDST_ID
+ from HGT_COM_TRSF_TAXONS hctt
+ where hctt.GENE_ID = 183
+
+
+
+ select gbs.GENE_ID,
+        tg.PROK_GROUP_ID,
+        ns.TAXON_ID,        
+        count(*)
+ from gene_blo_seqs gbs
+  join NCBI_SEQS ns on ns.ID = gbs.NCBI_SEQ_ID
+  join TAXONS tx on tx.ID = ns.TAXON_ID
+  join TAXON_GROUPS tg on tg.TAXON_ID = ns.TAXON_ID
+ where tg.PROK_GROUP_ID between 0 and 22 
+       and gene_id = 183
+ group by gbs.GENE_ID,
+        tg.PROK_GROUP_ID,
+        ns.TAXON_ID        
+ order by gbs.GENE_ID,
+        tg.PROK_GROUP_ID,
+        ns.TAXON_ID
+
+
+--
+select gn.name,
+alg2.gn,
+alg2.pg_cnt,
+alg2.tx_cnt,
+alg2.al_cnt
+from
+(
+   with alg
+   (
+      gn,pg,tx,al
+   )
+   as
+   (
+      select gbs.GENE_ID,
+      tg.PROK_GROUP_ID,
+      ns.TAXON_ID,
+      gbs.NCBI_SEQ_ID
+      from gene_blo_seqs gbs
+      join NCBI_SEQS ns on ns.ID = gbs.NCBI_SEQ_ID
+      join TAXONS tx on tx.ID = ns.TAXON_ID
+      join TAXON_GROUPS tg on tg.TAXON_ID = ns.TAXON_ID
+      where tg.PROK_GROUP_ID between 0 and 22 
+       --and gene_id = 152
+      order by gbs.GENE_ID,
+      tg.PROK_GROUP_ID,
+      ns.TAXON_ID,
+      gbs.NCBI_SEQ_ID
+   )
+   select alg.gn,
+   count(distinct gn,pg) as pg_cnt,
+   count(distinct gn,pg,tx) as tx_cnt,
+   count(distinct gn,pg,tx,al) as al_cnt
+   from alg
+   group by alg.gn
+)
+alg2
+join genes gn on gn.ID = alg2.gn
+
+
+join GENES_CORE_INTER gci on gci.ID = gn.ID
+
+
+
+select *
+from HGT_COM_TRSF_TAXONS
+
+select sum(PGTN_CNT)
+from PGTN
+
+select sum(WEIGHT_TR_PG)
+from HGT_COM_TRSF_PRKGRS hctp
+where hctp.PGSRC_ID between 86 and 93 and
+      hctp.PGDST_ID between 86 and 93
+
+
+select *
+from TAXON_GROUPS
+where WEIGHT_PG is not null
+order by taxon_id
+
+select tg.PROK_GROUP_ID,
+       tg.WEIGHT_PG
+from TAXON_GROUPS tg
+join PROK_GROUPS pg on pg.id = tg.PROK_GROUP_ID
+                 
+                 where tg.TAXON_ID = and
+                       pg.GROUP_CRITER_ID = 1
+
+
+select  prkg.GENE_ID,
+           prkg.PGSRC_ID,
+           prkg.PGDST_ID,
+           prkg.WEIGHT_TR_PG,
+           prkg.TRSF_TAXON_ID,
+           hctt.TXSRC_ID,
+           hctt.TXDST_ID
+     from HGT_COM_TRSF_PRKGRS prkg
+      join HGT_COM_TRSF_TAXONS hctt on hctt.ID = prkg.TRSF_TAXON_ID
+      order by prkg.PGSRC_ID,
+               prkg.PGDST_ID,
+               prkg.GENE_ID                       
+
+
+select sum(val)
+from HGT_COM_GENE_GROUPS_VALS hcggv
+where hcggv.PROK_GROUP_SOURCE_ID  between 86 and 93 and
+      hcggv.PROK_GROUP_DEST_ID between 86 and 93 
+
+
+
+
+select pg.order_id,
+       pg_tx_src.prok_group_id,
+       pg_tx_src.pg_weight,
+       pgsn_core.pgsn_cnt,
+       pgtn_core.PGTN_CNT,
+       pg_tx_src.pg_weight /pgsn_core.pgsn_cnt / 110 as pgsn_magic,
+       pg_tx_src.pg_weight /pgtn_core.pgtn_cnt / 110 as pgtn_magic
+from 
+(
+
+select tg.PROK_GROUP_ID,
+  nvl(sum(hctt_src.WEIGHT_TR_TX),0) as pg_weight
+
+
+----
+with alg(gn,pg,tx,al) as (select gbs.GENE_ID,
+        tg.PROK_GROUP_ID,
+        ns.TAXON_ID,        
+        gbs.NCBI_SEQ_ID
+ from gene_blo_seqs gbs
+  join NCBI_SEQS ns on ns.ID = gbs.NCBI_SEQ_ID
+  join TAXONS tx on tx.ID = ns.TAXON_ID
+  join TAXON_GROUPS tg on tg.TAXON_ID = ns.TAXON_ID
+ where tg.PROK_GROUP_ID between 0 and 22 
+       --and gene_id = 152
+ order by gbs.GENE_ID,
+        tg.PROK_GROUP_ID,
+        ns.TAXON_ID,        
+        gbs.NCBI_SEQ_ID) 
+select alg.gn,
+------
+
+
+   
+  
+  
+  right outer join TAXON_GROUPS tg on tg.TAXON_ID = hctt_src.TXSRC_ID
+  where tg.PROK_GROUP_ID between 0 and 22
+  group by tg.PROK_GROUP_ID
+  order by tg.PROK_GROUP_ID
+
+) pg_tx_src
+join pgsn_core on pgsn_core.prok_group_id = pg_tx_src.prok_group_id
+join pgtn_core on pgtn_core.PROK_GROUP_ID = pg_tx_src.prok_group_id
+join PROK_GROUPS pg on pg.id = pg_tx_src.prok_group_id
+order by pg.order_id
+
+
+select ggc.PROK_GROUP_ID,
+       sum(ggc.cnt) as pgsn_cnt
+from GENE_GROUP_CNTS ggc
+group by ggc.PROK_GROUP_ID
+order by ggc.PROK_GROUP_ID
+
+select *
+from PGSN
+
+
+
+      select gbs.GENE_ID,
+             tg.PROK_GROUP_ID,
+             pg.NAME,
+             sum(tg.weight_pg) as CNT
+      from GENE_BLO_SEQS gbs
+       join NCBI_SEQS ns on ns.ID = gbs.NCBI_SEQ_ID
+       join TAXON_GROUPS tg on tg.TAXON_ID = ns.TAXON_ID
+       join PROK_GROUPS pg on pg.ID = tg.PROK_GROUP_ID
+      group by gbs.GENE_ID,
+               tg.PROK_GROUP_ID,
+               pg.NAME
+      order by gbs.GENE_ID,
+               tg.PROK_GROUP_ID
+
+select *
+from taxon_groups
+
+
+--gene_group_cnts
+select gene_id,
+       prok_group_id,
+       taxon_id,
+       vers_access,
+       sum(weight_pg) 
+from 
+(
+select gbs.GENE_ID,
+       tg.PROK_GROUP_ID,
+       ns.VERS_ACCESS,
+       ns.TAXON_ID,
+       tg.weight_pg as weight_pg
+from GENE_BLO_SEQS gbs
+ join NCBI_SEQS ns on ns.ID = gbs.NCBI_SEQ_ID
+ join TAXON_GROUPS tg on tg.TAXON_ID = ns.TAXON_ID
+ join PROK_GROUPS pg on pg.ID = tg.PROK_GROUP_ID
+order by gbs.GENE_ID,
+         tg.PROK_GROUP_ID
+)
+group by gene_id,
+         taxon_id,
+         prok_group_id,
+         vers_access         
+order by gene_id,
+         prok_group_id,
+         vers_access,
+         taxon_id
+
+select gbs.GENE_ID,
+       tg.PROK_GROUP_ID,
+       sum(tg.weight_pg) as PGSN_CNT
+from GENE_BLO_SEQS gbs
+ join NCBI_SEQS ns on ns.ID = gbs.NCBI_SEQ_ID
+ join TAXON_GROUPS tg on tg.TAXON_ID = ns.TAXON_ID
+ join PROK_GROUPS pg on pg.ID = tg.PROK_GROUP_ID
+group by gbs.GENE_ID,
+         tg.PROK_GROUP_ID
+order by gbs.GENE_ID,
+         tg.PROK_GROUP_ID
+
+select tg.PROK_GROUP_ID,
+       count(sel_tx.taxon_id) as pgtn_cnt
+from 
+(
+
+select distinct TAXON_ID
+from GENES_TAXONS gt 
+ --join GENES_CORE_INTER gci on gci.id = gt.GENE_ID
+
+) sel_tx
+ join TAXON_GROUPS tg on tg.TAXON_ID = sel_tx.TAXON_ID
+where tg.PROK_GROUP_ID between 0 and 22 
+group by tg.PROK_GROUP_ID 
+order by tg.PROK_GROUP_ID
+
+
+
+select distinct gn.ID as gene_id,
+                ns.TAXON_ID
+from GENES gn
+ join GENE_BLO_SEQS gbs on gbs.GENE_ID = gn.id
+ join NCBI_SEQS ns on ns.ID = gbs.NCBI_SEQ_ID    
+
+
+select count(*)
+from GENE_BLO_SEQS
+group by NCBI_SEQ_ID
+ 
+drop view aff_seqs                   

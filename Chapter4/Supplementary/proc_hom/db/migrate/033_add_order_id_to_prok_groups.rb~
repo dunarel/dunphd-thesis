@@ -1,0 +1,4 @@
+class AddOrderIdToProkGroups < ActiveRecord::Migration
+  def change
+  end
+end

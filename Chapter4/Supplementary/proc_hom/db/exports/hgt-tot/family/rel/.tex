@@ -1,0 +1,42 @@
+\documentclass[]{article}
+\usepackage[vcentering,dvips,top=5mm, bottom=5mm, left=5mm, right=5mm]{geometry}
+\geometry{papersize={420mm,140mm}}
+\pagestyle {empty}
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage{colortbl}
+\usepackage{arydshln}
+\usepackage{caption}
+\captionsetup[table]{position=top, justification=justified, labelformat=empty}
+\begin{document}
+\begin{table}
+\caption{Complete gene transfers, inferred using HGT-Detection algorithm, with a bootstrap threshold of 75 \%. Gene trees were inferred using RAxML. Number of multiple sequence alignments (MSA) analyzed: . Number of species analyzed: 111. Intragroup transfers are underligned. The most frequent HGTs are represented in bold.}
+\begin{tabular}{lccccccccccccccccccccccccc}
+Group Name & Source$\backslash$Destination & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20 & 21 & 22 & 23 & Total \\
+Nanoarchaeota(1),[6] & 1 & \underline{} &  & 0.825 & 7.419 &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & 8.244 \\
+Euryarchaeota(6),[410] & 2 &  & \underline{0.499} & 0.069 &  & 0.021 & 0.021 & 0.012 &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & 0.041 & 0.661 \\
+Crenarchaeota(3),[167] & 3 & 3.907 & 0.015 & \underline{} & 8.317 &  &  &  &  &  & 0.338 & 0.008 &  &  & 0.588 &  &  &  &  &  &  &  &  &  & 13.171 \\
+Other Archaea(1),[6] & 4 &  &  & 1.406 & \underline{} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & 1.406 \\
+Spirochaetes(3),[303] & 5 &  & 0.003 &  &  & \underline{0.387} & 0.001 &  & 1.424 &  &  & 0.054 & 0.002 &  &  & 0.089 &  & 0.008 &  &  &  &  &  &  & 1.965 \\
+Planctomycetes(1),[129] & 6 &  & 0.011 &  &  & 0.001 & \underline{} & 0.009 &  &  &  & 0.003 & 1.690 &  & 0.010 & 0.017 &  & 0.342 & 0.009 & 0.136 & 0.009 & 0.001 & 0.012 & 0.217 & 2.461 \\
+Actinobacteria(10),[1077] & 7 &  & 0.024 &  &  &  & 0.029 & \underline{0.240} &  &  &  & 0.013 & 0.066 &  &  & 0.001 &  & 0.001 & 0.002 & 0.029 & 0.004 &  &  & 0.004 & 0.407 \\
+Thermotogae(1),[84] & 8 &  &  &  &  & 0.197 &  &  & \underline{} &  & 0.601 & 0.014 &  &  &  & 0.004 & 1.098 & 0.010 &  &  &  &  &  &  & 1.921 \\
+Chloroflexi(2),[192] & 9 &  &  &  &  &  &  &  &  & \underline{} &  & 0.016 &  &  &  &  &  &  &  &  &  &  &  & 0.077 & 0.093 \\
+Aquificae(1),[98] & 10 &  &  & 0.496 &  &  &  &  & 0.683 &  & \underline{} & 0.012 &  &  &  &  &  & 0.009 &  &  &  &  &  & 0.093 & 1.290 \\
+Bacteroidetes/Chlorobi(5),[508] & 11 &  &  & 0.006 &  & 0.026 & 0.003 & 0.010 & 0.012 & 0.014 & 0.010 & \underline{0.529} & 0.004 & 0.021 & 0.003 & 0.025 & 0.009 & 0.010 & 0.010 & 0.016 &  &  & 0.006 & 0.018 & 0.723 \\
+Chlamydiae/Verrucomicrobia(2),[148] & 12 &  &  &  &  & 0.001 & 0.013 & 0.046 &  &  &  & 0.003 & \underline{} &  &  & 0.057 &  & 0.170 &  & 0.041 &  & 0.001 & 0.004 & 0.002 & 0.335 \\
+Fusobacteria(1),[19] & 13 &  &  &  &  &  &  &  &  &  &  & 0.026 &  & \underline{} &  & 0.182 &  &  &  &  &  &  &  &  & 0.207 \\
+Deinococcus-Thermus(1),[89] & 14 &  &  & 0.008 &  &  & 0.023 &  &  &  &  & 0.225 &  &  & \underline{} &  &  & 0.024 & 0.003 & 0.003 & 0.003 &  & 0.269 & 0.059 & 0.614 \\
+Firmicutes(21),[2506] & 15 &  &  &  &  & 0.024 & 0.018 & 0.001 &  &  &  & 0.016 & 0.024 & 0.022 &  & \underline{0.370} &  & 0.005 &  & 0.002 &  & 0.001 & 0.003 & 0.002 & 0.482 \\
+Epsilonproteobacteria(3),[286] & 16 &  &  &  &  &  &  &  & 0.138 &  &  & 0.011 &  &  &  &  & \underline{0.363} & 0.008 & 0.034 &  &  & 0.002 &  & 0.004 & 0.557 \\
+Deltaproteobacteria(3),[257] & 17 &  &  &  &  & 0.007 & 0.171 & 0.001 & 0.008 &  & 0.007 & 0.012 & 0.037 &  & 0.356 & 0.005 & 0.006 & \underline{} &  & 0.065 & 0.008 & 0.007 & 0.058 & 0.967 & 1.706 \\
+Betaproteobacteria(7),[615] & 18 &  &  &  &  &  & 0.016 & 0.003 &  &  &  & 0.009 &  &  & 0.001 &  & 0.007 &  & \underline{0.585} & 0.084 & 0.124 &  &  & 0.021 & 0.847 \\
+Alphaproteobacteria(11),[1126] & 19 &  &  &  &  &  & 0.031 & 0.010 &  &  &  & 0.041 & 0.002 &  & 0.001 & 0.003 &  & 0.001 & 0.057 & \underline{0.714} & 0.017 &  &  & 0.002 & 0.872 \\
+Gammaproteobacteria(21),[2131] & 20 &  &  &  &  &  &  & 0.001 &  &  &  &  &  &  & 0.001 &  &  & 0.009 & 0.109 & 0.071 & \underline{0.038} &  &  &  & 0.226 \\
+Cyanobacteria(3),[347] & 21 &  &  &  &  &  & 0.001 &  &  &  &  &  & 0.002 &  &  & 0.013 & 0.106 & 0.001 &  &  &  & \underline{1.118} &  & 0.163 & 1.401 \\
+Acidobacteria(1),[94] & 22 &  &  &  &  &  & 0.024 &  &  &  &  & 0.212 & 0.004 &  &  & 0.003 &  & 0.304 &  &  &  &  & \underline{} & 0.428 & 0.974 \\
+Other Bacteria(3),[339] & 23 &  & 0.006 &  &  &  & 0.061 & 0.022 &  & 0.092 & 0.163 & 0.124 & 0.054 &  & 0.164 & 0.003 & 0.101 & 0.140 & 0.062 & 0.014 &  & 0.123 & 0.459 & \underline{0.046} & 1.628 \\
+ & Total & 3.907 & 0.557 & 2.808 & 15.736 & 0.661 & 0.407 & 0.349 & 2.262 & 0.106 & 1.117 & 1.319 & 1.880 & 0.042 & 1.121 & 0.767 & 1.688 & 1.035 & 0.867 & 1.170 & 0.199 & 1.250 & 0.808 & 2.137 &  \\
+\end{tabular}
+\end{table}
+\end{document}

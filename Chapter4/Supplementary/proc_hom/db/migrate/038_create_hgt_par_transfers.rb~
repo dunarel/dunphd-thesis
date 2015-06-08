@@ -1,0 +1,19 @@
+class CreateHgtParTransfers < ActiveRecord::Migration
+  def change
+    create_table :hgt_par_transfers do |t|
+      t.references :hgt_par_fragm
+      t.references :hgt_par_contin
+      t.integer :ncbi_seq_source_id
+      t.integer :ncbi_seq_dest_id
+      t.float :weight      
+
+
+      t.timestamps
+    end
+    add_index :hgt_par_transfers, :hgt_par_fragm_id
+    add_index :hgt_par_transfers, :hgt_par_contin_id
+    #add_index :hgt_par_transfers, :ncbi_seq_source_id
+    #add_index :hgt_par_transfers, :ncbi_seq_dest_id
+    
+  end
+end

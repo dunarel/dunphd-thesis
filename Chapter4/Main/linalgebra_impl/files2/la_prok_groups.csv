@@ -1,0 +1,9 @@
+PG,PROK_GROUP_ID,NAME
+0                ,86               ,Human Respiratory
+1                ,87               ,Human Others     
+2                ,88               ,Plant            
+3                ,89               ,Animal           
+4                ,90               ,Soil             
+5                ,91               ,Marine           
+6                ,92               ,Fresh water      
+7                ,93               ,Extreme          

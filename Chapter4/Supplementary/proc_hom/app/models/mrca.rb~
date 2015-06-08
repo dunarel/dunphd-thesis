@@ -1,0 +1,2 @@
+class Mrca < ActiveRecord::Base
+end

@@ -1,0 +1,15 @@
+class CreateHgtParGeneGroupsVals < ActiveRecord::Migration
+  def change
+    create_table :hgt_par_gene_groups_vals do |t|
+      t.references :gene
+      t.references :source
+      t.references :dest
+      t.float :val
+
+      t.timestamps
+    end
+    add_index :hgt_par_gene_groups_vals, :gene_id
+    add_index :hgt_par_gene_groups_vals, :source_id
+    add_index :hgt_par_gene_groups_vals, :dest_id
+  end
+end

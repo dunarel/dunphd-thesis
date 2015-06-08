@@ -1,0 +1,60 @@
+/* 
+ * File:   QFuncHgtAppl.cpp
+ * Author: Dunarel Badescu
+
+ */
+
+#include "q_func_hgt_appl.hpp"
+
+using uqam_doc::QFuncHgtAppl;
+
+QFuncHgtAppl::QFuncHgtAppl() {
+}
+
+
+//custom constructor
+QFuncHgtAppl::QFuncHgtAppl(int argc, char** argv) {
+
+  //appl_data_ = new ApplicationData();
+  //appl_data_->process_cmd_line(argc, argv);
+   q_func_hgt = new qFuncHgt(appl_data_);
+
+
+}
+
+QFuncHgtAppl::QFuncHgtAppl(const QFuncHgtAppl& orig) {
+}
+
+//destructor
+QFuncHgtAppl::~QFuncHgtAppl() {
+    delete(q_func_hgt);
+    //delete(appl_data_);
+    
+}
+
+void QFuncHgtAppl::run() {
+       
+     //q_func->readMsaFasta();
+
+
+    //if there is a filter on identifiers, load those
+    //if (appl_data_->ids_work_csv_.size() != 0) {
+    //    q_func->readIdsWork();	
+    //    q_func->filterIdsWork();
+    //} else {
+    //    q_func->readXIdentCsv();
+    // q_func->eliminateNonUsed();
+    //}
+
+
+    //rewrite with random sequences
+    //m.genRandNuclMsaFasta();
+
+
+
+    //m.show_align_mult_types();
+    
+    q_func->calculate();
+	
+}
+

@@ -1,0 +1,24 @@
+#!/bin/ksh
+
+#Script de lancement 
+
+#PBS -N jptmbst-<%= @job_s %>
+#PBS -q qwork@mp2
+#PBS -l walltime=<%= @job_hours %>:00:00
+
+wdir=$SCRATCH/hgt-com-110/hgt-com-raxml/timing/beast/qsubs
+
+cd $wdir
+
+#clasic
+#java -jar /home/badescud/local/bin/proc-hom-java/proc-hom-ex.jar -threads <%= @job_nb_threads %> -job <%= @job_s %> -root /home/badescud/hgt-par-110/timing/treepl
+
+#local
+#java -jar "/root/devel/proc_hom/ex_projects/proc-hom-ex/dist/proc-hom-ex.jar" -help -threads 4 -job 00400 -root /root/devel/proc_hom/files/hgt-com-110/hgt-com-raxml/timing/beast -stage hgt-com -timing_prog beast -internal_cmd "java -Djava.library.path=/root/lib64 -jar /root/local/BEASTv1.7.4/lib/beast.jar -beagle_SSE -beagle_instances 1 -overwrite gene_beast.xml"
+
+#server
+java -jar $SCRATCH/local/bin/proc-hom-java/proc-hom-ex.jar -threads <%= @job_nb_threads %> -job <%= @job_s %> -root $SCRATCH/hgt-com-110/hgt-com-raxml/timing/beast -stage hgt-com -timing_prog beast -internal_cmd "java -Djava.library.path=$SCRATCH/lib/ -jar $SCRATCH/local/BEASTv1.7.4/lib/beast.jar -beagle_SSE -beagle_instances 1 -overwrite gene_beast.xml"
+
+java -jar $SCRATCH/local/bin/proc-hom-java/proc-hom-ex.jar -threads <%= @job_nb_threads %> -job <%= @job_s %> -root $SCRATCH/hgt-com-110/hgt-com-raxml/timing/beast -stage hgt-com -timing_prog beast -internal_cmd "$SCRATCH/local/BEASTv1.7.4/bin/treeannotator -heights median -burnin 100 -limit 0.5 -target starting_tree.nwk gene_beast.trees dated_tree.annot"
+
+

@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Gene:</b>
+  <%= @gene_blo_run.gene %>
+</p>
+
+<p>
+  <b>Blo run:</b>
+  <%= @gene_blo_run.blo_run %>
+</p>
+
+<p>
+  <b>Oa length:</b>
+  <%= @gene_blo_run.oa_length %>
+</p>
+
+
+<%= link_to 'Edit', edit_gene_blo_run_path(@gene_blo_run) %> |
+<%= link_to 'Back', gene_blo_runs_path %>

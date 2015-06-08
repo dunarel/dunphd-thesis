@@ -1,0 +1,107 @@
+
+select cggv.gene_id,
+       gn.name,     
+       pg_src.id,  
+       pg_dst.id,
+       pg_src.ORDER_ID + 1 as row,
+       pg_dst.ORDER_ID + 1 as col,
+       cggv.VAL
+from HGT_COM_GENE_GROUPS_VALS cggv 
+ join PROK_GROUPS pg_src on pg_src.ID = cggv.PROK_GROUP_SOURCE_ID
+ join PROK_GROUPS pg_dst on pg_dst.id = cggv.PROK_GROUP_DEST_ID
+ join genes gn on gn.ID = cggv.GENE_ID
+where pg_src.GROUP_CRITER_ID = 0 and 
+      pg_dst.GROUP_CRITER_ID = 0 and
+      pg_src.ORDER_ID +1 = 23 and      
+      pg_dst.ORDER_ID +1 = 2
+      
+
+
+select *
+from GENE_GROUP_CNTS ggc
+ join PROK_GROUPS pg on pg.ID = ggc.PROK_GROUP_ID
+where pg.ORDER_ID = 0
+order by gene_id
+
+
+
+
+
+select pggv.gene_id,
+       gn.NAME,
+       pg_src.ORDER_ID,
+       pg_dst.ORDER_ID,
+       pggv.VAL
+from HGT_PAR_GENE_GROUPS_VALS pggv 
+ join PROK_GROUPS pg_src on pg_src.ID = pggv.PROK_GROUP_SOURCE_ID
+ join PROK_GROUPS pg_dst on pg_dst.id = pggv.PROK_GROUP_DEST_ID
+ join genes gn on gn.id = pggv.GENE_ID
+where pg_src.ORDER_ID = 10 and
+      pg_dst.ORDER_ID = 22
+
+
+select *
+from HGT_COM_GENE_GROUPS_VALS cggv
+
+
+      
+
+
+select cggv.gene_id,
+       pg_src.ORDER_ID,
+       pg_dst.ORDER_ID,
+       cggv.VAL
+from HGT_COM_GENE_GROUPS_VALS cggv 
+ join PROK_GROUPS pg_src on pg_src.ID = cggv.PROK_GROUP_SOURCE_ID
+ join PROK_GROUPS pg_dst on pg_dst.id = cggv.PROK_GROUP_DEST_ID
+where pg_src.ORDER_ID = 23 or 
+      pg_dst.ORDER_ID = 22
+
+
+
+--tree names, groups, indexes
+select  tx.TREE_ORDER,
+        tx.TREE_NAME,
+        pg.ORDER_ID +1 as idx,
+        pg.NAME
+from taxons tx
+ join TAXON_GROUPS tg on tg.TAXON_ID = tx.id
+ join PROK_GROUPS pg on pg.ID = tg.PROK_GROUP_ID
+where tg.PROK_GROUP_ID between 0 and 22
+order by tx.tree_order
+
+
+--transfers
+select bt_par.src_order,
+       bt_par.dst_order,
+       bt_par.cnt_rel+0 as par_rel,
+       bt_par.nb_genes_rel+0 as par_nb_genes_rel,
+       com_tg.cnt_rel+0 as com_rel,
+       com_tg.nb_genes_rel+0 as com_nb_genes_rel,
+       bt_par.src_name,
+       bt_par.dst_name
+from (select tg.PROK_GROUP_source_id src_id,
+             tg.PROK_GROUP_dest_id dst_id,
+             pg_src.ORDER_ID+1 as src_order,
+             pg_dst.ORDER_ID+1 as dst_order,
+             tg.CNT_REL,
+             tg.NB_GENES_REL,
+             pg_src.NAME as src_name,
+             pg_dst.name as dst_name
+from HGT_PAR_TRANSFER_GROUPS tg
+ join PROK_GROUPS pg_src on pg_src.ID = tg.PROK_GROUP_SOURCE_ID                           
+ join PROK_GROUPS pg_dst on pg_dst.ID = tg.PROK_GROUP_DEST_ID                           
+where tg.PROK_GROUP_SOURCE_ID between 0 and 22 and
+      tg.PROK_GROUP_DEST_ID between 0 and 22
+order by tg.CNT_REL desc                         
+) bt_par 
+ join hgt_com_int_transfer_groups com_tg on com_tg.prok_group_source_id = bt_par.src_id and
+                                            com_tg.prok_group_dest_id = bt_par.dst_id
+limit 30
+
+
+
+select distinct gene_id
+from recomb_transfers rt
+
+where rt.CONFIDENCE = 1

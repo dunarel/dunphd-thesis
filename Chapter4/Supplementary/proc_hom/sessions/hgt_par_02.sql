@@ -1,0 +1,24 @@
+SET TABLE HGT_PAR_FRAGMS TYPE CACHED
+SET TABLE HGT_PAR_CONTINS TYPE CACHED
+SET TABLE HGT_PAR_TRANSFERS TYPE CACHED
+SET TABLE HGT_PAR_TRANSFER_GROUPS TYPE CACHED
+SET FILES LOG FALSE
+SET DATABASE TRANSACTION CONTROL MVCC
+
+
+select * from ENABLED_ROLES
+
+CHECKPOINT DEFRAG
+
+select count(distinct GENE_ID)
+from HGT_PAR_FRAGMS
+
+checkpoint
+
+select distinct hpf.gene_id,g.NAME
+from HGT_PAR_FRAGMS hpf
+ join GENES g on g.ID = hpf.GENE_ID
+ where hpf.GENE_ID not in (select hpc.GENE_ID
+                           from HGT_PAR_CONTINS hpc)
+                  
+

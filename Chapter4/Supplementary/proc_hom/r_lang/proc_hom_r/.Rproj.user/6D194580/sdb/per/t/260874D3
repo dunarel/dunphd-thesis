@@ -1,0 +1,15 @@
+{
+    "contents" : "# TODO: Add comment\n# \n# Author: root\n###############################################################################\nsetwd(\"/root/devel/proc_hom/r_lang/proc_hom_r\")\n\nlibrary(quantmod)\nrm(list=ls(all=TRUE))\n#load(file=\"/root/devel/proc_hom/r_lang/proc_hom_r/hgt_com_beast.RData\")\n#new_beast = hgt_com_beast\n\n#load(file=\"/data6/devel/proc_hom/r_lang/proc_hom_r/hgt_com_beast.RData\")\n\n#old_beast = hgt_com_beast\n\n#load(file=\"/root/devel/proc_hom/r_lang/proc_hom_r/hgt_com_treepl.RData\")\n#new_treepl = hgt_com_treepl\n\n#load(file=\"/data6/devel/proc_hom/r_lang/proc_hom_r/hgt_com_treepl.RData\")\n#old_treepl = hgt_com_treepl\n\nload(file=\"/root/devel/proc_hom/r_lang/hgt_com_beast.RData\")\nload(file=\"/root/devel/proc_hom/r_lang/hgt_com_treepl.RData\")\n\n\n#print(hgt_com_beast)\n#print(hgt_com_treepl)\n#cat(hgt_com_treepl)\n\n#wt = wilcox.test(hgt_com_treepl,hgt_com_beast, paired = TRUE)\nwt = wilcox.test(hgt_com_treepl,hgt_com_beast, paired = TRUE, mu = 50, alt = 'less')\nprint(wt)\n\n#mn <- mean(Delt(hgt_com_treepl,hgt_com_beast))\n#print(mn)\n\n#mn1 <- Delt(hgt_com_treepl,hgt_com_beast,k=0)\n#print(mn1)\n\n\nsvg(\"qqplot_diff.svg\")\n\n#par()\n#qqplot(hgt_com_beast, hgt_com_treepl, pch = 1, col = \"darkblue\")\n\nqs = qqplot(hgt_com_beast, hgt_com_treepl, pch = 1, col = \"darkblue\", main = \"Complete HGT time Q-Q Plot\", xlab=\"B.E.A.S.T.\", ylab=\"TreePL\");\n\n# compute the y=x line\ndx = quantile(qs$x,0.75) - quantile(qs$x,0.25)\ndy = quantile(qs$y,0.75) - quantile(qs$y,0.25)\n#dy = prctile(s, 75) - prctile(s, 25);\nb = dy/dx #slope\nxc = (quantile(qs$x,0.25) + quantile(qs$x,0.75))/2  # center points\nyc = (quantile(qs$y,0.25) + quantile(qs$y,0.75))/2  # ...\nymax = yc + b*(max(qs$x)-xc)\nymin = yc - b*(xc-min(qs$x))\n\na =  quantile(qs$y,0.75) - b*quantile(qs$x,0.75)\n\n\n#abline([min(qs$x); max(qs$x)], [ymin; ymax])\nabline(a=a, b=b, lty=\"dotted\")\n\n\n\n\n\n\n\n#title(main=\"main title\", sub=\"sub-title\", xlab=\"x-axis label\", ylab=\"y-axis label\")\n# Add minor tick marks\nlibrary(Hmisc)\nminor.tick(nx=5, ny=5, tick.ratio=0.5)\n\n\n#qqline(hgt_com_beast,col=\"red\")\n#qqline(hgt_com_beast, hgt_com_treepl)\nabline(0,1)\n#abline(a = 0, b =1)\n#qqline(a=0.25, b=1)\n\nabline(h=quantile(hgt_com_treepl,c(0.25,0.50,0.75)),col=\"blue\",lty=2)\nabline(v=quantile(hgt_com_beast,c(0.25,0.50,0.75)),col=\"violet\",lty=2)\n\ndev.off()\n",
+    "created" : 1375293332616.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3139960517",
+    "id" : "260874D3",
+    "lastKnownWriteTime" : 1375293415,
+    "path" : "~/devel/proc_hom/r_lang/proc_hom_r/compare_beast_treepl.R",
+    "properties" : {
+    },
+    "source_on_save" : true,
+    "type" : "r_source"
+}

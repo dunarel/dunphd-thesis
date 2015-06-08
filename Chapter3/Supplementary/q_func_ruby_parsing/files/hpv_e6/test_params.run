@@ -1,0 +1,1 @@
+--msa_fasta /data/PROJETS2/q_func_ruby_parsing/files/hpv_e6/test_msa.fa --x_ident_csv /data/PROJETS2/q_func_ruby_parsing/files/hpv_e6/x_ident_test.csv --q_func_csv /data/PROJETS2/q_func_ruby_parsing/files/hpv_e6/q_func_hpv_adn_E6.csv --align_type dna --dist ham --winl 9

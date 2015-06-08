@@ -1,0 +1,4 @@
+class AddLevelToMrcas < ActiveRecord::Migration
+  def change
+  end
+end

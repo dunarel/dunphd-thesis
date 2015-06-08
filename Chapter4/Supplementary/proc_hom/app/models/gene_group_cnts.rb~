@@ -1,0 +1,2 @@
+class GeneGroupCnts < ActiveRecord::Base
+end

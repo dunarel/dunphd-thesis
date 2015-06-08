@@ -1,0 +1,21 @@
+{
+    "contents" : "",
+    "created" : 1374871563221.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "7DEB8238",
+    "lastKnownWriteTime" : 8388361499482673708,
+    "path" : null,
+    "properties" : {
+        "caption" : "ab_gr_mtx",
+        "contentUrl" : "content?title=ab_gr_mtx&file=a867338b48a24d44b09dfa5586af5457.htm",
+        "displayedObservations" : "23",
+        "displayedVariables" : 23,
+        "totalObservations" : "23",
+        "variables" : "23"
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

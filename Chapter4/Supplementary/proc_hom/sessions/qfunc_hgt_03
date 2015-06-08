@@ -1,0 +1,792 @@
+
+select  hcit.SOURCE_ID,
+        hcit.DEST_ID,
+        hcit.HGT_COM_INT_FRAGM_ID,
+        hctt.AGE_MD_WG
+from HGT_COM_INT_TRANSFERS hcit
+ join HGT_COM_TRSF_TIMINGS hctt on hctt.HGT_COM_INT_TRANSFER_ID = hcit.ID
+where hctt.TIMING_CRITER_ID = 0
+
+
+select *
+from HGT_COM_INT_FRAGMS hcif
+where hcif.FROM_CNT = 1 and
+      hcif.TO_CNT = 1
+
+
+select *
+from HGT_COM_INT_FRAGMS 
+where gene_id = 132
+
+select t0.source_id,
+       t0.dest_id,
+       t0.seq_wt as val,
+       t0.confidence as conf,
+       ROWNUM() as rank
+from 
+(
+select  hcif.GENE_ID,
+        hcit.HGT_COM_INT_FRAGM_ID,
+	   hcit.SOURCE_ID,
+        hcit.DEST_ID,
+        hcit.CONFIDENCE,
+        min(hctt.AGE_MD_WG) as seq_age,
+        sum(hcit.WEIGHT) as seq_wt
+from HGT_COM_INT_TRANSFERS hcit
+ join HGT_COM_TRSF_TIMINGS hctt on hctt.HGT_COM_INT_TRANSFER_ID = hcit.ID
+ join HGT_COM_INT_FRAGMS hcif on hcit.HGT_COM_INT_FRAGM_ID = hcif.id
+where hctt.TIMING_CRITER_ID = 0 and
+      hcif.GENE_ID = 132 and
+      hctt.AGE_MD_WG < 10000
+group by hcif.GENE_ID,
+         hcit.HGT_COM_INT_FRAGM_ID,
+	    hcit.SOURCE_ID,
+         hcit.DEST_ID,
+         hcit.CONFIDENCE
+order by sum(hcit.WEIGHT) desc
+) t0
+
+
+--
+select t0.source_id,
+       t0.dest_id,
+       t0.val,
+       t0.conf, 
+       rownum() as rank
+from 
+(
+select hq.SOURCE_ID,
+       hq.dest_id,
+       hq.val,
+       hq.conf
+from HGT_QFUNCS hq
+order by val desc
+) t0
+
+
+--join
+
+select *
+from HGT_DETECTS hd 
+ full outer join HGT_QFUNCS hq on hq.SOURCE_ID = hd.source_id and hq.DEST_ID = hd.DEST_ID
+
+
+
+--
+select  hcif.GENE_ID,
+        hcit.HGT_COM_INT_FRAGM_ID,
+	   hcit.SOURCE_ID,
+        hcit.DEST_ID,
+        hcit.CONFIDENCE,
+        min(hctt.AGE_MD_WG) as seq_age,
+        sum(hcit.WEIGHT) as seq_wt
+from HGT_COM_INT_TRANSFERS hcit
+ join HGT_COM_TRSF_TIMINGS hctt on hctt.HGT_COM_INT_TRANSFER_ID = hcit.ID
+ join HGT_COM_INT_FRAGMS hcif on hcit.HGT_COM_INT_FRAGM_ID = hcif.id
+where hctt.TIMING_CRITER_ID = 0 and
+      hcif.GENE_ID = 132 and
+      hctt.AGE_MD_WG < 10000
+group by hcif.GENE_ID,
+         hcit.HGT_COM_INT_FRAGM_ID,
+	    hcit.SOURCE_ID,
+         hcit.DEST_ID,
+         hcit.CONFIDENCE
+
+
+select  hcit.SOURCE_ID,
+        hcit.DEST_ID,
+        sum(hcit.WEIGHT) as val,
+        hcit.CONFIDENCE as conf,
+        min(hctt.AGE_MD_WG) as age        
+from HGT_COM_INT_TRANSFERS hcit
+ join HGT_COM_TRSF_TIMINGS hctt on hctt.HGT_COM_INT_TRANSFER_ID = hcit.ID
+ join HGT_COM_INT_FRAGMS hcif on hcit.HGT_COM_INT_FRAGM_ID = hcif.id
+where hctt.TIMING_CRITER_ID = 0 and
+      hcif.GENE_ID = 132 and
+      hctt.AGE_MD_WG < 10000
+group by hcif.GENE_ID,
+         hcit.HGT_COM_INT_FRAGM_ID,
+	    hcit.SOURCE_ID,
+         hcit.DEST_ID,
+         hcit.CONFIDENCE
+
+select  hcit.SOURCE_ID,
+        hcit.DEST_ID,
+        sum(hcit.WEIGHT) as val,
+        hcit.CONFIDENCE as conf,
+        min(hctt.AGE_MD_WG) as age        
+
+select hcif.GENE_ID,
+       hcit.SOURCE_ID,
+       hcit.DEST_ID,
+       hcit.WEIGHT,
+       hcit.CONFIDENCE,
+	  hcif.FROM_CNT,
+       hcif.TO_CNT,
+       hcif.FROM_SUBTREE,
+       hcif.TO_SUBTREE
+from HGT_COM_INT_TRANSFERS hcit
+  join HGT_COM_INT_FRAGMS hcif on hcit.HGT_COM_INT_FRAGM_ID = hcif.id
+where hcif.GENE_ID = 132
+
+      
+
+
+checkpoint defrag
+
+
+select *
+from HGT_COM_INT_FRAGMS hcif
+where hcif.gene_id = 132
+
+
+select count(distinct gene_id)
+from HGT_COM_INT_FRAGMS
+
+
+select t0.gene_id,
+       t0.source_id,
+       t0.dest_id,
+       t0.val,
+       rownum() as rank
+from 
+(
+
+
+select hd.gene_id,
+       hd.source_id,
+       hd.dest_id,
+       sum(hd.VAL) as val,
+       max(hd.conf) as conf
+from HGT_DETECTS hd
+group by hd.gene_id,
+       hd.source_id,
+       hd.dest_id
+order by max(hd.conf) desc,
+         sum(hd.VAL) desc
+
+
+) t0
+
+
+select *
+from hgt_detects
+order by rank
+
+where rank is not null
+
+select hq.gene_id,
+       hq.source_id,
+       hq.dest_id,
+       sum(hq.VAL) as val,
+       max(hq.conf) as conf
+from HGT_QFUNCS hq
+where hq.conf <= 0.05
+group by hq.gene_id,
+       hq.source_id,
+       hq.dest_id
+order by max(hq.conf) asc,
+         sum(hq.VAL) desc
+
+
+
+select ho.ID,
+       ho.source_id,
+       ho.DEST_ID,
+       hq.RANK
+from HGT_OBJS ho
+ join HGT_QFUNCS hq on hq.SOURCE_ID = ho.SOURCE_ID and
+                       hq.DEST_ID = ho.DEST_ID
+order by rank
+                       
+
+select ho.ID
+from HGT_OBJS ho
+ join HGT_QFUNCS hq on hq.SOURCE_ID = ho.SOURCE_ID and
+                       hq.DEST_ID = ho.DEST_ID
+order by hq.rank
+
+
+select ho.ID
+from HGT_OBJS ho
+ join HGT_DETECTS hd on hd.SOURCE_ID = ho.SOURCE_ID and
+                       hd.DEST_ID = ho.DEST_ID
+order by hd.rank
+
+
+
+
+
+
+select hq.source_id,
+       hq.DEST_ID
+from HGT_QFUNCS hq
+
+
+
+union
+select hd.source_id,
+       hd.dest_id
+from HGT_DETECTS hd
+
+
+
+
+select hd.SOURCE_ID,
+       hd.DEST_ID,
+       hd.RANK,
+       hq.SOURCE_ID
+       hq.DEST_ID,
+       hq.RANK
+from HGT_DETECTS hd
+  right join HGT_QFUNCS hq on hq.GENE_ID = hd.GENE_ID and 
+                       hq.SOURCE_ID = hd.SOURCE_ID and
+                       hq.DEST_ID = hd.DEST_ID
+
+
+select hq.SOURCE_ID,
+       hq.DEST_ID,
+       hq.RANK,
+       hd.SOURCE_ID,
+       hd.DEST_ID,
+       hd.RANK       
+from HGT_QFUNCS hq
+  full outer join HGT_DETECTS hd on hd.GENE_ID = hq.GENE_ID and 
+                       hd.SOURCE_ID = hq.SOURCE_ID and
+                       hd.DEST_ID = hq.DEST_ID
+
+select hq.RANK,
+       hd.RANK       
+from HGT_QFUNCS hq
+  left join HGT_DETECTS hd on hd.GENE_ID = hq.GENE_ID and 
+                       hd.SOURCE_ID = hq.SOURCE_ID and
+                       hd.DEST_ID = hq.DEST_ID     
+
+
+ drop table hgt_objs
+
+
+select *
+from hgt_neg
+
+drop view hgt_neg
+
+drop view hgt_neg_detect
+
+drop view hgt_neg_qfunc
+
+ create view hgt_neg_detects as 
+ select distinct source_id,DEST_ID
+ from HGT_OBJ_ALLS
+   minus
+  select  source_id,DEST_ID
+ from HGT_DETECTS
+ 
+ create view hgt_neg_qfuncs as 
+ select distinct source_id,DEST_ID
+ from HGT_OBJ_ALLS
+   minus
+  select  source_id,DEST_ID
+ from HGT_QFUNCS
+
+ select count(*) 
+ from HGT_DETECTS
+
+ select count(*)
+ from HGT_NEG_DETECTS
+
+ select count(*)
+ from HGT_QFUNCS
+
+ select count(*)
+ from HGT_NEG_QFUNCS
+
+ 
+ 
+
+ create view hgt_pos_true as 
+ select source_id,DEST_ID
+ from HGT_QFUNCS
+  intersect
+ select  source_id,DEST_ID
+ from HGT_DETECTS
+
+ create view hgt_sim_pos_true as 
+ select source_id,DEST_ID
+ from HGT_SIM_MUTS
+  intersect
+ select  source_id,DEST_ID
+ from HGT_SIM_DETS
+
+ select *
+ from hgt_sim_pos_true
+
+ 
+
+
+
+ 
+
+ create view hgt_neg_true as 
+ select source_id,DEST_ID
+ from HGT_NEG_QFUNCS
+  intersect
+ select  source_id,DEST_ID
+ from HGT_NEG_DETECTS
+
+ create view hgt_pos_false as 
+ select source_id,DEST_ID
+ from HGT_QFUNCS
+  intersect
+ select  source_id,DEST_ID
+ from HGT_NEG_DETECTS
+
+ create view hgt_neg_false as 
+ select source_id,DEST_ID
+ from HGT_NEG_QFUNCS
+  intersect
+ select  source_id,DEST_ID
+ from HGT_DETECTS
+
+ create view hgt_sim_neg_false as 
+ select source_id,DEST_ID
+ from HGT_NEG_QFUNCS
+  intersect
+ select  source_id,DEST_ID
+ from HGT_DETECTS
+
+ create view hgt_sim_pos_false as
+ select source_id,dest_id
+ from HGT_SIM_DETS
+  minus
+ select source_id,dest_id
+ from HGT_SIM_POS_TRUE
+
+ create view hgt_sim_neg_false as
+ select source_id,dest_id
+ from HGT_SIM_muts
+  minus
+ select source_id,dest_id
+ from HGT_SIM_POS_TRUE
+
+
+select count(*)
+from HGT_SIM_POS_FALSE
+
+select count(*)
+from HGT_SIM_POS_TRUE
+
+select count(*)
+from HGT_SIM_DETS
+
+select count(*)
+from HGT_SIM_NEG_FALSE
+
+
+
+
+
+ select count(*)
+ from HGT_POS_TRUE
+
+ select count(*)
+ from HGT_POS_FALSE
+
+ select count(*)
+ from HGT_NEG_TRUE
+
+ select count(*)
+ from HGT_NEG_FALSE
+
+ checkpoint defrag 
+
+ select *
+ from HGT_QFUNC_STATS hqs
+ where hqs.SENSIT = -1
+
+
+select hqs.SENSIT as val,
+'SENS' as stat,
+case hqs.HGT_QFUNC_COND_ID
+when 4 then 'F4'
+when 2 then 'F2'
+end as func
+from HGT_QFUNC_STATS hqs
+union all
+select hqs.SPECIF as val,
+'SPEC' as stat,
+case hqs.HGT_QFUNC_COND_ID
+when 4 then 'F4'
+when 2 then 'F2'
+end as func
+from HGT_QFUNC_STATS hqs
+
+ 
+
+
+SELECT *
+from GENES
+where id = 220
+
+select tg.PROK_GROUP_ID as pgid,
+       gbs.NCBI_SEQ_ID as seqid   
+from GENE_BLO_SEQS gbs
+ join NCBI_SEQS ns on ns.ID = gbs.NCBI_SEQ_ID
+ join TAXON_GROUPS tg on tg.TAXON_ID = ns.TAXON_ID
+where gbs.GENE_ID = 220
+and tg.PROK_GROUP_ID between 104 and 109
+order by  tg.PROK_GROUP_ID,
+          gbs.NCBI_SEQ_ID
+
+
+
+select *
+from TAXON_GROUPS tg
+where tg.PROK_GROUP_ID in (select pg.id
+from GROUP_CRITERS gc
+ join PROK_GROUPS pg on pg.GROUP_CRITER_ID = gc.ID
+where gc.NAME = 'palmer'
+)
+
+select *
+from GENE_BLO_SEQS gbs
+where gene_id in (select gn.id
+ from genes gn
+where gn.NAME = 'rbcL')
+
+
+
+select pg.id
+from GROUP_CRITERS gc
+ join PROK_GROUPS pg on pg.GROUP_CRITER_ID = gc.ID
+where gc.NAME = 'palmer'
+ 
+
+
+
+select *
+from GENE_BLO_SEQS gbs
+where gene_id in (select gn.id
+ from genes gn
+where gn.NAME = 'rbcL')
+
+ 
+select * 
+from NCBI_SEQS
+
+select *
+from GENE_BLO_SEQS
+ 
+
+ 
+
+
+and tg.PROK_GROUP_ID between 104 and 109
+order by  tg.PROK_GROUP_ID,
+          gbs.NCBI_SEQ_ID
+
+
+
+
+
+select *   
+from GENE_BLO_SEQS gbs
+ join NCBI_SEQS ns on ns.ID = gbs.NCBI_SEQ_ID
+ join TAXON_GROUPS tg on tg.TAXON_ID = ns.TAXON_ID
+where gbs.GENE_ID = 220
+      and tg.PROK_GROUP_ID between 0 and 22
+order by  tg.PROK_GROUP_ID,
+          gbs.NCBI_SEQ_ID
+
+
+select *
+from taxon_groups tg
+where tg.PROK_GROUP_ID between 104 and 109
+
+
+checkpoint defrag
+
+delete from PROK_GROUPS pgr
+WHERE group_criter_id = 3
+
+
+INSERT INTO genes 
+(name) 
+VALUES 
+('rbcL')
+
+
+
+select gbr.BLOCKS_LENGTH
+from GENE_BLO_RUNS gbr
+where gbr.GENE_ID = 163
+
+
+--
+select hqs.SENSIT as val,
+'SENS' as stat,
+case hqs.HGT_QFUNC_COND_ID
+ when 4 then 'F4'
+ when 2 then 'F2'
+end as func
+from HGT_QFUNC_STATS hqs
+ union 
+select hqs.SPECIF as val,
+'SPEC' as stat,
+case hqs.HGT_QFUNC_COND_ID
+ when 4 then 'F4'
+ when 2 then 'F2'
+end as func
+from HGT_QFUNC_STATS hqs
+ union 
+select hqs.PPV as val,
+'PPV' as stat,
+case hqs.HGT_QFUNC_COND_ID
+ when 4 then 'F4'
+ when 2 then 'F2'
+end as func
+from HGT_QFUNC_STATS hqs
+ union 
+select hqs.NPV as val,
+'NPV' as stat,
+case hqs.HGT_QFUNC_COND_ID
+ when 4 then 'F4'
+ when 2 then 'F2'
+end as func
+from HGT_QFUNC_STATS hqs
+
+
+
+
+ union 
+
+select hqs.LRT_POS as val,
+'LRT+' as stat,
+case hqs.HGT_QFUNC_COND_ID
+ when 4 then 'F4'
+ when 2 then 'F2'
+end as func
+from HGT_QFUNC_STATS hqs
+ union
+select hqs.LRT_NEG as val,
+'LRT-' as stat,
+case hqs.HGT_QFUNC_COND_ID
+ when 4 then 'F4'
+ when 2 then 'F2'
+end as func
+from HGT_QFUNC_STATS hqs
+
+
+
+
+
+
+
+select *
+from HGT_QFUNC_STATS
+where HGT_QFUNC_COND_ID = 2
+
+truncate table hgt_com_trsf_taxons
+
+
+insert into HGT_COM_TRSF_TAXONS
+(gene_id,txsrc_id,txdst_id,weight_tr_tx,age_md_wg_tr_tx)
+
+    select hq.gene_id,
+       ns_src.TAXON_ID,
+       ns_dest.TAXON_ID,
+       count(*),
+       sum(ht.age_md_wg)
+
+     select hqt.GENE_ID,
+            ns_src.TAXON_ID,
+            ns_dest.TAXON_ID,
+       count(*)
+     from HGT_QFUNC_TRANSFERS hqt
+      join NCBI_SEQS ns_src on ns_src.id = hqt.SOURCE_ID
+      join NCBI_SEQS ns_dest on ns_dest.id = hqt.DEST_ID
+     group by hqt.GENE_ID,
+              ns_src.TAXON_ID,
+              ns_dest.TAXON_ID
+     order by hqt.GENE_ID,
+              ns_src.TAXON_ID,
+              ns_dest.TAXON_ID
+
+
+SELECT id,gene_id,txsrc_id,txdst_id,weight_tr_tx 
+FROM hgt_com_trsf_taxons
+
+select *
+from HGT_QFUNC_TRANSFERS hqt
+
+select hqt.GENE_ID,
+            ns_src.TAXON_ID,
+            ns_dest.TAXON_ID,
+       sum(val)
+     from HGT_QFUNC_TRANSFERS hqt
+      join NCBI_SEQS ns_src on ns_src.id = hqt.SOURCE_ID
+      join NCBI_SEQS ns_dest on ns_dest.id = hqt.DEST_ID
+     group by hqt.GENE_ID,
+              ns_src.TAXON_ID,
+              ns_dest.TAXON_ID
+     order by hqt.GENE_ID,
+              ns_src.TAXON_ID,
+              ns_dest.TAXON_ID
+
+ select *
+ from HGT_QFUNC_STATS hqs
+ where hqs.TRUE_POS =0
+ 
+ 
+ where gene_id =110
+
+
+select hcif.GENE_ID,
+       hcit.SOURCE_ID,
+       hcit.DEST_ID,
+       hcit.WEIGHT,
+       hcit.CONFIDENCE,
+	     hcif.FROM_CNT,
+       hcif.TO_CNT,
+       hcif.FROM_SUBTREE,
+       hcif.TO_SUBTREE
+from HGT_COM_INT_TRANSFERS hcit
+  join HGT_COM_INT_FRAGMS hcif on hcit.HGT_COM_INT_FRAGM_ID = hcif.id
+where hcif.GENE_ID = 113
+
+
+
+
+
+
+
+
+
+
+
+
+
+ select hcif.GENE_ID,
+       hcit.SOURCE_ID,
+       hcit.DEST_ID,
+       tg_src.PROK_GROUP_ID,
+       tg_dst.PROK_GROUP_ID,
+       ggc_src.CNT,
+       ggc_dst.cnt,
+       hcit.WEIGHT,
+       hcit.CONFIDENCE,
+	     hcif.FROM_CNT,
+       hcif.TO_CNT,
+       hcif.FROM_SUBTREE,
+       hcif.TO_SUBTREE
+from HGT_COM_INT_TRANSFERS hcit
+  join HGT_COM_INT_FRAGMS hcif on hcit.HGT_COM_INT_FRAGM_ID = hcif.id
+  join NCBI_SEQS ns_src on ns_src.id = hcit.SOURCE_ID
+  join NCBI_SEQS ns_dest on ns_dest.id = hcit.DEST_ID
+  join TAXON_GROUPS tg_src on tg_src.TAXON_ID = ns_src.TAXON_ID
+  join TAXON_GROUPS tg_dst on tg_dst.TAXON_ID = ns_dest.TAXON_ID
+  join GENE_GROUP_CNTS ggc_src on ggc_src.gene_id = hcif.GENE_ID and
+                                  ggc_src.PROK_GROUP_ID = tg_src.PROK_GROUP_ID
+  join GENE_GROUP_CNTS ggc_dst on ggc_dst.gene_id = hcif.GENE_ID and
+                                  ggc_dst.PROK_GROUP_ID = tg_dst.PROK_GROUP_ID
+where hcif.GENE_ID = 115 and
+      tg_src.PROK_GROUP_ID != tg_dst.PROK_GROUP_ID and
+      ggc_src.CNT > 1 and
+      ggc_dst.cnt > 1 and
+      tg_src.PROK_GROUP_ID between 0 and 22 and
+      tg_dst.PROK_GROUP_ID between 0 and 22 
+
+
+select *
+from GENE_GROUP_CNTS ggc 
+where cnt = 1
+
+
+select *
+from NCBI_SEQS ns
+where ns.TAXON_ID = 1049
+
+
+select distinct taxon_id
+from GENE_BLO_SEQS gbs
+ join NCBI_SEQS ns on ns.ID = gbs.NCBI_SEQ_ID
+where gene_id = 220 
+
+checkpoint defrag
+
+
+select hcif.GENE_ID,
+       count(*)
+from genes gn
+  right outer join HGT_COM_INT_FRAGMS hcif on hcif.GENE_ID = gn.id
+group by hcif.GENE_ID
+order by count(*) desc
+
+select gbs.GENE_ID,
+       count(*)
+from GENES_CORE_INTER gn
+ join GENE_BLO_SEQS gbs on gbs.GENE_ID = gn.id 
+where gn.id not in (select hcif.gene_id
+                 from HGT_COM_INT_FRAGMS hcif)
+group by gbs.GENE_ID
+
+
+select *
+from genes gn 
+where gn.id = 163
+
+select *
+from GENES_CORE_INTER gci
+where gci.ID = 163
+
+select count(*) as cnt
+from genes gn 
+ join GENE_BLO_SEQS gbs on gbs.GENE_ID = gn.ID 
+where gn.ID = 163
+group by gn.id
+
+select *
+from hgt_sim_perms hsp
+where hsp.HGT_SIM_COND_ID = 2
+
+select tg.PROK_GROUP_ID as pgid,
+       gbs.NCBI_SEQ_ID as seqid     
+from GENE_BLO_SEQS gbs
+ join NCBI_SEQS ns on ns.ID = gbs.NCBI_SEQ_ID
+ join TAXON_GROUPS tg on tg.TAXON_ID = ns.TAXON_ID
+where gbs.GENE_ID = 163
+      and tg.PROK_GROUP_ID between 0 and 22
+order by  tg.PROK_GROUP_ID,
+          gbs.NCBI_SEQ_ID
+
+
+select *
+from GENE_BLO_SEQS gbs
+ join NCBI_SEQS ns on ns.ID = gbs.NCBI_SEQ_ID
+ join TAXON_GROUPS tg on tg.TAXON_ID = ns.TAXON_ID
+where gbs.GENE_ID = 163
+      and tg.PROK_GROUP_ID between 0 and 22
+
+
+select *
+from HGT_COM_INT_FRAGMS hcif
+where hcif.gene_id = 123
+
+select *
+from HGT_SIM_PERMS
+
+--
+select *
+from HGT_SIM_DETS hsd
+where (hsd.conf + 0.0) <= 0.01
+
+order by val desc
+
+limit 5
+
+where hsd.SOURCE_ID = 254162011 and
+      hsd.DEST_ID = 295707129
+
+
+
+

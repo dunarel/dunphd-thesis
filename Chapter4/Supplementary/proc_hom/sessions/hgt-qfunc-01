@@ -1,0 +1,45 @@
+select hcif.GENE_ID,
+       t0.cnt as seq_cnt,
+       count(*) as tr_com_cnt 
+from HGT_COM_INT_FRAGMS hcif
+join 
+(
+select gbs.GENE_ID,
+       count(*) as cnt
+from gene_blo_seqs gbs
+group by gbs.GENE_ID
+) t0 on t0.gene_id = hcif.gene_id
+group by hcif.GENE_ID,
+         t0.cnt
+      
+select *
+from genes gn
+where gn.ID = 132
+
+
+select gbs.NCBI_SEQ_ID,
+       ns.TAXON_ID,
+       tg.PROK_GROUP_ID,
+       tg.WEIGHT_PG
+from GENE_BLO_SEQS gbs
+ join NCBI_SEQS ns on ns.ID = gbs.NCBI_SEQ_ID
+ join TAXON_GROUPS tg on tg.TAXON_ID = ns.TAXON_ID
+where gbs.GENE_ID = 132
+      and tg.PROK_GROUP_ID between 0 and 22
+order by gbs.NCBI_SEQ_ID
+
+
+
+select tg.PROK_GROUP_ID as pgid,
+       gbs.NCBI_SEQ_ID as seqid     
+from GENE_BLO_SEQS gbs
+ join NCBI_SEQS ns on ns.ID = gbs.NCBI_SEQ_ID
+ join TAXON_GROUPS tg on tg.TAXON_ID = ns.TAXON_ID
+where gbs.GENE_ID = 132
+      and tg.PROK_GROUP_ID between 0 and 22
+order by  tg.PROK_GROUP_ID,
+          gbs.NCBI_SEQ_ID
+
+
+
+

@@ -1,0 +1,12 @@
+create table mytable (
+coltest varchar(255)
+)
+
+alter table mytable add column second_col integer
+
+
+CREATE PROCEDURE procTest2(IN P1 INT, IN P2 INT, OUT P3 INT) 
+SPECIFIC P2 LANGUAGE JAVA DETERMINISTIC MODIFIES SQL DATA EXTERNAL NAME 'CLASSPATH:Jsp_hgt_par.procTest2'
+
+CREATE PROCEDURE proc1(IN P1 INT, IN P2 INT, OUT P3 INT)
+SPECIFIC P3 LANGUAGE JAVA DETERMINISTIC MODIFIES SQL DATA EXTERNAL NAME 'CLASSPATH:jsp_hgt_par.FirstClass.procTest2'

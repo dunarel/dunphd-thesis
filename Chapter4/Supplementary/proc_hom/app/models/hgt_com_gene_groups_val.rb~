@@ -1,0 +1,2 @@
+class HgtComGeneGroupsVal < ActiveRecord::Base
+end

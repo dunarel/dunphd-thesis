@@ -1,0 +1,17 @@
+---
+stage: "timing"
+phylo_prog: "raxml"
+exec_loc: "scratch"
+local_dir: "hgt-par-110/timing/treepl/raxml"
+job_name: "jptmtrpl"
+queue: "qwork@mp2"
+scratch: "/mnt/scratch_mp2/makarenk/badescud"
+home: "/home/badescud"
+lustre: "/mnt/lustre03/makarenk/badescud"
+results_files:
+- "dated_tree.nwk"
+res_loc_files:
+perm_files:
+started_file: "gen-treepl.log"
+finished_file: "dated_tree.nwk"
+

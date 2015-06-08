@@ -1,0 +1,31 @@
+src_order	dst_order	par_rel	com_rel	par_nb_genes_rel	src_name	dst_name
+3	4	18.06	 0.00	    6	Crenarchaeota	Other Archaea
+3	1	 5.56	 0.00	    6	Crenarchaeota	Nanoarchaeota
+6	17	 3.26	 0.00	   92	Planctomycetes	Deltaproteobacteria
+19	19	 2.70	 0.00	  108	Alphaproteobacteria	Alphaproteobacteria
+21	21	 2.62	 0.00	  103	Cyanobacteria	Cyanobacteria
+8	3	 2.17	 0.00	   46	Thermotogae	Crenarchaeota
+11	11	 2.08	 0.00	  101	Bacteroidetes/Chlorobi	Bacteroidetes/Chlorobi
+10	16	 2.06	 0.00	   97	Aquificae	Epsilonproteobacteria
+6	12	 1.92	 0.00	   78	Planctomycetes	Chlamydiae/Verrucomicrobia
+8	16	 1.85	 0.00	   81	Thermotogae	Epsilonproteobacteria
+13	5	 1.85	 0.00	   18	Fusobacteria	Spirochaetes
+18	18	 1.62	 0.00	  101	Betaproteobacteria	Betaproteobacteria
+2	2	 1.58	 0.00	   74	Euryarchaeota	Euryarchaeota
+5	8	 1.51	 0.00	   81	Spirochaetes	Thermotogae
+10	2	 1.41	 0.00	   71	Aquificae	Euryarchaeota
+3	2	 1.33	 0.00	   67	Crenarchaeota	Euryarchaeota
+15	15	 1.18	 0.00	  108	Firmicutes	Firmicutes
+17	14	 1.14	 0.00	   88	Deltaproteobacteria	Deinococcus-Thermus
+22	16	 1.09	 0.00	   92	Acidobacteria	Epsilonproteobacteria
+17	23	 1.08	 0.00	  106	Deltaproteobacteria	Other Bacteria
+22	17	 1.08	 0.00	   93	Acidobacteria	Deltaproteobacteria
+8	5	 1.03	 0.00	   81	Thermotogae	Spirochaetes
+9	17	 0.85	 0.00	   98	Chloroflexi	Deltaproteobacteria
+10	3	 0.83	 0.00	   60	Aquificae	Crenarchaeota
+3	10	 0.83	 0.00	   60	Crenarchaeota	Aquificae
+12	5	 0.81	 0.00	   82	Chlamydiae/Verrucomicrobia	Spirochaetes
+17	6	 0.75	 0.00	   92	Deltaproteobacteria	Planctomycetes
+2	3	 0.65	 0.00	   67	Euryarchaeota	Crenarchaeota
+13	15	 0.64	 0.00	   19	Fusobacteria	Firmicutes
+16	16	 0.54	 0.00	   92	Epsilonproteobacteria	Epsilonproteobacteria

@@ -1,0 +1,18 @@
+#!/bin/ksh
+
+#Script de lancement 
+
+#PBS -N jtreeplc-<%= @job_s %>
+#PBS -q qwork@mp2
+#PBS -l walltime=<%= @job_hours %>:00:00
+
+#wdir=$HOME/hgt-com-110/hgt-com-raxml/timing/treepl/qsubs
+wdir=/home/badescud/hgt-com-110/hgt-com-raxml/timing/treepl/qsubs
+
+cd $wdir
+
+#
+java -jar /home/badescud/local/bin/proc-hom-java/proc-hom-ex.jar -threads <%= @job_nb_threads %> -job <%= @job_s %> -root /home/badescud/hgt-com-110/hgt-com-raxml/timing/treepl -stage hgt-com -timing_prog treepl -internal_cmd "treePL gene_res.cfg"
+
+
+

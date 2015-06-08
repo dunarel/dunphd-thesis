@@ -1,0 +1,26 @@
+<h1>Listing blo_runs</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Params</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @blo_runs.each do |blo_run| %>
+  <tr>
+    <td><%= blo_run.name %></td>
+    <td><%= blo_run.params %></td>
+    <td><%= link_to 'Show', gene_blo_runs_path %></td>
+    <td><%= link_to 'show url', "blo_runs/0" %></td>
+    <td><%= link_to 'Edit', edit_blo_run_path(blo_run) %></td>
+    <td><%= link_to 'Destroys', "gene_blo_runs/#{blo_run.to_param}" , :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Blo run', new_blo_run_path %>

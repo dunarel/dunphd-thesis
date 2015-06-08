@@ -1,0 +1,19 @@
+select sum(weight)
+from HGT_COM_INT_TRANSFERS hcit
+
+
+ select sum(hptt.AGE_MD_WG)/sum(hpt.WEIGHT) as md_wg_per_wg,
+       sum(hptt.AGE_HPD5_WG)/sum(hpt.WEIGHT) as md_hpd5_per_wg,
+       sum(hptt.AGE_HPD95_WG)/sum(hpt.WEIGHT) as md_hpd95_per_wg,
+       sum(hptt.AGE_ORIG_WG)/sum(hpt.WEIGHT) as md_orig_per_wg
+from HGT_PAR_TRANSFERS hpt
+ join HGT_PAR_TRSF_TIMINGS hptt on hptt.HGT_PAR_TRANSFER_ID = hpt.id
+where hptt.TIMING_CRITER_ID = 0
+group by hpt.HGT_PAR_FRAGM_ID
+order by sum(hptt.AGE_MD_WG)/sum(hpt.WEIGHT) desc
+
+
+select x,y 
+from  
+order by val desc
+limit 20

@@ -1,0 +1,529 @@
+0	"Nanoarchaeota"	0	"Nanoarchaeota"	0.0000
+0	"Nanoarchaeota"	1	"Euryarchaeota"	0.0000
+0	"Nanoarchaeota"	2	"Crenarchaeota"	7.8704
+0	"Nanoarchaeota"	3	"Other Archaea"	16.6667
+0	"Nanoarchaeota"	4	"Spirochaetes"	0.0000
+0	"Nanoarchaeota"	5	"Planctomycetes"	0.0000
+0	"Nanoarchaeota"	6	"Actinobacteria"	0.0000
+0	"Nanoarchaeota"	7	"Thermotogae"	0.0000
+0	"Nanoarchaeota"	8	"Chloroflexi"	0.0000
+0	"Nanoarchaeota"	9	"Aquificae"	0.0000
+0	"Nanoarchaeota"	10	"Bacteroidetes/Chlorobi"	0.0000
+0	"Nanoarchaeota"	11	"Chlamydiae/Verrucomicrobia"	0.0000
+0	"Nanoarchaeota"	12	"Fusobacteria"	0.0000
+0	"Nanoarchaeota"	13	"Deinococcus-Thermus"	0.0000
+0	"Nanoarchaeota"	14	"Firmicutes"	0.0000
+0	"Nanoarchaeota"	15	"Epsilonproteobacteria"	0.0000
+0	"Nanoarchaeota"	16	"Deltaproteobacteria"	0.0000
+0	"Nanoarchaeota"	17	"Betaproteobacteria"	0.0000
+0	"Nanoarchaeota"	18	"Alphaproteobacteria"	0.0000
+0	"Nanoarchaeota"	19	"Gammaproteobacteria"	0.0000
+0	"Nanoarchaeota"	20	"Cyanobacteria"	0.0000
+0	"Nanoarchaeota"	21	"Acidobacteria"	0.0000
+0	"Nanoarchaeota"	22	"Other Bacteria"	0.0000
+1	"Euryarchaeota"	0	"Nanoarchaeota"	0.0000
+1	"Euryarchaeota"	1	"Euryarchaeota"	1.1036
+1	"Euryarchaeota"	2	"Crenarchaeota"	0.1762
+1	"Euryarchaeota"	3	"Other Archaea"	0.0000
+1	"Euryarchaeota"	4	"Spirochaetes"	0.0002
+1	"Euryarchaeota"	5	"Planctomycetes"	0.0258
+1	"Euryarchaeota"	6	"Actinobacteria"	0.0172
+1	"Euryarchaeota"	7	"Thermotogae"	0.0000
+1	"Euryarchaeota"	8	"Chloroflexi"	0.0000
+1	"Euryarchaeota"	9	"Aquificae"	1.4085
+1	"Euryarchaeota"	10	"Bacteroidetes/Chlorobi"	0.0005
+1	"Euryarchaeota"	11	"Chlamydiae/Verrucomicrobia"	0.0000
+1	"Euryarchaeota"	12	"Fusobacteria"	0.0000
+1	"Euryarchaeota"	13	"Deinococcus-Thermus"	0.0006
+1	"Euryarchaeota"	14	"Firmicutes"	0.0000
+1	"Euryarchaeota"	15	"Epsilonproteobacteria"	0.0005
+1	"Euryarchaeota"	16	"Deltaproteobacteria"	0.3262
+1	"Euryarchaeota"	17	"Betaproteobacteria"	0.0323
+1	"Euryarchaeota"	18	"Alphaproteobacteria"	0.0023
+1	"Euryarchaeota"	19	"Gammaproteobacteria"	0.0006
+1	"Euryarchaeota"	20	"Cyanobacteria"	0.0006
+1	"Euryarchaeota"	21	"Acidobacteria"	0.0007
+1	"Euryarchaeota"	22	"Other Bacteria"	0.0005
+2	"Crenarchaeota"	0	"Nanoarchaeota"	8.3333
+2	"Crenarchaeota"	1	"Euryarchaeota"	1.5630
+2	"Crenarchaeota"	2	"Crenarchaeota"	0.0000
+2	"Crenarchaeota"	3	"Other Archaea"	29.1667
+2	"Crenarchaeota"	4	"Spirochaetes"	0.0000
+2	"Crenarchaeota"	5	"Planctomycetes"	0.0000
+2	"Crenarchaeota"	6	"Actinobacteria"	0.0000
+2	"Crenarchaeota"	7	"Thermotogae"	0.0000
+2	"Crenarchaeota"	8	"Chloroflexi"	0.0000
+2	"Crenarchaeota"	9	"Aquificae"	0.8333
+2	"Crenarchaeota"	10	"Bacteroidetes/Chlorobi"	0.0115
+2	"Crenarchaeota"	11	"Chlamydiae/Verrucomicrobia"	0.0000
+2	"Crenarchaeota"	12	"Fusobacteria"	0.0000
+2	"Crenarchaeota"	13	"Deinococcus-Thermus"	0.0000
+2	"Crenarchaeota"	14	"Firmicutes"	0.0942
+2	"Crenarchaeota"	15	"Epsilonproteobacteria"	0.0000
+2	"Crenarchaeota"	16	"Deltaproteobacteria"	0.0000
+2	"Crenarchaeota"	17	"Betaproteobacteria"	0.0000
+2	"Crenarchaeota"	18	"Alphaproteobacteria"	0.0021
+2	"Crenarchaeota"	19	"Gammaproteobacteria"	0.0000
+2	"Crenarchaeota"	20	"Cyanobacteria"	0.0000
+2	"Crenarchaeota"	21	"Acidobacteria"	0.0000
+2	"Crenarchaeota"	22	"Other Bacteria"	0.0000
+3	"Other Archaea"	0	"Nanoarchaeota"	25.0000
+3	"Other Archaea"	1	"Euryarchaeota"	0.0000
+3	"Other Archaea"	2	"Crenarchaeota"	5.5556
+3	"Other Archaea"	3	"Other Archaea"	0.0000
+3	"Other Archaea"	4	"Spirochaetes"	0.0000
+3	"Other Archaea"	5	"Planctomycetes"	0.0000
+3	"Other Archaea"	6	"Actinobacteria"	0.0000
+3	"Other Archaea"	7	"Thermotogae"	0.0000
+3	"Other Archaea"	8	"Chloroflexi"	0.0000
+3	"Other Archaea"	9	"Aquificae"	0.0000
+3	"Other Archaea"	10	"Bacteroidetes/Chlorobi"	0.0000
+3	"Other Archaea"	11	"Chlamydiae/Verrucomicrobia"	0.0000
+3	"Other Archaea"	12	"Fusobacteria"	0.0000
+3	"Other Archaea"	13	"Deinococcus-Thermus"	0.0000
+3	"Other Archaea"	14	"Firmicutes"	0.0000
+3	"Other Archaea"	15	"Epsilonproteobacteria"	0.0000
+3	"Other Archaea"	16	"Deltaproteobacteria"	0.0000
+3	"Other Archaea"	17	"Betaproteobacteria"	0.0000
+3	"Other Archaea"	18	"Alphaproteobacteria"	0.0000
+3	"Other Archaea"	19	"Gammaproteobacteria"	0.0000
+3	"Other Archaea"	20	"Cyanobacteria"	0.0000
+3	"Other Archaea"	21	"Acidobacteria"	0.0000
+3	"Other Archaea"	22	"Other Bacteria"	0.0000
+4	"Spirochaetes"	0	"Nanoarchaeota"	0.0000
+4	"Spirochaetes"	1	"Euryarchaeota"	0.0022
+4	"Spirochaetes"	2	"Crenarchaeota"	0.0000
+4	"Spirochaetes"	3	"Other Archaea"	0.0000
+4	"Spirochaetes"	4	"Spirochaetes"	0.6592
+4	"Spirochaetes"	5	"Planctomycetes"	0.1347
+4	"Spirochaetes"	6	"Actinobacteria"	0.0003
+4	"Spirochaetes"	7	"Thermotogae"	1.9204
+4	"Spirochaetes"	8	"Chloroflexi"	0.1276
+4	"Spirochaetes"	9	"Aquificae"	0.0000
+4	"Spirochaetes"	10	"Bacteroidetes/Chlorobi"	0.0795
+4	"Spirochaetes"	11	"Chlamydiae/Verrucomicrobia"	0.0000
+4	"Spirochaetes"	12	"Fusobacteria"	1.8519
+4	"Spirochaetes"	13	"Deinococcus-Thermus"	0.0003
+4	"Spirochaetes"	14	"Firmicutes"	0.1166
+4	"Spirochaetes"	15	"Epsilonproteobacteria"	0.0804
+4	"Spirochaetes"	16	"Deltaproteobacteria"	0.1216
+4	"Spirochaetes"	17	"Betaproteobacteria"	0.0049
+4	"Spirochaetes"	18	"Alphaproteobacteria"	0.0016
+4	"Spirochaetes"	19	"Gammaproteobacteria"	0.0015
+4	"Spirochaetes"	20	"Cyanobacteria"	0.0003
+4	"Spirochaetes"	21	"Acidobacteria"	0.0003
+4	"Spirochaetes"	22	"Other Bacteria"	0.0028
+5	"Planctomycetes"	0	"Nanoarchaeota"	0.0000
+5	"Planctomycetes"	1	"Euryarchaeota"	0.2372
+5	"Planctomycetes"	2	"Crenarchaeota"	0.0000
+5	"Planctomycetes"	3	"Other Archaea"	0.0000
+5	"Planctomycetes"	4	"Spirochaetes"	0.8961
+5	"Planctomycetes"	5	"Planctomycetes"	0.0000
+5	"Planctomycetes"	6	"Actinobacteria"	0.0296
+5	"Planctomycetes"	7	"Thermotogae"	0.0000
+5	"Planctomycetes"	8	"Chloroflexi"	0.5618
+5	"Planctomycetes"	9	"Aquificae"	0.0000
+5	"Planctomycetes"	10	"Bacteroidetes/Chlorobi"	0.0045
+5	"Planctomycetes"	11	"Chlamydiae/Verrucomicrobia"	3.2051
+5	"Planctomycetes"	12	"Fusobacteria"	0.0000
+5	"Planctomycetes"	13	"Deinococcus-Thermus"	1.2658
+5	"Planctomycetes"	14	"Firmicutes"	0.0927
+5	"Planctomycetes"	15	"Epsilonproteobacteria"	0.0000
+5	"Planctomycetes"	16	"Deltaproteobacteria"	3.2609
+5	"Planctomycetes"	17	"Betaproteobacteria"	0.0053
+5	"Planctomycetes"	18	"Alphaproteobacteria"	0.1756
+5	"Planctomycetes"	19	"Gammaproteobacteria"	0.0014
+5	"Planctomycetes"	20	"Cyanobacteria"	0.0000
+5	"Planctomycetes"	21	"Acidobacteria"	1.1905
+5	"Planctomycetes"	22	"Other Bacteria"	0.4678
+6	"Actinobacteria"	0	"Nanoarchaeota"	0.0000
+6	"Actinobacteria"	1	"Euryarchaeota"	0.0022
+6	"Actinobacteria"	2	"Crenarchaeota"	0.0000
+6	"Actinobacteria"	3	"Other Archaea"	0.0000
+6	"Actinobacteria"	4	"Spirochaetes"	0.0000
+6	"Actinobacteria"	5	"Planctomycetes"	0.0190
+6	"Actinobacteria"	6	"Actinobacteria"	0.4914
+6	"Actinobacteria"	7	"Thermotogae"	0.0000
+6	"Actinobacteria"	8	"Chloroflexi"	0.0000
+6	"Actinobacteria"	9	"Aquificae"	0.0000
+6	"Actinobacteria"	10	"Bacteroidetes/Chlorobi"	0.0249
+6	"Actinobacteria"	11	"Chlamydiae/Verrucomicrobia"	0.0602
+6	"Actinobacteria"	12	"Fusobacteria"	0.0000
+6	"Actinobacteria"	13	"Deinococcus-Thermus"	0.0000
+6	"Actinobacteria"	14	"Firmicutes"	0.0000
+6	"Actinobacteria"	15	"Epsilonproteobacteria"	0.0000
+6	"Actinobacteria"	16	"Deltaproteobacteria"	0.0000
+6	"Actinobacteria"	17	"Betaproteobacteria"	0.0047
+6	"Actinobacteria"	18	"Alphaproteobacteria"	0.0545
+6	"Actinobacteria"	19	"Gammaproteobacteria"	0.0013
+6	"Actinobacteria"	20	"Cyanobacteria"	0.0000
+6	"Actinobacteria"	21	"Acidobacteria"	0.0000
+6	"Actinobacteria"	22	"Other Bacteria"	0.0314
+7	"Thermotogae"	0	"Nanoarchaeota"	0.0000
+7	"Thermotogae"	1	"Euryarchaeota"	0.3478
+7	"Thermotogae"	2	"Crenarchaeota"	2.1739
+7	"Thermotogae"	3	"Other Archaea"	0.0000
+7	"Thermotogae"	4	"Spirochaetes"	1.2346
+7	"Thermotogae"	5	"Planctomycetes"	0.0000
+7	"Thermotogae"	6	"Actinobacteria"	0.0000
+7	"Thermotogae"	7	"Thermotogae"	0.0000
+7	"Thermotogae"	8	"Chloroflexi"	0.0000
+7	"Thermotogae"	9	"Aquificae"	2.5641
+7	"Thermotogae"	10	"Bacteroidetes/Chlorobi"	0.0248
+7	"Thermotogae"	11	"Chlamydiae/Verrucomicrobia"	0.0000
+7	"Thermotogae"	12	"Fusobacteria"	5.8824
+7	"Thermotogae"	13	"Deinococcus-Thermus"	0.0000
+7	"Thermotogae"	14	"Firmicutes"	0.0530
+7	"Thermotogae"	15	"Epsilonproteobacteria"	2.2634
+7	"Thermotogae"	16	"Deltaproteobacteria"	0.0000
+7	"Thermotogae"	17	"Betaproteobacteria"	0.0060
+7	"Thermotogae"	18	"Alphaproteobacteria"	0.0017
+7	"Thermotogae"	19	"Gammaproteobacteria"	0.0016
+7	"Thermotogae"	20	"Cyanobacteria"	0.0000
+7	"Thermotogae"	21	"Acidobacteria"	0.0000
+7	"Thermotogae"	22	"Other Bacteria"	0.4016
+8	"Chloroflexi"	0	"Nanoarchaeota"	0.0000
+8	"Chloroflexi"	1	"Euryarchaeota"	0.0023
+8	"Chloroflexi"	2	"Crenarchaeota"	0.0000
+8	"Chloroflexi"	3	"Other Archaea"	0.0000
+8	"Chloroflexi"	4	"Spirochaetes"	0.0001
+8	"Chloroflexi"	5	"Planctomycetes"	0.3750
+8	"Chloroflexi"	6	"Actinobacteria"	0.0006
+8	"Chloroflexi"	7	"Thermotogae"	0.0000
+8	"Chloroflexi"	8	"Chloroflexi"	0.0000
+8	"Chloroflexi"	9	"Aquificae"	0.0000
+8	"Chloroflexi"	10	"Bacteroidetes/Chlorobi"	0.0285
+8	"Chloroflexi"	11	"Chlamydiae/Verrucomicrobia"	0.0000
+8	"Chloroflexi"	12	"Fusobacteria"	0.0000
+8	"Chloroflexi"	13	"Deinococcus-Thermus"	0.0005
+8	"Chloroflexi"	14	"Firmicutes"	0.0646
+8	"Chloroflexi"	15	"Epsilonproteobacteria"	0.0004
+8	"Chloroflexi"	16	"Deltaproteobacteria"	0.8508
+8	"Chloroflexi"	17	"Betaproteobacteria"	0.0062
+8	"Chloroflexi"	18	"Alphaproteobacteria"	0.0024
+8	"Chloroflexi"	19	"Gammaproteobacteria"	0.0036
+8	"Chloroflexi"	20	"Cyanobacteria"	0.0004
+8	"Chloroflexi"	21	"Acidobacteria"	0.0005
+8	"Chloroflexi"	22	"Other Bacteria"	0.0004
+9	"Aquificae"	0	"Nanoarchaeota"	0.0000
+9	"Aquificae"	1	"Euryarchaeota"	1.4109
+9	"Aquificae"	2	"Crenarchaeota"	0.8333
+9	"Aquificae"	3	"Other Archaea"	0.0000
+9	"Aquificae"	4	"Spirochaetes"	0.3472
+9	"Aquificae"	5	"Planctomycetes"	0.0000
+9	"Aquificae"	6	"Actinobacteria"	0.0002
+9	"Aquificae"	7	"Thermotogae"	1.2821
+9	"Aquificae"	8	"Chloroflexi"	0.0000
+9	"Aquificae"	9	"Aquificae"	0.0000
+9	"Aquificae"	10	"Bacteroidetes/Chlorobi"	0.0206
+9	"Aquificae"	11	"Chlamydiae/Verrucomicrobia"	0.0000
+9	"Aquificae"	12	"Fusobacteria"	0.0000
+9	"Aquificae"	13	"Deinococcus-Thermus"	0.0000
+9	"Aquificae"	14	"Firmicutes"	0.0000
+9	"Aquificae"	15	"Epsilonproteobacteria"	2.5773
+9	"Aquificae"	16	"Deltaproteobacteria"	0.0000
+9	"Aquificae"	17	"Betaproteobacteria"	0.0058
+9	"Aquificae"	18	"Alphaproteobacteria"	0.0020
+9	"Aquificae"	19	"Gammaproteobacteria"	0.0031
+9	"Aquificae"	20	"Cyanobacteria"	0.0000
+9	"Aquificae"	21	"Acidobacteria"	0.0000
+9	"Aquificae"	22	"Other Bacteria"	0.5952
+10	"Bacteroidetes/Chlorobi"	0	"Nanoarchaeota"	0.0000
+10	"Bacteroidetes/Chlorobi"	1	"Euryarchaeota"	0.1584
+10	"Bacteroidetes/Chlorobi"	2	"Crenarchaeota"	0.1894
+10	"Bacteroidetes/Chlorobi"	3	"Other Archaea"	0.0000
+10	"Bacteroidetes/Chlorobi"	4	"Spirochaetes"	0.0000
+10	"Bacteroidetes/Chlorobi"	5	"Planctomycetes"	0.0000
+10	"Bacteroidetes/Chlorobi"	6	"Actinobacteria"	0.0000
+10	"Bacteroidetes/Chlorobi"	7	"Thermotogae"	0.0000
+10	"Bacteroidetes/Chlorobi"	8	"Chloroflexi"	0.0000
+10	"Bacteroidetes/Chlorobi"	9	"Aquificae"	0.0000
+10	"Bacteroidetes/Chlorobi"	10	"Bacteroidetes/Chlorobi"	2.6733
+10	"Bacteroidetes/Chlorobi"	11	"Chlamydiae/Verrucomicrobia"	0.0000
+10	"Bacteroidetes/Chlorobi"	12	"Fusobacteria"	0.0000
+10	"Bacteroidetes/Chlorobi"	13	"Deinococcus-Thermus"	0.0000
+10	"Bacteroidetes/Chlorobi"	14	"Firmicutes"	0.0153
+10	"Bacteroidetes/Chlorobi"	15	"Epsilonproteobacteria"	0.0000
+10	"Bacteroidetes/Chlorobi"	16	"Deltaproteobacteria"	0.0647
+10	"Bacteroidetes/Chlorobi"	17	"Betaproteobacteria"	0.0048
+10	"Bacteroidetes/Chlorobi"	18	"Alphaproteobacteria"	0.0014
+10	"Bacteroidetes/Chlorobi"	19	"Gammaproteobacteria"	0.0016
+10	"Bacteroidetes/Chlorobi"	20	"Cyanobacteria"	0.0000
+10	"Bacteroidetes/Chlorobi"	21	"Acidobacteria"	0.0000
+10	"Bacteroidetes/Chlorobi"	22	"Other Bacteria"	0.4520
+11	"Chlamydiae/Verrucomicrobia"	0	"Nanoarchaeota"	0.0000
+11	"Chlamydiae/Verrucomicrobia"	1	"Euryarchaeota"	0.0029
+11	"Chlamydiae/Verrucomicrobia"	2	"Crenarchaeota"	0.0000
+11	"Chlamydiae/Verrucomicrobia"	3	"Other Archaea"	0.0000
+11	"Chlamydiae/Verrucomicrobia"	4	"Spirochaetes"	0.4065
+11	"Chlamydiae/Verrucomicrobia"	5	"Planctomycetes"	0.3205
+11	"Chlamydiae/Verrucomicrobia"	6	"Actinobacteria"	0.0711
+11	"Chlamydiae/Verrucomicrobia"	7	"Thermotogae"	0.0000
+11	"Chlamydiae/Verrucomicrobia"	8	"Chloroflexi"	0.0000
+11	"Chlamydiae/Verrucomicrobia"	9	"Aquificae"	0.0000
+11	"Chlamydiae/Verrucomicrobia"	10	"Bacteroidetes/Chlorobi"	0.0000
+11	"Chlamydiae/Verrucomicrobia"	11	"Chlamydiae/Verrucomicrobia"	0.0000
+11	"Chlamydiae/Verrucomicrobia"	12	"Fusobacteria"	0.0000
+11	"Chlamydiae/Verrucomicrobia"	13	"Deinococcus-Thermus"	0.2899
+11	"Chlamydiae/Verrucomicrobia"	14	"Firmicutes"	0.0512
+11	"Chlamydiae/Verrucomicrobia"	15	"Epsilonproteobacteria"	0.0000
+11	"Chlamydiae/Verrucomicrobia"	16	"Deltaproteobacteria"	0.2033
+11	"Chlamydiae/Verrucomicrobia"	17	"Betaproteobacteria"	0.0059
+11	"Chlamydiae/Verrucomicrobia"	18	"Alphaproteobacteria"	0.0442
+11	"Chlamydiae/Verrucomicrobia"	19	"Gammaproteobacteria"	0.0015
+11	"Chlamydiae/Verrucomicrobia"	20	"Cyanobacteria"	0.0000
+11	"Chlamydiae/Verrucomicrobia"	21	"Acidobacteria"	0.0000
+11	"Chlamydiae/Verrucomicrobia"	22	"Other Bacteria"	0.1401
+12	"Fusobacteria"	0	"Nanoarchaeota"	0.0000
+12	"Fusobacteria"	1	"Euryarchaeota"	0.0000
+12	"Fusobacteria"	2	"Crenarchaeota"	0.0000
+12	"Fusobacteria"	3	"Other Archaea"	0.0000
+12	"Fusobacteria"	4	"Spirochaetes"	1.8526
+12	"Fusobacteria"	5	"Planctomycetes"	0.0024
+12	"Fusobacteria"	6	"Actinobacteria"	0.0023
+12	"Fusobacteria"	7	"Thermotogae"	0.0000
+12	"Fusobacteria"	8	"Chloroflexi"	0.0000
+12	"Fusobacteria"	9	"Aquificae"	0.0000
+12	"Fusobacteria"	10	"Bacteroidetes/Chlorobi"	0.0421
+12	"Fusobacteria"	11	"Chlamydiae/Verrucomicrobia"	0.0000
+12	"Fusobacteria"	12	"Fusobacteria"	0.0000
+12	"Fusobacteria"	13	"Deinococcus-Thermus"	0.0025
+12	"Fusobacteria"	14	"Firmicutes"	0.6410
+12	"Fusobacteria"	15	"Epsilonproteobacteria"	0.0024
+12	"Fusobacteria"	16	"Deltaproteobacteria"	0.0023
+12	"Fusobacteria"	17	"Betaproteobacteria"	0.0161
+12	"Fusobacteria"	18	"Alphaproteobacteria"	0.0096
+12	"Fusobacteria"	19	"Gammaproteobacteria"	0.0102
+12	"Fusobacteria"	20	"Cyanobacteria"	0.0023
+12	"Fusobacteria"	21	"Acidobacteria"	0.0024
+12	"Fusobacteria"	22	"Other Bacteria"	0.0023
+13	"Deinococcus-Thermus"	0	"Nanoarchaeota"	0.0000
+13	"Deinococcus-Thermus"	1	"Euryarchaeota"	0.0026
+13	"Deinococcus-Thermus"	2	"Crenarchaeota"	0.0000
+13	"Deinococcus-Thermus"	3	"Other Archaea"	0.0000
+13	"Deinococcus-Thermus"	4	"Spirochaetes"	0.0000
+13	"Deinococcus-Thermus"	5	"Planctomycetes"	0.0226
+13	"Deinococcus-Thermus"	6	"Actinobacteria"	0.1263
+13	"Deinococcus-Thermus"	7	"Thermotogae"	0.0000
+13	"Deinococcus-Thermus"	8	"Chloroflexi"	0.0000
+13	"Deinococcus-Thermus"	9	"Aquificae"	1.2500
+13	"Deinococcus-Thermus"	10	"Bacteroidetes/Chlorobi"	0.4594
+13	"Deinococcus-Thermus"	11	"Chlamydiae/Verrucomicrobia"	0.0000
+13	"Deinococcus-Thermus"	12	"Fusobacteria"	0.0000
+13	"Deinococcus-Thermus"	13	"Deinococcus-Thermus"	0.0000
+13	"Deinococcus-Thermus"	14	"Firmicutes"	0.0541
+13	"Deinococcus-Thermus"	15	"Epsilonproteobacteria"	0.0000
+13	"Deinococcus-Thermus"	16	"Deltaproteobacteria"	0.0000
+13	"Deinococcus-Thermus"	17	"Betaproteobacteria"	0.0028
+13	"Deinococcus-Thermus"	18	"Alphaproteobacteria"	0.0016
+13	"Deinococcus-Thermus"	19	"Gammaproteobacteria"	0.0015
+13	"Deinococcus-Thermus"	20	"Cyanobacteria"	0.0000
+13	"Deinococcus-Thermus"	21	"Acidobacteria"	1.2821
+13	"Deinococcus-Thermus"	22	"Other Bacteria"	0.7491
+14	"Firmicutes"	0	"Nanoarchaeota"	0.0000
+14	"Firmicutes"	1	"Euryarchaeota"	0.0021
+14	"Firmicutes"	2	"Crenarchaeota"	0.0000
+14	"Firmicutes"	3	"Other Archaea"	0.0000
+14	"Firmicutes"	4	"Spirochaetes"	0.0284
+14	"Firmicutes"	5	"Planctomycetes"	0.0004
+14	"Firmicutes"	6	"Actinobacteria"	0.0018
+14	"Firmicutes"	7	"Thermotogae"	0.0185
+14	"Firmicutes"	8	"Chloroflexi"	0.0253
+14	"Firmicutes"	9	"Aquificae"	0.0000
+14	"Firmicutes"	10	"Bacteroidetes/Chlorobi"	0.0342
+14	"Firmicutes"	11	"Chlamydiae/Verrucomicrobia"	0.0560
+14	"Firmicutes"	12	"Fusobacteria"	0.4342
+14	"Firmicutes"	13	"Deinococcus-Thermus"	0.0442
+14	"Firmicutes"	14	"Firmicutes"	1.1889
+14	"Firmicutes"	15	"Epsilonproteobacteria"	0.0004
+14	"Firmicutes"	16	"Deltaproteobacteria"	0.0004
+14	"Firmicutes"	17	"Betaproteobacteria"	0.0055
+14	"Firmicutes"	18	"Alphaproteobacteria"	0.0055
+14	"Firmicutes"	19	"Gammaproteobacteria"	0.0029
+14	"Firmicutes"	20	"Cyanobacteria"	0.0004
+14	"Firmicutes"	21	"Acidobacteria"	0.0004
+14	"Firmicutes"	22	"Other Bacteria"	0.0123
+15	"Epsilonproteobacteria"	0	"Nanoarchaeota"	0.0000
+15	"Epsilonproteobacteria"	1	"Euryarchaeota"	0.0022
+15	"Epsilonproteobacteria"	2	"Crenarchaeota"	0.5051
+15	"Epsilonproteobacteria"	3	"Other Archaea"	0.0000
+15	"Epsilonproteobacteria"	4	"Spirochaetes"	0.0000
+15	"Epsilonproteobacteria"	5	"Planctomycetes"	0.0000
+15	"Epsilonproteobacteria"	6	"Actinobacteria"	0.0002
+15	"Epsilonproteobacteria"	7	"Thermotogae"	0.0000
+15	"Epsilonproteobacteria"	8	"Chloroflexi"	0.0000
+15	"Epsilonproteobacteria"	9	"Aquificae"	0.0000
+15	"Epsilonproteobacteria"	10	"Bacteroidetes/Chlorobi"	0.0229
+15	"Epsilonproteobacteria"	11	"Chlamydiae/Verrucomicrobia"	0.0000
+15	"Epsilonproteobacteria"	12	"Fusobacteria"	0.0000
+15	"Epsilonproteobacteria"	13	"Deinococcus-Thermus"	0.0000
+15	"Epsilonproteobacteria"	14	"Firmicutes"	0.0000
+15	"Epsilonproteobacteria"	15	"Epsilonproteobacteria"	0.1812
+15	"Epsilonproteobacteria"	16	"Deltaproteobacteria"	0.0000
+15	"Epsilonproteobacteria"	17	"Betaproteobacteria"	0.0461
+15	"Epsilonproteobacteria"	18	"Alphaproteobacteria"	0.0018
+15	"Epsilonproteobacteria"	19	"Gammaproteobacteria"	0.0028
+15	"Epsilonproteobacteria"	20	"Cyanobacteria"	0.0000
+15	"Epsilonproteobacteria"	21	"Acidobacteria"	0.0000
+15	"Epsilonproteobacteria"	22	"Other Bacteria"	0.0000
+16	"Deltaproteobacteria"	0	"Nanoarchaeota"	0.0000
+16	"Deltaproteobacteria"	1	"Euryarchaeota"	0.0015
+16	"Deltaproteobacteria"	2	"Crenarchaeota"	0.2564
+16	"Deltaproteobacteria"	3	"Other Archaea"	0.0000
+16	"Deltaproteobacteria"	4	"Spirochaetes"	0.1618
+16	"Deltaproteobacteria"	5	"Planctomycetes"	0.7742
+16	"Deltaproteobacteria"	6	"Actinobacteria"	0.0324
+16	"Deltaproteobacteria"	7	"Thermotogae"	0.0000
+16	"Deltaproteobacteria"	8	"Chloroflexi"	0.0000
+16	"Deltaproteobacteria"	9	"Aquificae"	0.0000
+16	"Deltaproteobacteria"	10	"Bacteroidetes/Chlorobi"	0.0232
+16	"Deltaproteobacteria"	11	"Chlamydiae/Verrucomicrobia"	0.0000
+16	"Deltaproteobacteria"	12	"Fusobacteria"	0.0000
+16	"Deltaproteobacteria"	13	"Deinococcus-Thermus"	1.1364
+16	"Deltaproteobacteria"	14	"Firmicutes"	0.0000
+16	"Deltaproteobacteria"	15	"Epsilonproteobacteria"	0.0000
+16	"Deltaproteobacteria"	16	"Deltaproteobacteria"	0.0000
+16	"Deltaproteobacteria"	17	"Betaproteobacteria"	0.1079
+16	"Deltaproteobacteria"	18	"Alphaproteobacteria"	0.0542
+16	"Deltaproteobacteria"	19	"Gammaproteobacteria"	0.0012
+16	"Deltaproteobacteria"	20	"Cyanobacteria"	0.0000
+16	"Deltaproteobacteria"	21	"Acidobacteria"	0.0000
+16	"Deltaproteobacteria"	22	"Other Bacteria"	1.7096
+17	"Betaproteobacteria"	0	"Nanoarchaeota"	0.0000
+17	"Betaproteobacteria"	1	"Euryarchaeota"	0.0023
+17	"Betaproteobacteria"	2	"Crenarchaeota"	0.0000
+17	"Betaproteobacteria"	3	"Other Archaea"	0.0000
+17	"Betaproteobacteria"	4	"Spirochaetes"	0.0000
+17	"Betaproteobacteria"	5	"Planctomycetes"	0.0201
+17	"Betaproteobacteria"	6	"Actinobacteria"	0.0156
+17	"Betaproteobacteria"	7	"Thermotogae"	0.0000
+17	"Betaproteobacteria"	8	"Chloroflexi"	0.0000
+17	"Betaproteobacteria"	9	"Aquificae"	0.0000
+17	"Betaproteobacteria"	10	"Bacteroidetes/Chlorobi"	0.0236
+17	"Betaproteobacteria"	11	"Chlamydiae/Verrucomicrobia"	0.0000
+17	"Betaproteobacteria"	12	"Fusobacteria"	0.0000
+17	"Betaproteobacteria"	13	"Deinococcus-Thermus"	0.0000
+17	"Betaproteobacteria"	14	"Firmicutes"	0.0000
+17	"Betaproteobacteria"	15	"Epsilonproteobacteria"	0.0000
+17	"Betaproteobacteria"	16	"Deltaproteobacteria"	0.0000
+17	"Betaproteobacteria"	17	"Betaproteobacteria"	1.7044
+17	"Betaproteobacteria"	18	"Alphaproteobacteria"	0.1294
+17	"Betaproteobacteria"	19	"Gammaproteobacteria"	0.1556
+17	"Betaproteobacteria"	20	"Cyanobacteria"	0.0000
+17	"Betaproteobacteria"	21	"Acidobacteria"	0.0000
+17	"Betaproteobacteria"	22	"Other Bacteria"	0.0000
+18	"Alphaproteobacteria"	0	"Nanoarchaeota"	0.0000
+18	"Alphaproteobacteria"	1	"Euryarchaeota"	0.0022
+18	"Alphaproteobacteria"	2	"Crenarchaeota"	0.0758
+18	"Alphaproteobacteria"	3	"Other Archaea"	0.0000
+18	"Alphaproteobacteria"	4	"Spirochaetes"	0.0000
+18	"Alphaproteobacteria"	5	"Planctomycetes"	0.0192
+18	"Alphaproteobacteria"	6	"Actinobacteria"	0.0061
+18	"Alphaproteobacteria"	7	"Thermotogae"	0.0000
+18	"Alphaproteobacteria"	8	"Chloroflexi"	0.0000
+18	"Alphaproteobacteria"	9	"Aquificae"	0.0000
+18	"Alphaproteobacteria"	10	"Bacteroidetes/Chlorobi"	0.0400
+18	"Alphaproteobacteria"	11	"Chlamydiae/Verrucomicrobia"	0.0000
+18	"Alphaproteobacteria"	12	"Fusobacteria"	0.0000
+18	"Alphaproteobacteria"	13	"Deinococcus-Thermus"	0.0493
+18	"Alphaproteobacteria"	14	"Firmicutes"	0.0035
+18	"Alphaproteobacteria"	15	"Epsilonproteobacteria"	0.0000
+18	"Alphaproteobacteria"	16	"Deltaproteobacteria"	0.1270
+18	"Alphaproteobacteria"	17	"Betaproteobacteria"	0.5369
+18	"Alphaproteobacteria"	18	"Alphaproteobacteria"	3.0395
+18	"Alphaproteobacteria"	19	"Gammaproteobacteria"	0.0086
+18	"Alphaproteobacteria"	20	"Cyanobacteria"	0.0000
+18	"Alphaproteobacteria"	21	"Acidobacteria"	0.0000
+18	"Alphaproteobacteria"	22	"Other Bacteria"	0.0000
+19	"Gammaproteobacteria"	0	"Nanoarchaeota"	0.0000
+19	"Gammaproteobacteria"	1	"Euryarchaeota"	0.0024
+19	"Gammaproteobacteria"	2	"Crenarchaeota"	0.0000
+19	"Gammaproteobacteria"	3	"Other Archaea"	0.0000
+19	"Gammaproteobacteria"	4	"Spirochaetes"	0.0000
+19	"Gammaproteobacteria"	5	"Planctomycetes"	0.0193
+19	"Gammaproteobacteria"	6	"Actinobacteria"	0.0000
+19	"Gammaproteobacteria"	7	"Thermotogae"	0.0000
+19	"Gammaproteobacteria"	8	"Chloroflexi"	0.0000
+19	"Gammaproteobacteria"	9	"Aquificae"	0.0000
+19	"Gammaproteobacteria"	10	"Bacteroidetes/Chlorobi"	0.0041
+19	"Gammaproteobacteria"	11	"Chlamydiae/Verrucomicrobia"	0.0000
+19	"Gammaproteobacteria"	12	"Fusobacteria"	0.0000
+19	"Gammaproteobacteria"	13	"Deinococcus-Thermus"	0.0000
+19	"Gammaproteobacteria"	14	"Firmicutes"	0.0000
+19	"Gammaproteobacteria"	15	"Epsilonproteobacteria"	0.0157
+19	"Gammaproteobacteria"	16	"Deltaproteobacteria"	0.0160
+19	"Gammaproteobacteria"	17	"Betaproteobacteria"	0.0922
+19	"Gammaproteobacteria"	18	"Alphaproteobacteria"	0.0875
+19	"Gammaproteobacteria"	19	"Gammaproteobacteria"	0.0630
+19	"Gammaproteobacteria"	20	"Cyanobacteria"	0.0000
+19	"Gammaproteobacteria"	21	"Acidobacteria"	0.0000
+19	"Gammaproteobacteria"	22	"Other Bacteria"	0.0000
+20	"Cyanobacteria"	0	"Nanoarchaeota"	0.0000
+20	"Cyanobacteria"	1	"Euryarchaeota"	0.0097
+20	"Cyanobacteria"	2	"Crenarchaeota"	0.0000
+20	"Cyanobacteria"	3	"Other Archaea"	0.0000
+20	"Cyanobacteria"	4	"Spirochaetes"	0.3205
+20	"Cyanobacteria"	5	"Planctomycetes"	0.0062
+20	"Cyanobacteria"	6	"Actinobacteria"	0.0056
+20	"Cyanobacteria"	7	"Thermotogae"	0.0000
+20	"Cyanobacteria"	8	"Chloroflexi"	0.0000
+20	"Cyanobacteria"	9	"Aquificae"	0.0000
+20	"Cyanobacteria"	10	"Bacteroidetes/Chlorobi"	0.0041
+20	"Cyanobacteria"	11	"Chlamydiae/Verrucomicrobia"	0.0000
+20	"Cyanobacteria"	12	"Fusobacteria"	0.0000
+20	"Cyanobacteria"	13	"Deinococcus-Thermus"	0.0066
+20	"Cyanobacteria"	14	"Firmicutes"	0.0116
+20	"Cyanobacteria"	15	"Epsilonproteobacteria"	0.2083
+20	"Cyanobacteria"	16	"Deltaproteobacteria"	0.0056
+20	"Cyanobacteria"	17	"Betaproteobacteria"	0.0105
+20	"Cyanobacteria"	18	"Alphaproteobacteria"	0.0069
+20	"Cyanobacteria"	19	"Gammaproteobacteria"	0.0068
+20	"Cyanobacteria"	20	"Cyanobacteria"	4.5847
+20	"Cyanobacteria"	21	"Acidobacteria"	0.0062
+20	"Cyanobacteria"	22	"Other Bacteria"	0.0036
+21	"Acidobacteria"	0	"Nanoarchaeota"	0.0000
+21	"Acidobacteria"	1	"Euryarchaeota"	0.0026
+21	"Acidobacteria"	2	"Crenarchaeota"	0.0000
+21	"Acidobacteria"	3	"Other Archaea"	0.0000
+21	"Acidobacteria"	4	"Spirochaetes"	0.0000
+21	"Acidobacteria"	5	"Planctomycetes"	0.0213
+21	"Acidobacteria"	6	"Actinobacteria"	0.1359
+21	"Acidobacteria"	7	"Thermotogae"	0.0000
+21	"Acidobacteria"	8	"Chloroflexi"	0.5682
+21	"Acidobacteria"	9	"Aquificae"	0.0000
+21	"Acidobacteria"	10	"Bacteroidetes/Chlorobi"	0.2220
+21	"Acidobacteria"	11	"Chlamydiae/Verrucomicrobia"	0.0000
+21	"Acidobacteria"	12	"Fusobacteria"	0.0000
+21	"Acidobacteria"	13	"Deinococcus-Thermus"	0.6410
+21	"Acidobacteria"	14	"Firmicutes"	0.0000
+21	"Acidobacteria"	15	"Epsilonproteobacteria"	0.0000
+21	"Acidobacteria"	16	"Deltaproteobacteria"	0.7168
+21	"Acidobacteria"	17	"Betaproteobacteria"	0.1947
+21	"Acidobacteria"	18	"Alphaproteobacteria"	0.0015
+21	"Acidobacteria"	19	"Gammaproteobacteria"	0.0014
+21	"Acidobacteria"	20	"Cyanobacteria"	0.0000
+21	"Acidobacteria"	21	"Acidobacteria"	0.0000
+21	"Acidobacteria"	22	"Other Bacteria"	1.2411
+22	"Other Bacteria"	0	"Nanoarchaeota"	0.0000
+22	"Other Bacteria"	1	"Euryarchaeota"	0.0021
+22	"Other Bacteria"	2	"Crenarchaeota"	0.0000
+22	"Other Bacteria"	3	"Other Archaea"	0.0000
+22	"Other Bacteria"	4	"Spirochaetes"	0.0000
+22	"Other Bacteria"	5	"Planctomycetes"	0.0125
+22	"Other Bacteria"	6	"Actinobacteria"	0.0732
+22	"Other Bacteria"	7	"Thermotogae"	0.0000
+22	"Other Bacteria"	8	"Chloroflexi"	0.1684
+22	"Other Bacteria"	9	"Aquificae"	0.5102
+22	"Other Bacteria"	10	"Bacteroidetes/Chlorobi"	0.2661
+22	"Other Bacteria"	11	"Chlamydiae/Verrucomicrobia"	0.0000
+22	"Other Bacteria"	12	"Fusobacteria"	0.0000
+22	"Other Bacteria"	13	"Deinococcus-Thermus"	0.5150
+22	"Other Bacteria"	14	"Firmicutes"	0.0404
+22	"Other Bacteria"	15	"Epsilonproteobacteria"	0.2096
+22	"Other Bacteria"	16	"Deltaproteobacteria"	0.3014
+22	"Other Bacteria"	17	"Betaproteobacteria"	0.0863
+22	"Other Bacteria"	18	"Alphaproteobacteria"	0.0159
+22	"Other Bacteria"	19	"Gammaproteobacteria"	0.0012
+22	"Other Bacteria"	20	"Cyanobacteria"	0.0779
+22	"Other Bacteria"	21	"Acidobacteria"	1.2411
+22	"Other Bacteria"	22	"Other Bacteria"	0.0454

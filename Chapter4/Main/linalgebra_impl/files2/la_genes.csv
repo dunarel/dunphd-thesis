@@ -1,0 +1,111 @@
+GN,GENE_ID,NAME
+  0  ,110  ,argS 
+  1  ,111  ,guaA 
+  2  ,112  ,pheT 
+  3  ,113  ,hisS 
+  4  ,114  ,ksgA 
+  5  ,115  ,nusA 
+  6  ,116  ,rplF 
+  7  ,117  ,pyrD 
+  8  ,118  ,trpB 
+  9  ,119  ,rpsN 
+ 10  ,120  ,rpmG 
+ 11  ,121  ,rplP 
+ 12  ,122  ,aroA 
+ 13  ,123  ,rplX 
+ 14  ,124  ,gatA 
+ 15  ,125  ,glmS 
+ 16  ,126  ,atpC 
+ 17  ,127  ,hisD 
+ 18  ,128  ,trxA 
+ 19  ,129  ,purD 
+ 20  ,130  ,dnaK 
+ 21  ,131  ,serA 
+ 22  ,132  ,thrC 
+ 23  ,133  ,nadD 
+ 24  ,134  ,aspS 
+ 25  ,135  ,gyrB 
+ 26  ,136  ,pyrH 
+ 27  ,137  ,rplC 
+ 28  ,138  ,valS 
+ 29  ,139  ,lysS 
+ 30  ,140  ,dnaG 
+ 31  ,141  ,pyrG 
+ 32  ,142  ,uvrC 
+ 33  ,143  ,trpC 
+ 34  ,144  ,pgk  
+ 35  ,145  ,sdhA 
+ 36  ,146  ,purB 
+ 37  ,147  ,atpB 
+ 38  ,148  ,pyrC 
+ 39  ,149  ,rpoB 
+ 40  ,150  ,purL 
+ 41  ,151  ,tyrS 
+ 42  ,152  ,oppA 
+ 43  ,153  ,ribH 
+ 44  ,154  ,eno  
+ 45  ,155  ,gatB 
+ 46  ,156  ,map  
+ 47  ,157  ,recA 
+ 48  ,158  ,dnaJ 
+ 49  ,159  ,pheS 
+ 50  ,160  ,aroE 
+ 51  ,161  ,ruvB 
+ 52  ,162  ,proC 
+ 53  ,163  ,hisH 
+ 54  ,164  ,atpD 
+ 55  ,165  ,pyrF 
+ 56  ,166  ,trpD 
+ 57  ,167  ,fabG 
+ 58  ,168  ,secY 
+ 59  ,169  ,ilvC 
+ 60  ,170  ,def  
+ 61  ,171  ,purE 
+ 62  ,172  ,secE 
+ 63  ,173  ,rpmB 
+ 64  ,174  ,atpA 
+ 65  ,175  ,purF 
+ 66  ,176  ,nadE 
+ 67  ,177  ,hisB 
+ 68  ,178  ,metK 
+ 69  ,179  ,rnhB 
+ 70  ,180  ,truA 
+ 71  ,181  ,gltX 
+ 72  ,182  ,infB 
+ 73  ,183  ,groEL
+ 74  ,184  ,leuS 
+ 75  ,185  ,purA 
+ 76  ,186  ,nusG 
+ 77  ,187  ,dapA 
+ 78  ,188  ,argD 
+ 79  ,189  ,proA 
+ 80  ,190  ,carB 
+ 81  ,191  ,uvrA 
+ 82  ,192  ,rpoA 
+ 83  ,193  ,glyA 
+ 84  ,194  ,pyrE 
+ 85  ,195  ,ileS 
+ 86  ,196  ,serS 
+ 87  ,197  ,grpE 
+ 88  ,198  ,purM 
+ 89  ,199  ,proS 
+ 90  ,200  ,ilvD 
+ 91  ,201  ,rplW 
+ 92  ,202  ,cysS 
+ 93  ,203  ,galE 
+ 94  ,204  ,alaS 
+ 95  ,205  ,pyrB 
+ 96  ,206  ,rplB 
+ 97  ,207  ,clpX 
+ 98  ,208  ,trpA 
+ 99  ,209  ,glyS 
+100  ,210  ,adk  
+101  ,211  ,clpP 
+102  ,212  ,rpoD 
+103  ,213  ,uvrB 
+104  ,214  ,gyrA 
+105  ,215  ,asd  
+106  ,216  ,trxB 
+107  ,217  ,thrS 
+108  ,218  ,hemA 
+109  ,219  ,trpS 

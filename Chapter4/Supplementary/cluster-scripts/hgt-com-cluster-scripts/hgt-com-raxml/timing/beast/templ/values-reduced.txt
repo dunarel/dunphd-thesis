@@ -1,0 +1,3 @@
+111	guaA
+112	pheT
+110	argS

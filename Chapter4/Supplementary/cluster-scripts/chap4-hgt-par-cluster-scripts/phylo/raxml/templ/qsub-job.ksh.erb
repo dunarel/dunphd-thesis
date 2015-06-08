@@ -1,0 +1,20 @@
+#!/bin/ksh
+
+#Script de lancement 
+
+#PBS -N <%= job_name %>-<%= job_s %>
+#PBS -q <%= queue %>
+#PBS -l walltime=<%= opt_wall %>:00:00
+#PBS -joe
+# -o <%= sdir  %>/subm/<%= job_s %>.out
+
+#echo "I ran on:"
+#cat $PBS_NODEFILE
+
+cd <%= sdir  %>/subm
+
+
+
+#server
+../exec/sched-jobs-<%= @config_yml["stage"]  %>-<%= @config_yml["phylo_prog"]  %>.rb --procs <%= opt_procs %>  --threads <%= opt_threads %> --jobid <%= job_idx %> > <%= sdir  %>/subm/<%= job_name %>-<%= job_s %>.log
+

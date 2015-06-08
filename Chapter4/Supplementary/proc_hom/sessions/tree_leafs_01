@@ -1,0 +1,56 @@
+
+select cggv.gene_id,
+       gn.name,       
+       pg_src.ORDER_ID,
+       pg_dst.ORDER_ID,
+       cggv.VAL
+from HGT_COM_GENE_GROUPS_VALS cggv 
+ join PROK_GROUPS pg_src on pg_src.ID = cggv.PROK_GROUP_SOURCE_ID
+ join PROK_GROUPS pg_dst on pg_dst.id = cggv.PROK_GROUP_DEST_ID
+ join genes gn on gn.ID = cggv.GENE_ID
+where pg_src.ORDER_ID = 10 and
+      pg_dst.ORDER_ID = 22
+
+
+select pggv.gene_id,
+       gn.NAME,
+       pg_src.ORDER_ID,
+       pg_dst.ORDER_ID,
+       pggv.VAL
+from HGT_PAR_GENE_GROUPS_VALS pggv 
+ join PROK_GROUPS pg_src on pg_src.ID = pggv.PROK_GROUP_SOURCE_ID
+ join PROK_GROUPS pg_dst on pg_dst.id = pggv.PROK_GROUP_DEST_ID
+ join genes gn on gn.id = pggv.GENE_ID
+where pg_src.ORDER_ID = 10 and
+      pg_dst.ORDER_ID = 22
+
+
+select *
+from HGT_COM_GENE_GROUPS_VALS cggv
+
+
+      
+
+
+select cggv.gene_id,
+       pg_src.ORDER_ID,
+       pg_dst.ORDER_ID,
+       cggv.VAL
+from HGT_COM_GENE_GROUPS_VALS cggv 
+ join PROK_GROUPS pg_src on pg_src.ID = cggv.PROK_GROUP_SOURCE_ID
+ join PROK_GROUPS pg_dst on pg_dst.id = cggv.PROK_GROUP_DEST_ID
+where pg_src.ORDER_ID = 23 or 
+      pg_dst.ORDER_ID = 22
+
+
+
+--tree names, groups, indexes
+select  tx.TREE_ORDER,
+        tx.TREE_NAME,
+        pg.ORDER_ID +1 as idx,
+        pg.NAME
+from taxons tx
+ join TAXON_GROUPS tg on tg.TAXON_ID = tx.id
+ join PROK_GROUPS pg on pg.ID = tg.PROK_GROUP_ID
+where tg.PROK_GROUP_ID between 0 and 22
+order by tx.tree_order

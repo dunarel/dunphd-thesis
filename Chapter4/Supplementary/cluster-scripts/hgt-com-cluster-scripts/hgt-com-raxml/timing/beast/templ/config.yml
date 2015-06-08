@@ -1,0 +1,22 @@
+---
+stage: "timing"
+phylo_prog: "raxml"
+exec_loc: "scratch"
+local_dir: "hgt-com-110/hgt-com-raxml/timing/beast"
+job_name: "jctmbst"
+queue: "qwork@mp2"
+scratch: "/mnt/scratch_mp2/makarenk/badescud"
+home: "/home/badescud"
+lustre: "/mnt/lustre03/makarenk/badescud"
+results_files:
+res_loc_files:
+- "gene_beast1.trees"
+- "gene_beast1.log"
+- "gene_beast2.trees"
+- "gene_beast2.log"
+- "gene_beast3.trees"
+- "gene_beast3.log"
+perm_files:
+started_file: "gene_beast3.trees"
+finished_file: "dated_tree.annot"
+

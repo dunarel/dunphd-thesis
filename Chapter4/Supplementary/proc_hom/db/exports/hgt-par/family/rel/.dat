@@ -1,0 +1,64 @@
+0	"Human Respiratory"	0	"Human Respiratory"	3.5430
+0	"Human Respiratory"	1	"Human Others"	0.3202
+0	"Human Respiratory"	2	"Plant"	0.1628
+0	"Human Respiratory"	3	"Animal"	0.1168
+0	"Human Respiratory"	4	"Soil"	0.1994
+0	"Human Respiratory"	5	"Marine"	0.1459
+0	"Human Respiratory"	6	"Fresh water"	0.1009
+0	"Human Respiratory"	7	"Extreme"	0.0556
+1	"Human Others"	0	"Human Respiratory"	0.2902
+1	"Human Others"	1	"Human Others"	2.7870
+1	"Human Others"	2	"Plant"	0.5675
+1	"Human Others"	3	"Animal"	0.3868
+1	"Human Others"	4	"Soil"	0.8079
+1	"Human Others"	5	"Marine"	0.1284
+1	"Human Others"	6	"Fresh water"	0.1194
+1	"Human Others"	7	"Extreme"	0.1912
+2	"Plant"	0	"Human Respiratory"	0.2500
+2	"Plant"	1	"Human Others"	0.5822
+2	"Plant"	2	"Plant"	2.9567
+2	"Plant"	3	"Animal"	0.0982
+2	"Plant"	4	"Soil"	0.5097
+2	"Plant"	5	"Marine"	0.2722
+2	"Plant"	6	"Fresh water"	0.7997
+2	"Plant"	7	"Extreme"	0.2482
+3	"Animal"	0	"Human Respiratory"	0.1460
+3	"Animal"	1	"Human Others"	0.3693
+3	"Animal"	2	"Plant"	0.1147
+3	"Animal"	3	"Animal"	0.6490
+3	"Animal"	4	"Soil"	0.3990
+3	"Animal"	5	"Marine"	0.5488
+3	"Animal"	6	"Fresh water"	0.1703
+3	"Animal"	7	"Extreme"	0.2178
+4	"Soil"	0	"Human Respiratory"	0.1628
+4	"Soil"	1	"Human Others"	0.8643
+4	"Soil"	2	"Plant"	0.5431
+4	"Soil"	3	"Animal"	0.3584
+4	"Soil"	4	"Soil"	2.5731
+4	"Soil"	5	"Marine"	0.1556
+4	"Soil"	6	"Fresh water"	0.4344
+4	"Soil"	7	"Extreme"	0.2270
+5	"Marine"	0	"Human Respiratory"	0.1731
+5	"Marine"	1	"Human Others"	0.1685
+5	"Marine"	2	"Plant"	0.2467
+5	"Marine"	3	"Animal"	0.7365
+5	"Marine"	4	"Soil"	0.3111
+5	"Marine"	5	"Marine"	2.4653
+5	"Marine"	6	"Fresh water"	1.0783
+5	"Marine"	7	"Extreme"	1.3336
+6	"Fresh water"	0	"Human Respiratory"	0.1393
+6	"Fresh water"	1	"Human Others"	0.1162
+6	"Fresh water"	2	"Plant"	0.8287
+6	"Fresh water"	3	"Animal"	0.3197
+6	"Fresh water"	4	"Soil"	0.4116
+6	"Fresh water"	5	"Marine"	1.1597
+6	"Fresh water"	6	"Fresh water"	1.7182
+6	"Fresh water"	7	"Extreme"	1.5018
+7	"Extreme"	0	"Human Respiratory"	0.0607
+7	"Extreme"	1	"Human Others"	0.1580
+7	"Extreme"	2	"Plant"	0.1765
+7	"Extreme"	3	"Animal"	0.4729
+7	"Extreme"	4	"Soil"	0.3028
+7	"Extreme"	5	"Marine"	1.1083
+7	"Extreme"	6	"Fresh water"	1.4678
+7	"Extreme"	7	"Extreme"	6.4555
