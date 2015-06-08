@@ -1,52 +1,53 @@
 ## HGT-QFUNC v.0.5.2
 
-This software implements the HGT detection method described in:
+   Dunarel Badescu Ph.D. Thesis, UQAM 2015 
+   Supervisor Prof. Vladimir Makarenkov
+   Co-supervisor Prof. Abdoulaye Baniré Diallo
+ Title:
+   FUNCTIONAL GENOMIC REGION AND HORIZONTAL GENE TRANSFER DETECTION 
+   USING SEQUENCE VARIABILITY CLUSTERING: APPLICATIONS TO VIRAL AND PROKARYOTIC EVOLUTION
+ see Chapter V:
+   A NEW FAST ALGORITHM FOR DETECTING AND VALIDATING HORIZONTAL GENE TRANSFER EVENTS 
+   USING PHYLOGENETIC TREES AND AGGREGATION FUNCTIONS
 
-## Dunarel Badescu Ph.D. Thesis - [UQAM](http://www.uqam.ca) 2015
-### Functional Genomic Region And Horizontal Gene Transfer Detection Using Sequence Variability Clustering: Applications To Viral And Prokaryotic Evolution
-#### Supervisor Prof. Vladimir Makarenkov, Co-supervisor Prof. Abdoulaye Banire Diallo, Coauthor: Dr. Alix Boc
-## CHAPTER V
-### A New Fast Algorithm For Detecting And Validating Horizontal Gene Transfer Events Using Phylogenetic Trees And Aggregation Functions
+## Copyright (C) 2015 Dunarel Badescu, Abdoulaye Baniré Diallo and Vladimir Makarenkov
 
-
-### Copyright (C) 2015 Dunarel Badescu, Abdoulaye Banire Diallo and Vladimir Makarenkov
-
-### Licence 
+## Licence 
    This software is distributed according to the BSD license (3-clause version).
 
    Our most recent implementation is available at the following URL address:
    http://www.info2.uqam.ca/~makarenkov_v/fastHGT.zip.
 
 ### Authors pages:
-  * Dunarel Badescu:         https://ca.linkedin.com/pub/dunarel-badescu/26/107/887
-  * Vladimir Makarenkov:     http://accueil.labunix.uqam.ca/~makarenkov_v
-  * Abdoulaye Banire Diallo: http://ancestors.bioinfo.uqam.ca/BioinfoLab/index.php
+   Dunarel Badescu:         https://ca.linkedin.com/pub/dunarel-badescu/26/107/887
+   Vladimir Makarenkov:     http://accueil.labunix.uqam.ca/~makarenkov_v
+   Abdoulaye Banire Diallo: http://ancestors.bioinfo.uqam.ca/BioinfoLab/index.php
   
 ### Requirements
    * gcc/g++ and BOOST C++ libraries (they are present with major Linux package managers)
 
 ### Dependencies (found in deps folder)
-  * (deps/yannisun) 
+  *(deps/yannisun)
     Fasta file parser released by Yanni Sun @Michigan State University 
     https://sites.google.com/site/yannisun/
     http://www.cse.msu.edu/~yannisun/cse891/hmm-EM/fasta.c
     http://www.cse.msu.edu/~yannisun/cse891/hmm-EM/fasta.h
 
-  * (assoc_vector)
+  *(assoc_vector)
     AssocVector is a sorted vector optimized for insert and erase operations 
     https://github.com/wo3kie/AssocVector
 
-  * (fast-cpp-csv-parser)
+  *(fast-cpp-csv-parser)
     Small, easy-to-use and fast header-only library for reading comma separated value (CSV) files.
     https://code.google.com/p/fast-cpp-csv-parser/ 
 
-  * [simdpp](https://github.com/p12tic/libsimdpp)
+  *(simdpp)
     Header-only zero-overhead C++ wrapper for SIMD intrinsics of multiple instruction sets.
-    
+    https://github.com/p12tic/libsimdpp
 
-  * [tclap](http://tclap.sourceforge.net/)
+  *(tclap)
     Templatized C++ Command Line Parser Library
-    
+    http://tclap.sourceforge.net/
   
 
 ### How to build code?
@@ -79,7 +80,7 @@ This software implements the HGT detection method described in:
    The executable name is: hgt-qfunc-deb 
    Parameters are:
  
-1. (--f_opt_max)
+ 1) (--f_opt_max)
    Function index:
 
    1 Q7a (eq 5.21) -> Q7 in graphics
@@ -87,20 +88,20 @@ This software implements the HGT detection method described in:
    3 Q8b (eq 5.23)
    4 Q9a (eq 5.24) -> Q9 in graphics
 
-2. (--msa-fasta):
+ 2) (--msa-fasta):
    A multiple sequence alignment fo the gene in FASTA format. 
    Parser is basic, so make sure the name contains only the identifier.
    
-3. (--winl):
+ 3) (--winl):
    Length of the Multiple sequence alignment
 
-4. (--gr-seqs-csv):
+ 4) (--gr-seqs-csv):
    A file in csv format, detailing which sequence belongs to which group.
    The header is of this format:
    "","PROK_GROUP_ID","NCBI_SEQ_ID"
    "1",1,15608435
  
-5. (--q-func-hgts-csv):
+ 5) (--q-func-hgts-csv):
    The name of the resulting file in csv format. 
    The most important results are: seqid_i,seqid_j,val,pval
 
