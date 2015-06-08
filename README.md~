@@ -71,7 +71,7 @@ We accelerated Partial HGT recovering of transfers, from their multiple superpos
 [Chapter4/Supplementary/proc-hom-sp/](Chapter4/Supplementary/proc-hom-sp/) is a custom JavaCL/Java Stored Procedure.
 It uses the OpenCL heterogeneous parallelizing framework, on an NVIDIA Graphic Card. 
 
-One of our earlier steps is validating the Multiple Sequence Alignemnts, ensuring orthology.
+One of our earlier steps is validating the Multiple Sequence Alignments, ensuring orthology.
 This is where the name of our project initially came: __proc_hom__ i.e. __Proc__ ariotic __Hom__ ology.
 [Chapter4/Supplementary/tribemcl/](Chapter4/Supplementary/tribemcl/) is a _bash_ script, doing reciprocal BLAST hits, and clustering using TribeMCL.
 
