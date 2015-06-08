@@ -66,8 +66,8 @@ using [RAxML](http://sco.h-its.org/exelixis/web/software/raxml/index.html) and f
 using [HGT-Detection](http://www.trex.uqam.ca/index.php?action=hgt) for Complete Transfers 
 and [HGT-Detection for Partial Transfers](http://www.trex.uqam.ca/index.php?action=hgt_partial&project=trex).
 
--- [Chapter4/Supplementary/cluster-scripts/hgt-com-cluster-scripts/](Chapter4/Supplementary/cluster-scripts/hgt-com-cluster-scripts/) is a collection of scripts used for inferring and dating Complete Gene Transfers.
--- [Chapter4/Supplementary/cluster-scripts/hgt-par-cluster-scripts/](Chapter4/Supplementary/cluster-scripts/hgt-par-cluster-scripts/) is taking the analysis one step further, into Partial Gene Transfers.
+... [Chapter4/Supplementary/cluster-scripts/hgt-com-cluster-scripts/](Chapter4/Supplementary/cluster-scripts/hgt-com-cluster-scripts/) is a collection of scripts used for inferring and dating Complete Gene Transfers.
+... [Chapter4/Supplementary/cluster-scripts/hgt-par-cluster-scripts/](Chapter4/Supplementary/cluster-scripts/hgt-par-cluster-scripts/) is taking the analysis one step further, into Partial Gene Transfers.
 
 - Timing was done using TreePL and B.E.A.S.T. each, for both the Complete and Partial transfers.
 When applying time constraints on gene trees, some of them were not mutually compatible. 
