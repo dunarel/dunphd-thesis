@@ -2,7 +2,7 @@
 This repository releases the source code implementations of the clustering algorithms described in:
 
 # Dunarel Badescu Ph.D. Thesis
-(Universite du Quebec a Montreal) 2015
+# (Universite du Quebec a Montreal) 2015
 ### Functional Genomic Region And Horizontal Gene Transfer Detection Using Sequence Variability Clustering:
 ### Applications To Viral And Prokaryotic Evolution
 #### Supervisor Prof. Vladimir Makarenkov, Co-supervisor Prof. Abdoulaye Baniré Diallo, Coauthor: Dr. Alix Boc
