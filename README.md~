@@ -20,6 +20,7 @@ It is capable of detecting hit regions without prior knowledge on the carcinogen
 a bipartition optimisation maximising Q-functions. It also uses the _Adjusted Rand Index_ to validate its findings against a-priori known bipartitions.
 The discussed algorithm can be directly used to study organisms that have an ambivalent behavior and are, thus, more difficult to classify.
 
+This is an OpenMP parallelized Linux gcc implementation.
 
 Refererence:
 [Badescu, D., Boc. A., Diallo, A. B., and Makarenkov, V. (2011),
