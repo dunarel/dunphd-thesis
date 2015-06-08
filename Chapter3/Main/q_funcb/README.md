@@ -35,7 +35,7 @@ Detecting genomic regions associated with a disease using variability functions 
 ### QFUNC contents:
 
   * README  - This file 
-  * license - Full text of the BSD license (3-clause)
+  * [license](license) - Full text of the BSD license (3-clause)
   
   * [src/main.cpp](src/main.cpp) - Main program
   * [src/q_func_hgt_appl.cpp](src/q_func_hgt_appl.cpp) - Application container
