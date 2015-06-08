@@ -68,7 +68,7 @@ TreePL, one of the simulation software that we used, was not handling these conf
 
 After running the simulations on the remote cluster, we performed an aggregating step, on the local computer.
 We accelerated Partial HGT recovering of transfers, from their multiple superposing window fragments, by calculating Connected Components inside a Graph, based on Jaccard distance.
-[Chapter4/Supplementary/proc-hom-sp/](Chapter4/Supplementary/proc-hom-sp/) is a custom JavaCL Java Stored Procedure.
+[Chapter4/Supplementary/proc-hom-sp/](Chapter4/Supplementary/proc-hom-sp/) is a custom JavaCL/Java Stored Procedure.
 It uses the OpenCL heterogeneous parallelizing framework, on an NVIDIA Graphic Card. 
 
 One of our earlier steps is validating the Multiple Sequence Alignemnts, ensuring orthology.

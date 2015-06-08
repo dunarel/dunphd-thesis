@@ -64,7 +64,6 @@ Scripts were used to calculate Maximum Likelihood gene trees, using RAxML and fo
 Timing was done using TreePL and B.E.A.S.T. each, for both the Complete and Partial transfers.
 When applying time constraints on gene trees, some of them were not mutually compatible. 
 TreePL, one of the simulation software that we used, was not handling these conflicting constraints.
-
 [Chapter4/Supplementary/proc-hom-ex/](Chapter4/Supplementary/proc-hom-ex/) is a Java Netbeans project, able to handle managed execution.
 
 After running the simulations on the remote cluster, we performed an aggregating step, on the local computer.
