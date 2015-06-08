@@ -16,6 +16,11 @@ Do not expect those to run outside the box, as they are taken out of their origi
 ### Detecting Genomic Regions Associated With A Disease Using Aggregation Functions And Adjusted Rand Index
 
 [Chapter3/Main/q_funcb/](Chapter3/Main/q_funcb/) is a C++ software implementation of the algorithm for detecting regions associated with a disease.
+It is capable of detecting hit regions without prior knowledge on the carcinogenicity or invasivity of related organisms, by performing 
+a bipartition optimisation maximising Q-functions. It also uses the _Adjusted Rand Index_ to validate its findings against a-priori known bipartitions.
+The discussed algorithm can be directly used to study organisms that have an ambivalent behavior and are, thus, more difficult to classify.
+
+This is an OpenMP parallelized Linux gcc implementation.
 
 Refererence:
 [Badescu, D., Boc. A., Diallo, A. B., and Makarenkov, V. (2011),
