@@ -55,7 +55,7 @@ We also chose HSQLDB, due to its good parallel insert performances.
 The Ruby on Rails architecture was chosen due to its Active Record Object Relational Model being a comprehensive framework able to efficiently script third party applications.
 [Chapter4/Supplementary/proc_hom/](Chapter4/Supplementary/proc_hom/) is the main Ruby on Rails project, also containing database migrations, and models. 
 
-Simulations were conducted on the Compute Canada/Calcul Quebec HPC [Mammouth MP2](http://www.calculquebec.ca/en/resources/compute-servers/mammouth-parallele-ii) at the University of Sherbrooke.
+Simulations were conducted on the Compute Canada/Calcul Quebec HPC [Mammouth MP2](http://www.calculquebec.ca/en/resources/compute-servers/mammouth-parallele-ii) cluster at the University of Sherbrooke.
 Scripts were used to calculate Maximum Likelihood gene trees, using RAxML and for infering Complete and respectively Partial Gene Transfers, using HGT-Detection software.
 
 [Chapter4/Supplementary/cluster-scripts/hgt-com-cluster-scripts/](Chapter4/Supplementary/cluster-scripts/hgt-com-cluster-scripts/) is a collection of scripts used for inferring and dating Complete Gene Transfers.
