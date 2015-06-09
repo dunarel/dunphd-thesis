@@ -30,7 +30,7 @@ Active Record migration scripts are provided to recreate the database structures
 They are found in the [migrate](migrate) folder.
 
 
-### qfunc-cluster-simul selected contents:
+### Other qfunc-cluster-simul selected contents:
 
   * [lib/](lib/) - Source code 
   * [migrate/](migrate/) - Active Record Migrations to create the database. 

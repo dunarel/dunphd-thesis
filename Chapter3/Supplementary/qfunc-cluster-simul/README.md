@@ -11,7 +11,7 @@ The simulation is also using [create_tree/createTree](create_tree/createTree) fo
 See:
 - Vladimir Makarenkov and Pierre Legendre. 
 Journal of Computational Biology. January 2004, 11(1): 195-212. doi:10.1089/106652704773416966. 
-implemented by Alix Boc - June 2008.
+  * implemented by Alix Boc - June 2008.
 
 To simulate mutated sequences along branches of the tree we used [Seqgen](http://tree.bio.ed.ac.uk/software/seqgen/).
 
