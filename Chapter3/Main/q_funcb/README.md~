@@ -35,7 +35,7 @@ Detecting genomic regions associated with a disease using variability functions 
 ### QFUNC contents:
 
   * README  - This file 
-  * license - Full text of the BSD license (3-clause)
+  * [license](license) - Full text of the BSD license (3-clause)
   
   * [src/main.cpp](src/main.cpp) - Main program
   * [src/q_func_hgt_appl.cpp](src/q_func_hgt_appl.cpp) - Application container
@@ -50,26 +50,41 @@ Detecting genomic regions associated with a disease using variability functions 
 1. (--f_opt_max)
    Function index:
 
-   1 Q7a (eq 5.21) -> Q7 in graphics
-   2 Q8a (eq 5.22)
-   3 Q8b (eq 5.23)
-   4 Q9a (eq 5.24) -> Q9 in graphics
-
-2. (--msa-fasta):
+   0-6 Q0-Q6
+   
+2. (--msa-fasta)
    A multiple sequence alignment fo the gene in FASTA format. 
-   Parser is basic, so make sure the name contains only the identifier.
+  
+3. (--align_type)
+
+    dna for DNA alignements.
+    
+    protein is nonpublished and experimental
+      it comes with other undocumented options:
+		  --protmatrix: blosum80,blosum62
+                  --dist: scoredist
+   
+   (--calc_type)
+   
+    auto is the option used to optimize the bipartition
+   
+   (--x_ident_csv)
+   
+   list of identifiers belonging to the X group (carcinogenic, invasive).
+   
    
 3. (--winl):
    Length of the Multiple sequence alignment
+   
+  (--win_step)
+  
+    Number of nucleotides for sliding the window.
 
-4. (--gr-seqs-csv):
-   A file in csv format, detailing which sequence belongs to which group.
-   The header is of this format:
-   "","PROK_GROUP_ID","NCBI_SEQ_ID"
-   "1",1,15608435
- 
-5. (--q-func-hgts-csv):
+   
+5. (--q_func_csv):
    The name of the resulting file in csv format. 
+   
+   
    The most important results are: seqid_i,seqid_j,val,pval
 
    Results are also detailing the global, local group memberships and the group components of the formulas.
@@ -77,8 +92,18 @@ Detecting genomic regions associated with a disease using variability functions 
    grpidx_i,grpidx_j,i_size,j_size,locseqidx_i,locseqidx_j,grpid_i,grpid_j,seqid_i,seqid_j,val,pval,dXX,dYY,dXY,flE
 
    Note that flE is denoting D(x0,y0) or xy throughout the text, while dXX,dYY and dXY are the intragroups and intergroup distances.    
-
+   
+   (--dist)
+   
+   ham - Hamming distance
+   
+   
+6  --optim 
+    km -  k-means type of optimisation, default, used throughout the article and applications
+    nj	- experimental, unpublished, based on Neighbor Joining bipartitions, faster, less accurate
+    
 ### Example:
+
    An example of execution, using HPV alignement is given in.
 
 ### Feedback and bug reports:

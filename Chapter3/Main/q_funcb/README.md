@@ -50,36 +50,60 @@ Detecting genomic regions associated with a disease using variability functions 
 1. (--f_opt_max)
    Function index:
 
-   1 Q7a (eq 5.21) -> Q7 in graphics
-   2 Q8a (eq 5.22)
-   3 Q8b (eq 5.23)
-   4 Q9a (eq 5.24) -> Q9 in graphics
-
-2. (--msa-fasta):
-   A multiple sequence alignment fo the gene in FASTA format. 
-   Parser is basic, so make sure the name contains only the identifier.
+   0-6 Q0-Q6
    
-3. (--winl):
+2. (--msa-fasta)
+   A multiple sequence alignment fo the gene in FASTA format. 
+  
+3. (--align_type)
+
+    dna for DNA alignements.
+    
+    protein is nonpublished and experimental
+      it comes with other undocumented options:
+		  --protmatrix: blosum80,blosum62
+                  --dist: scoredist
+   
+4. (--calc_type)
+   
+    auto is the option used to optimize the bipartition
+   
+5. (--x_ident_csv)
+   
+   list of identifiers belonging to the X group (carcinogenic, invasive).
+   
+6. (--winl):
    Length of the Multiple sequence alignment
+   
+7. (--win_step)
+  
+    Number of nucleotides for sliding the window.
 
-4. (--gr-seqs-csv):
-   A file in csv format, detailing which sequence belongs to which group.
-   The header is of this format:
-   "","PROK_GROUP_ID","NCBI_SEQ_ID"
-   "1",1,15608435
- 
-5. (--q-func-hgts-csv):
+8. (--q_func_csv):
    The name of the resulting file in csv format. 
-   The most important results are: seqid_i,seqid_j,val,pval
+   
+   Format is:
+    win_length,x,dXY,dXY_inv,vX,vX_inv,vY,vY_inv,Q0,Q1,Q2,Q3,Q4,Q5,Q6,Q7,nx,ny,gap_prop,A_dXY,A_dXY_inv,A_vX,A_vX_inv,A_vY,A_vY_inv,A_Q0,A_Q1,A_Q2,A_\
+Q3,A_Q4,A_Q5,A_Q6,A_Q7,A_nx,A_ny,A_rand_idx,A_adj_rand_idx,A_ham_idx
 
-   Results are also detailing the global, local group memberships and the group components of the formulas.
-   An example header follows:
-   grpidx_i,grpidx_j,i_size,j_size,locseqidx_i,locseqidx_j,grpid_i,grpid_j,seqid_i,seqid_j,val,pval,dXX,dYY,dXY,flE
-
-   Note that flE is denoting D(x0,y0) or xy throughout the text, while dXX,dYY and dXY are the intragroups and intergroup distances.    
-
+    functions prepended with A_ meaning _automatic_, optimised bipartition
+    functions prepended wit Q meaning Q functions, without bipartition optimisation
+    A_adj_rand_idx is the Adjuste Rand Index while A_ham_idx is the undocumented Hamming Index
+  
+9. (--dist)
+   
+   ham - Hamming distance
+   scoredist - used for protein scoring - undocumented
+   
+   
+10. (--optim)
+    km -  k-means type of optimisation, default, used throughout the article and applications
+    nj	- experimental, unpublished, based on Neighbor Joining bipartitions, faster, less accurate
+    
 ### Example:
-   An example of execution, using HPV alignement is given in.
+
+   [example/hpv_e6/](example/hpv_e6/) An example of execution, using HPV alignement is given in.
+   [example/neiss/](example/neiss/) Another is given for Neisseria meningitidis
 
 ### Feedback and bug reports:
    Feedback is welcomed: dunarel(at)gmail(dot)com.
