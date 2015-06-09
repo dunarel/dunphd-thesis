@@ -17,7 +17,7 @@ Springer, 491-499
 in proceedings of RECOMB Comparative Genomics 2008, Springer, Lecture Notes in Bioinformatics Series,
 Paris, 128-140
 
-It is included here for reference, as some of the results will be used in later projects to compare against.
+It is included here for reference, as some of the results will be wrapped and expanded in later projects.
 It also constitutes a minimal implementation of the Q-functions.
 
 ### qfunc_java_ba selected contents:
