@@ -1,6 +1,6 @@
 ### hgt-par-cluster-scripts
 
-These scripts are used to generate and submit parallel jobs on the Calcul Quebec MP2 cluster.
+These scripts are used to generate and submit and schedule parallel jobs on the Calcul Quebec MP2 cluster.
 
 - When enlarging our study to the Partial Horizontal Gene Transfer, we faced an increased number of windows, in the thousands. 
 We therefore developed our own task scheduler, to take better advantage of the "qsub" standard submission system and reduce the number of concurrent jobs.
