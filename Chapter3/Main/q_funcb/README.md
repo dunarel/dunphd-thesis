@@ -57,26 +57,25 @@ Detecting genomic regions associated with a disease using variability functions 
   
 3. (--align_type)
 
--  dna for DNA alignements.
--  protein is nonpublished and experimental
-      it comes with other undocumented options:
-  * --protmatrix: blosum80,blosum62
-  * --dist: scoredist
+  -  dna for DNA alignements.
+  -  protein is nonpublished and experimental. It comes with other undocumented options:
+    * --protmatrix: blosum80,blosum62
+    * --dist: scoredist
    
 4. (--calc_type)
    
--    auto is the option used to optimize the bipartition
+  - auto is the option used to optimize the bipartition
    
 5. (--x_ident_csv)
    
--   list of identifiers belonging to the X group (carcinogenic, invasive).
+  -   list of identifiers belonging to the X group (carcinogenic, invasive).
    
 6. (--winl):
--   Length of the Multiple sequence alignment
+  - Length of the Multiple sequence alignment
    
 7. (--win_step)
   
--    Number of nucleotides for sliding the window.
+  -    Number of nucleotides for sliding the window.
 
 8. (--q_func_csv):
    The name of the resulting file in csv format. 
@@ -91,12 +90,12 @@ Q3,A_Q4,A_Q5,A_Q6,A_Q7,A_nx,A_ny,A_rand_idx,A_adj_rand_idx,A_ham_idx
   
 9. (--dist)
    
--   ham - Hamming distance
--   scoredist - used for protein scoring - undocumented 
+  -   ham - Hamming distance
+  -   scoredist - used for protein scoring - undocumented 
    
 10. (--optim)
--   km -  k-means type of optimisation, default, used throughout the article and applications
--   nj	- experimental, unpublished, based on Neighbor Joining bipartitions, faster, less accurate
+  -   km -  k-means type of optimisation, default, used throughout the article and applications
+  -   nj	- experimental, unpublished, based on Neighbor Joining bipartitions, faster, less accurate
     
 ### Example:
 
