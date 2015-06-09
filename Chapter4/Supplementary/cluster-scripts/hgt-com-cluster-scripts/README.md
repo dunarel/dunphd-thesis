@@ -8,7 +8,7 @@ As this version is already parallelized using threads, we used the regular __qsu
 - [hgt-com-raxml](hgt-com-raxml/) contains the scripts to run HGT-Detection for HGT inference. 
 As this version is serial, we are packing jobs using the __bqsub__ submission scripts, developed by the MP2 Cluster team.
 
-- [timing](timing) contains the scripts to run TreePL and B.E.A.S.T. for time inference.
+- [hgt-com-raxml/timing](hgt-com-raxml/timing) contains the scripts to run TreePL and B.E.A.S.T. for time inference.
 They are using our custom Java scheduler [proc-hom-ex](../proc-hom-ex)
 
   
