@@ -12,7 +12,7 @@ They are working turn-key, compilable, and executable, self contained, independe
 
 We also include one or more __Supplementary__ projects for each chapter, those used to _develop_ the current solution and to run simulations.
 Some of them may be used independently for similar purposes, as they have their own build system.
-Do not expect those to run "out of the box", as they are taken out of their original context.
+Do not expect those to run "out of the box", as they are taken out of their original context. Especially some are ment to run on a cluster.
 
 
 ## Chapter III 
