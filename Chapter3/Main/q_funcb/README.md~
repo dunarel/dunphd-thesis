@@ -92,8 +92,8 @@ Q3,A_Q4,A_Q5,A_Q6,A_Q7,A_nx,A_ny,A_rand_idx,A_adj_rand_idx,A_ham_idx
   
 9. (--dist)
    
-..*   ham - Hamming distance
-..*   scoredist - used for protein scoring - undocumented
+-   ham - Hamming distance
+-   scoredist - used for protein scoring - undocumented
    
    
 10. (--optim)
@@ -102,8 +102,8 @@ Q3,A_Q4,A_Q5,A_Q6,A_Q7,A_nx,A_ny,A_rand_idx,A_adj_rand_idx,A_ham_idx
     
 ### Example:
 
-..*   [example/hpv_e6/](example/hpv_e6/) An example of execution, using HPV alignement is given in.
-..*   [example/neiss/](example/neiss/) Another is given for Neisseria meningitidis
+-   [example/hpv_e6/](example/hpv_e6/) An example of execution, using HPV alignement is given in.
+-   [example/neiss/](example/neiss/) Another is given for Neisseria meningitidis
 
 ### Feedback and bug reports:
    Feedback is welcomed: dunarel(at)gmail(dot)com.
