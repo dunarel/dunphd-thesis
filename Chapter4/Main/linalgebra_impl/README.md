@@ -20,7 +20,7 @@ This software implements the HGT custom weighted clustering described in:
   * Abdoulaye Banire Diallo: http://ancestors.bioinfo.uqam.ca/BioinfoLab/index.php
   
 ### Requirements
-   * python 2.7, numpy and scipy numerical calculation packages
+   * Python 2.7, numpy and scipy numerical calculation packages
 
  
 ### HGT-QFCLUST contents:

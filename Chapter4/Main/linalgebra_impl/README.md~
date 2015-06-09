@@ -36,9 +36,6 @@ This software implements the HGT custom weighted clustering described in:
   * []() - 
   * []() - 
       
-
-
-
  
 ### Example Usage:
 
@@ -46,6 +43,7 @@ This software implements the HGT custom weighted clustering described in:
   The Input files are extracted from the transfer database using proc-hom-v.0.2.R.
   
   Please note that decomposition of transfers was already performed in a previous database step.
+  See section 4.3.3. Computation of HGT statistics, and Figure 1 for decomposition details.
   
   la_transfers.csv contains these fragments having the following structure:
   GN: gene,
@@ -62,14 +60,10 @@ This software implements the HGT custom weighted clustering described in:
   
   See APPENDIX B for all clustering details including aggregation and weighting details.
   
-  
-  
-  
   The final value is the one from Table 4.1a. Mean HGT rates Complete HGT 75% bootstrap.
   
+  Matrices could be easily exported to csv if need be.
   
-  
-   The executable name is: hgt-qfunc-deb 
 
 ### Feedback and bug reports:
    Feedback is welcomed: dunarel(at)gmail(dot)com.
