@@ -1,7 +1,7 @@
 ### qfunc_java_ba
 
 
-This NetBeans IDE project implements an initial version of the Q-functions using prior knowledge of pathogenicity.
+This NetBeans IDE project implements an initial version of the Q-functions _using prior knowledge of pathogenicity_.
 
 See:
 
