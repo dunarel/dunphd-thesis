@@ -18,7 +18,7 @@ It is included here for reference, as some of the results will be used and expan
   * [lib/](lib/) - Source code 
   * [lib/migrate/](lib/migrate/) - Migrations to create the database. 
   
-  * [/gnu_plot/](/gnu_plot/) and * [/gnu_plot2/](/gnu_plot2/) - Gnuplot graphics
+  * [gnu_plot/](gnu_plot/) and [gnu_plot2/](gnu_plot2/) - Gnuplot graphics
   * [nbproject/](nbproject/) - Netbeans IDE build system
   * [files/](files/) - Program input/output
   
