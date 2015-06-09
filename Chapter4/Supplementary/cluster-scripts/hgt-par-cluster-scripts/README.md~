@@ -17,3 +17,7 @@ These folder contain the rest of the scripts:
  - [phylo/raxml](phylo/raxml) contains the scripts to run RAxML Maximum Likelihood tree inference.
  - [hgt/raxml/](hgt/raxml/) contains the scripts to run HGT-Detection for HGT inference.
 
+Timing is performed similar to [hgt-com-cluster-scripts](../hgt-com-cluster-scripts):
+
+- [timing](timing) contains the scripts to run TreePL and B.E.A.S.T. for time inference.
+They are using our custom Java scheduler [proc-hom-ex](../../proc-hom-ex)
