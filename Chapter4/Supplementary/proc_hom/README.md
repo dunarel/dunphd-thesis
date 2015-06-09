@@ -29,9 +29,9 @@ Following aggregation final statistics are exported from the database and graphi
   * [core_files/](core_files/) - R scripts to work with core genes.
   * [db/exports/](db/exports/) - Postprocessing of results using graphical scripts, essentially gnuplot and R.
   * [nbproject/](nbproject/) - Netbeans IDE build system
-  * [r_lang/](r_lang/) - R Server scripts (RServ). This is used to calculate some of the histograms used for time inference. 
+  * [r_lang/](r_lang/) - R Server scripts (RServ). This is used to calculate some of the histograms for time inference. 
   It is communicating live with the Ruby scripts, using a binary protocol. We also provide scripts to start the server in daemon mode.
-  * [sessions/](sessions/) - This is a large collection of unstructures SQL snippets used during development.
+  * [sessions/](sessions/) - This is a large collection of unstructured SQL snippets used during development.
   
   
   
