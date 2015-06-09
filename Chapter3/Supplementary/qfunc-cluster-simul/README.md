@@ -19,18 +19,11 @@ The main program is [lib/simul_two_subtrees.rb](lib/simul_two_subtrees.rb).
 
 The original binary Linux executable used, compiled with g++ 4.4 is [bin/q_funcb](bin/q_funcb).
 
-
-The simul_ruby/lib folder contains the Ruby scripts used for the simulations.
-
-Active Record migration scripts are provided to recreate the database structures supporting the simulations.
-They are found in the [migrate](migrate) folder.
-
-
 ### Other qfunc-cluster-simul selected contents:
 
   * [admin/](admin/) - Cluster task control 
-  * [lib/](lib/) - Source code used for simulations
-  * [migrate/](migrate/) - Active Record Migrations to create the database. 
+  * [lib/](lib/) - Source code used for performing simulations
+  * [migrate/](migrate/) - Active Record Migrations to create the database structures supporting the simulations. 
   
   
 
