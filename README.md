@@ -5,11 +5,12 @@ This repository releases the source code implementations of the clustering algor
 ### Functional Genomic Region And Horizontal Gene Transfer Detection Using Sequence Variability Clustering: Applications To Viral And Prokaryotic Evolution
 #### Supervisor Prof. Vladimir Makarenkov, Co-supervisor Prof. Abdoulaye Banire Diallo, Coauthor: Dr. Alix Boc
 
-There are three __Main__ projects, pertaining each to one chapter of the thesis. They are working, compilable, and executable, independent software releases.
+There are three __Main__ projects, one for each chapter of the thesis, implementing the core clustering algorithms, in a portable and reliable way. 
+They are working out of the box, compilable, and executable, self contained, independent software releases.
 
 ---
 
-We also include __Supplementary__ projects, those used to develop the current solution and to run simulations.
+We also include one or more __Supplementary__ projects, those used to _develop_ the current solution and to run simulations.
 Some of them may be used independently for similar purposes, as they have their own build system.
 Do not expect those to run outside the box, as they are taken out of their original context.
 
