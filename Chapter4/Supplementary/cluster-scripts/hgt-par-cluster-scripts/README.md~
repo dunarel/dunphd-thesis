@@ -2,7 +2,20 @@
 
 These scripts are used to generate and submit parallel jobs on the Calcul Quebec MP2 cluster.
 
-- [gene_blo_seqs_raxml](gene_blo_seqs_raxml/) contains the script to run RAxML Maximum Likelihood tree inference. 
+- When enlarging our study to the Partial Horizontal Gene Transfer, we faced an increased number of windows, in the thousands. 
+We therefore developed our own task scheduler, to take better advantage of the "qsub" standard submission system and reduce the number of concurrent jobs.
+
+These are composed of:
+ [hgt/raxml/exec/sched-jobs-hgt-raxml.rb](hgt/raxml/exec/sched-jobs-hgt-raxml.rb) which schedules tasks.
+ [hgt/raxml/exec/win-task-hgt-raxml.rb](hgt/raxml/exec/win-task-hgt-raxml.rb) which executes one task.
+
+ The rest of the scripts are in:
+- [hgt/raxml/](hgt/raxml/) contains the script to run RAxML Maximum Likelihood tree inference.
+
+
+
+
+
 As this version is already parallelized using threads, we used the regular __qsub__ submission.
 
 - [hgt-com-raxml](hgt-com-raxml/) contains the scripts to run HGT-Detection for HGT inference. 
@@ -13,13 +26,6 @@ They are using our custom Java scheduler [proc-hom-ex](../../proc-hom-ex)
 
   
 
-2) When enlarging our study to the Partial Horizontal Gene Transfer, we faced an increased number of windows, in the thousands. 
-We therefore developed our own task scheduler, to take better advantage of the "qsub" standard submission system and reduce the number of concurrent jobs.
-
-These are called:
-chap4-hgt-par-cluster-scripts/hgt/raxml/exec/sched-jobs-hgt-raxml.rb 
-and 
-chap4-hgt-par-cluster-scripts/hgt/raxml/exec/win-task-hgt-raxml.rb
 
 
 ### proc_hom
