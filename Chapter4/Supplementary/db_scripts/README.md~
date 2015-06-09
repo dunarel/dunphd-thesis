@@ -1,7 +1,7 @@
 ### db_scripts
 
 
-This folder is a collection of scripts used to initialize, manage and configure advanced options an HSQLDB database used for Chapter4 project.
+This folder is a collection of scripts used to initialize, manage and configure advanced options of the HSQLDB database used for Chapter4 project.
 
 In particular:
 
