@@ -85,7 +85,7 @@ It uses the _OpenCL_ heterogeneous parallelizing framework, on an _NVIDIA_ Graph
 
 - One of our earlier steps is validating the Multiple Sequence Alignments, ensuring orthology.
 This is where the name of our project initially came from: __proc_hom__ i.e. __Proc__ ariotic __Hom__ ology.
-[Chapter4/Supplementary/tribemcl/](Chapter4/Supplementary/tribemcl/) is a _bash_ script, doing reciprocal BLAST hits, and clustering using TribeMCL.
+[Chapter4/Supplementary/tribemcl/](Chapter4/Supplementary/tribemcl/) is a collection of _bash_ and _Ruby_ scripts, doing reciprocal BLAST hits, and clustering using TribeMCL.
 
 
 ## CHAPTER V
