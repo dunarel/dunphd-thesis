@@ -7,6 +7,8 @@ This repository releases the source code implementations of the clustering algor
 
 There are three __Main__ projects, pertaining each to one chapter of the thesis. They are working, compilable, and executable, independent software releases.
 
+---
+
 We also include __Supplementary__ projects, those used to develop the current solution and to run simulations.
 Some of them may be used independently for similar purposes, as they have their own build system.
 Do not expect those to run outside the box, as they are taken out of their original context.

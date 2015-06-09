@@ -96,6 +96,8 @@ Because of its low time complexity, the new algorithm can be used in complex phy
 Even though the presented method is designed to identify complete HGT, we investigated how it copes with partial HGT (i.e. HGT followed by the intragenic sequence recombination) and showed that in many cases it can be used to identify both complete and partial HGT. 
 This is an _OpenMP_ parallelized and _SSE3_ vectorized Linux gcc version.
 
+---
+
 - Simulations were performed using Chapter IV wrapper Rake scripts, inside:
 [Chapter4/Supplementary/proc_hom/lib/tasks/hgt_com.rake](Chapter4/Supplementary/proc_hom/lib/tasks/hgt_com.rake).
 
