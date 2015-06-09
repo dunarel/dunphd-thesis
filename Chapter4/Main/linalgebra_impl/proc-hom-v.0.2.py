@@ -1,9 +1,13 @@
+#!/usr/bin/env python
+
 # -*- coding: utf-8 -*-
+
 """
 Created on Sun Sep 21 12:37:33 2014
 
 @author: Dunarel Badescu
 """
+
 import csv
 import numpy as np
 
