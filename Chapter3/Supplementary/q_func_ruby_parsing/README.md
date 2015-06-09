@@ -1,0 +1,18 @@
+### q_func_ruby_parsing
+
+This Ruby Netbeans project is performing parsing of the results from Q-functions running simulations.
+It also draws graphics using gnuplot.
+
+
+### q_func_ruby_parsing selected contents:
+
+  * [files/](files/) - Simulations multiple functions aggregate .csv files and plotting code.
+  * [lib/](lib/) - Source code used for parse the simulations
+  * [migrate/](migrate/) - Active Record Migrations to create the database structures supporting the simulations. 
+  * [nbproject/](nbproject/) - Netbeans IDE build system
+  
+
+
+
+
+
