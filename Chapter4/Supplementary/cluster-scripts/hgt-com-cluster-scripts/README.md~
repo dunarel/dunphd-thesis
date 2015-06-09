@@ -9,6 +9,6 @@ As this version is already parallelized using threads, we used the regular __qsu
 As this version is serial, we are packing jobs using the __bqsub__ submission scripts, developed by the MP2 Cluster team.
 
 - [hgt-com-raxml/timing](hgt-com-raxml/timing) contains the scripts to run TreePL and B.E.A.S.T. for time inference.
-They are using our custom Java scheduler [proc-hom-ex](../proc-hom-ex)
+They are using our custom Java scheduler [proc-hom-ex](../../proc-hom-ex)
 
   
