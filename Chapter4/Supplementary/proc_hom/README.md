@@ -17,7 +17,7 @@ The main tasks are:
 
 Associated JRuby classes are in [lib/](lib/).
 
-It uses an HSQLDB database, that it populates using Active Record migrations, located in [/db/migrate](/db/migrate).
+It uses an HSQLDB database, that it populates using Active Record migrations, located in [db/migrate](db/migrate).
 
 Simulations are run on a remote Compute Canada cluster, then results are recuperated and inserted into the database.
 Following aggregation final statistics are exported from the database and graphics are drawn.
