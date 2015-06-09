@@ -8,6 +8,13 @@ This the Main project used to develop and run:
 This is heterogeneous software, using the Ruby on Rails rake build system. 
 
 This project is extensively using Rake tasks, located in [lib/tasks/](lib/tasks/).
+The main tasks are:
+- [lib/tasks/hgt_com.rake](lib/tasks/hgt_com.rake) Complete HGT Detection
+- [lib/tasks/hgt_par.rake](lib/tasks/hgt_par.rake) Partial HGT Detection
+- [lib/tasks/hgt_tot.rake](lib/tasks/hgt_tot.rake) Complete and Partial HGT Detection
+- [lib/tasks/hgt_clus.rake](lib/tasks/hgt_clus.rake) Running synthetic results, like those combining Complete and Partial HGT
+- [lib/tasks/hgt_clus_par.rake](lib/tasks/hgt_clus_par.rake) Manages communication with the Cluster results.
+
 Associated JRuby classes are in [lib/](lib/).
 
 It uses an HSQLDB database, that it populates using Active Record migrations, located in [/db/migrate](/db/migrate).

@@ -8,6 +8,14 @@ This the Main project used to develop and run:
 This is heterogeneous software, using the Ruby on Rails rake build system. 
 
 This project is extensively using Rake tasks, located in [lib/tasks/](lib/tasks/).
+The main tasks are:
+- [lib/tasks/hgt_com.rb](lib/tasks/hgt_com.rb) Complete HGT Detection
+- [lib/tasks/hgt_par.rb](lib/tasks/hgt_par.rb) Partial HGT Detection
+- [lib/tasks/hgt_tot.rb](lib/tasks/hgt_tot.rb) Complete and Partial HGT Detection
+- lib/tasks/[]()
+- []()
+
+
 Associated JRuby classes are in [lib/](lib/).
 
 It uses an HSQLDB database, that it populates using Active Record migrations, located in [/db/migrate](/db/migrate).
@@ -24,7 +32,7 @@ Following aggregation final statistics are exported from the database and graphi
   * [nbproject/](nbproject/) - Netbeans IDE build system
   * [r_lang/](r_lang/) - R Server scripts (RServ). This is used to calculate some of the histograms used for time inference. 
   It is communicating live with the Ruby scripts, using a binary protocol. We also provide scripts to start the server in daemon mode.
-  * [app/](app/) - Rails Object Relational Models
+  * [sessions/](sessions/) - This is a large collection of unstructures SQL snippets used during development.
   
   
   
