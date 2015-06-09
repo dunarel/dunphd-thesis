@@ -20,11 +20,7 @@ The main program is [lib/simul_two_subtrees.rb](lib/simul_two_subtrees.rb).
 The original binary Linux executable used, compiled with g++ 4.4 is [bin/q_funcb](bin/q_funcb).
 
 
-
-
-
 The simul_ruby/lib folder contains the Ruby scripts used for the simulations.
-
 
 Active Record migration scripts are provided to recreate the database structures supporting the simulations.
 They are found in the [migrate](migrate) folder.
