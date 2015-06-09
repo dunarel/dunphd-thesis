@@ -84,8 +84,8 @@ Detecting genomic regions associated with a disease using variability functions 
     win_length,x,dXY,dXY_inv,vX,vX_inv,vY,vY_inv,Q0,Q1,Q2,Q3,Q4,Q5,Q6,Q7,nx,ny,gap_prop,A_dXY,A_dXY_inv,A_vX,A_vX_inv,A_vY,A_vY_inv,A_Q0,A_Q1,A_Q2,A_\
 Q3,A_Q4,A_Q5,A_Q6,A_Q7,A_nx,A_ny,A_rand_idx,A_adj_rand_idx,A_ham_idx
 
-  - functions prepended with A_ meaning _automatic_, optimised bipartition
-  - functions prepended wit Q meaning Q functions, without bipartition optimisation
+  - functions prepended with A_ meaning _automatic_, optimized bipartition
+  - functions prepended wit Q meaning Q functions, without bipartition optimization
   - A_adj_rand_idx is the Adjuste Rand Index 
   - A_ham_idx is the undocumented Hamming Index
   
