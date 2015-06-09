@@ -5,7 +5,7 @@ This Ruby Active Record project is performing simulations of the Q-functions in 
 
 It consists of Ruby scripts running in a master/slave configuration.
 
-The controling script running on the master node is [admin/spadb.rb](admin/spadb.rb).
+The controling script running on the master node is [admin/spadb.rb](admin/spadm.rb).
 
 The simulation is also using [create_tree/createTree](create_tree/createTree) for random tree generation.
 See:
