@@ -34,7 +34,7 @@ Detecting genomic regions associated with a disease using variability functions 
 
 - Simulations profiling the behaviour of Q-functions under Positive Selection/Lineage Specific Selection and Monophyletic/Polyphyletic conditions 
 were conducted on the [Licef Research Centre](http://www.licef.ca) High Performance Cluster (HPC) belonging to Universite Teluq. 
-[Chapter3/Supplementary/qfunc-cluster-simul/](Chapter3/Supplementary/qfunc-cluster-simul/) is the corresponding cluster project used to conduct those simulations.
+[Chapter3/Supplementary/qfunc-cluster-simul/](Chapter3/Supplementary/qfunc-cluster-simul/) is the corresponding cluster project used to perform those simulations.
 
 - Results were parsed and graphics drawn using [Chapter3/Supplementary/q_func_ruby_parsing/](Chapter3/Supplementary/q_func_ruby_parsing/).
 
