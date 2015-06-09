@@ -2,9 +2,9 @@
 
 
 This Ruby Active Record project is performing simulations of the Q-functions in various evolutionnary conditions.
+It uses an [Apache Derby](http://db.apache.org/derby/) database.
 
 It consists of Ruby scripts running in a master/slave configuration.
-
 The controling script running on the master node is [admin/spadb.rb](admin/spadm.rb).
 
 The simulation is also using [create_tree/createTree](create_tree/createTree) for random tree generation.
@@ -15,31 +15,25 @@ implemented by Alix Boc - June 2008.
 
 To simulate mutated sequences along branches of the tree we used [Seqgen](http://tree.bio.ed.ac.uk/software/seqgen/).
 
-The main program is: 
-simul_two_subtrees.rb
+The main program is [lib/simul_two_subtrees.rb](lib/simul_two_subtrees.rb).
 
 The original binary Linux executable used, compiled with g++ 4.4 is [bin/q_funcb](bin/q_funcb).
 
 
+
+
+
 The simul_ruby/lib folder contains the Ruby scripts used for the simulations.
 
-These were inserted into an Apache Derby database.
-See http://db.apache.org/derby/. 
 
 Active Record migration scripts are provided to recreate the database structures supporting the simulations.
 They are found in the [migrate](migrate) folder.
 
 
-### q_func_jruby_ba selected contents:
+### Other qfunc-cluster-simul selected contents:
 
   * [lib/](lib/) - Source code 
-  * [lib/migrate/](lib/migrate/) - Migrations to create the database. 
-  
-  * [gnu_plot/](gnu_plot/) and [gnu_plot2/](gnu_plot2/) - Gnuplot graphics
-  * [nbproject/](nbproject/) - Netbeans IDE build system
-  * [files/](files/) - Program input/output
-  
-
+  * [migrate/](migrate/) - Active Record Migrations to create the database. 
   
 
 
