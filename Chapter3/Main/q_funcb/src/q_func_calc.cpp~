@@ -44,12 +44,27 @@ qFuncCalc::qFuncCalc(ApplicationData* appl_data) {
     //take application data pointer
     appl_data_ = appl_data;
 
-   
+    //take parameters for just member functions
+    //msa_fasta_ = appl_data.msa_fasta_;
+    //ids_work_csv_ = appl_data.ids_work_csv_;
+
+    //x_ident_csv_ = appl_data.x_ident_csv_;
+    //a_group_csv_ = appl_data.a_group_csv_;
+    //b_group_csv_ = appl_data.b_group_csv_;
+
+    //q_func_csv_ = appl_data.q_func_csv_;
+    //align_type_ = appl_data.align_type_;
+    //dist_ = appl_data.dist_;
+    //mat_ = appl_data.mat_;
+
     cout << "qFuncCalc.dist_:" << appl_data_->dist_ << endl;
 
     //calculateur virtuel fonction du parametre align_type_
     if (appl_data_->dist_ == eHAM) {
         cout << "qFuncCalc.dist_: Hamming" << endl;
+        //      dist_seq_ = new DistSeqDna;
+        //initialisation fonction distance
+        //dist_func_ = &DistSeqFuncStatic::hamming_2seq;
         //initialize calculator
         dist_calc_ = new Hamming();
 
@@ -61,16 +76,26 @@ qFuncCalc::qFuncCalc(ApplicationData* appl_data) {
 
     } else if (appl_data_->dist_ == eKIM_PROT) {
         cout << "qFuncCalc.dist_: Kimprot" << endl;
+        //   dist_seq_ = new DistSeqProt;
+        //initialisation fonction distance
+        //dist_func_ = &DistSeqFuncStatic::kimprot_2seq;
         //initialize calculator
         dist_calc_ = new KimProt();
 
     } else if (appl_data_->dist_ == eSCOREDIST) {
         cout << "qFuncCalc.dist_: ScoreDist" << endl;
+        //   dist_seq_ = new DistSeqProt;
+        //initialisation fonction distance
+        //dist_func_ = &DistSeqFuncStatic::kimprot_2seq;
         //initialize calculator
         dist_calc_ = new ScoreDist(appl_data_);
 
     }
 
+
+
+
+    //pval_ = appl_data.pval_;
 
     //nombre de replicats
     NB_REPL_ = 100000;
@@ -79,7 +104,18 @@ qFuncCalc::qFuncCalc(ApplicationData* appl_data) {
     //locally modifiable fields
     //window length
     win_l_ = appl_data_->win_l_;
-    
+    //
+    //q_func_opt_max_idx_ = appl_data.q_func_opt_max_idx_;
+
+    //window step
+    //win_step_ = appl_data.win_step_;
+
+    //type of calculation simple/auto/single
+    //calc_type_ = appl_data.calc_type_;
+
+    //type of partition optimization
+    //optim_type_ = appl_data.optim_type_;
+
 
 
 }
@@ -131,6 +167,29 @@ void qFuncCalc::readMsaFasta() {
 
     align_mult_types_.clear();
 
+    /*
+    ifstream inp;
+    ofstream out;
+    string myFileName;
+
+
+    myFileName = "mydata.txt";
+    inp.open(myFileName.c_str(), ifstream::in);
+    inp.close();
+    if(inp.fail())
+    {
+    inp.clear(ios::failbit);
+    cout << "Writing to file..." << myFileName.c_str() << endl;
+    out.open(myFileName.c_str(), ofstream::out);
+    out << "Hello World" << endl;
+    out.close();
+    }
+    else
+    {
+    cout << "Error...file """ << myFileName.c_str() << """ exists" << endl;
+    }
+
+     */
 
     //ifstream file("files//gene_align_seqs_E1.tfa");
     cout << "c_str= " << appl_data_->msa_fasta_.c_str() << endl;
@@ -211,6 +270,20 @@ void qFuncCalc::readMsaFasta() {
 
         //        cout << "first_car: [" << first_car << "]" << str << endl;
 
+        /*
+         vector<string> tokenList;
+         split(tokenList, str, is_any_of(": "), token_compress_on);
+
+        // BOOST_FOREACH(string &t, tokenList)
+        // {
+        //   t+="!";
+        // }
+
+
+        align_mult_types.insert ( pair<string,string>(tokenList.at(0),tokenList.at(1)) );
+        cout << tokenList.at(0) << endl;
+        cout << "##################################" << endl;
+         */
 
         counter += 1;
 
@@ -297,6 +370,15 @@ void qFuncCalc::eliminateNonUsed() {
             y_ident_.begin(), y_ident_.end(),
             inserter(x_ident_, x_ident_.begin()));
 
+    //identifiers are final and ordered (set containers)
+    //load simpler containers(vectors) x_seqs_, y_seqs_
+    //for (vector<string>::iterator iter = x_ident_.begin(); iter != x_ident_.end(); iter++) {
+    //    x_seqs_.push_back(align_mult_types_[*iter]);
+    //}
+    //
+    //for (vector<string>::iterator iter = y_ident_.begin(); iter != y_ident_.end(); iter++) {
+    //    y_seqs_.push_back(align_mult_types_[*iter]);
+    //}
 
     //set nx_, ny_ final dimensions
     nx_ = x_ident_.size();
@@ -305,6 +387,9 @@ void qFuncCalc::eliminateNonUsed() {
     cout << "eliminateNonUsed, nx_ " << nx_ << endl;
     cout << "eliminateNonUsed, ny_ " << ny_ << endl;
 
+    //free align_mult_types_
+    //needed by calcReplSameIdentDifCol
+    //align_mult_types_.clear();
 
 }
 
@@ -328,6 +413,20 @@ void qFuncCalc::filterIdsWork() {
     //copy constructor
     all_types_=tmp;
 
+    //verify result
+    /*
+    cout << "filterIdsWork, all_types_ size: " << all_types_.size() << endl;
+
+    for (set<string>::iterator iter = all_types_.begin(); iter != all_types_.end(); iter++) {
+        cout << "filterIdsWork, all_types :" << *iter << endl;
+
+    }
+
+    for (set<string>::iterator iter = ids_work_.begin(); iter != ids_work_.end(); iter++) {
+        cout << "filterIdsWork, ids_work_ :" << *iter << endl;
+
+    }
+     */
 
 
 }

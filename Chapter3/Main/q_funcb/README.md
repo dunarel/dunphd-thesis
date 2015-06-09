@@ -38,9 +38,10 @@ Detecting genomic regions associated with a disease using variability functions 
   * [license](license) - Full text of the BSD license (3-clause)
   
   * [src/main.cpp](src/main.cpp) - Main program
-  * [src/q_func_hgt_appl.cpp](src/q_func_hgt_appl.cpp) - Application container
-  * [src/q_func_hgt.cpp](src/q_func_hgt.cpp) - Application code
-  * [src/aligned_storage.hpp](src/aligned_storage.hpp) - Aligned matrix class to use for fast vector operations
+  * [src/QFuncCalcAppl.cpp](src/QFuncCalcAppl.cpp) - Application container
+  * [src/q_func_calc.cpp](src/q_func_calc.cpp) - Application code, managing input/output, windows and calculation types
+  * [src/auto_win_q.cpp](src/auto_win_q.cpp) - Bipartition optimization, Adjusted Rand Index score and Distance Matrix calculations
+  * [src/distance_measures.cpp](src/distance_measures.cpp) - Hamming distance as well as other distance measure calculation
   
   
 ### Usage:

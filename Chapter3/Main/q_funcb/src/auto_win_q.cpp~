@@ -46,6 +46,26 @@ AutoWinQ::AutoWinQ(qFuncCalc& ctx, int win_pos) {
     //using copy constructor
     ident_all_ = ctx_->all_types_;
 
+    /*
+    ident_all_.clear();
+    //ident_all_.reserve(ctx_.align_mult_types_.size());
+
+
+    //extract all identifiers
+    
+    map<string, string>::iterator it;
+    set::iterator its;
+
+
+    for (it = ctx_->align_mult_types_.begin(); it != ctx_->align_mult_types_.end(); ++it) {
+        //load all identifiers
+        //ident_all_.push_back((*it).first);
+        ident_all_.insert((*it).first);
+        //cout << (*it).first << endl;
+        //cout << " whole  sequence: => " << (*it).second.substr(win_pos, ctx_.win_l_) << endl;
+
+    }
+     * */
 
     NB_GROUPS_ = 2;
     //empty before.
