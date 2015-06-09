@@ -9,9 +9,9 @@ based on Graph connected components using Jaccard similarity.
 - [src/Connected1ComponentsKernels.cl](src/Connected1ComponentsKernels.cl) OpenCL kernel calculating the Jaccard distance one float at a time.
 - [src/Connected4ComponentsKernels.cl](src/Connected4ComponentsKernels.cl) Lower bandwidth usage with float4 vectors.
 
-- [src/org/uqam/doct/HgtParConnCompBest.java](src/org/uqam/doct/HgtParConnCompBest.java) Calculates Jaccard distance using new method based on median
-- [src/org/uqam/doct/HgtParConnCompMed.java](src/org/uqam/doct/HgtParConnCompMed.java) Old method based on mean 
-- [src/org/uqam/doct/HgtPar.java](src/org/uqam/doct/HgtPar.java) Connectivity Graph construction
+- [src/org/uqam/doct/proc/hom/sp/HgtParConnCompBest.java](src/org/uqam/doct/proc/hom/sp/HgtParConnCompBest.java) Calculates Jaccard distance using new method based on median
+- [src/org/uqam/doct/proc/hom/sp/HgtParConnCompMed.java](src/org/uqam/doct/proc/hom/sp/HgtParConnCompMed.java) Old method based on mean 
+- [src/org/uqam/doct/proc/hom/sp/HgtPar.java](src/org/uqam/doct/proc/hom/sp/HgtPar.java) Connectivity Graph construction
 
 
 These libraries are called from [../proc_hom/lib/tasks/hgt_par.rake](../proc_hom/lib/tasks/hgt_par.rake) to assemble continuous fragments.
