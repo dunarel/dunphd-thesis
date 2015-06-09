@@ -11,7 +11,7 @@ We therefore developed our own task scheduler, to take better advantage of the _
  
   * For RAxML, these are composed of:
     * [phylo/raxml/exec/sched-jobs-phylo-raxml.rb](phylo/raxml/exec/sched-jobs-phylo-raxml.rb) which schedules tasks.
-    * [[phylo/raxml/exec/win-task-phylo-raxml.rb]([phylo/raxml/exec/win-task-phylo-raxml.rb) which executes one task.
+    * [phylo/raxml/exec/win-task-phylo-raxml.rb]([phylo/raxml/exec/win-task-phylo-raxml.rb) which executes one task.
  
 These folder contain the rest of the scripts:
  - [phylo/raxml](phylo/raxml) contains the scripts to run RAxML Maximum Likelihood tree inference.
