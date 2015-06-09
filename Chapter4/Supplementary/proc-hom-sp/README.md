@@ -1,4 +1,23 @@
-This is a Java Netbeans IDE project at following location:
-chap4-proc_hom/ex_projects/proc-hom-ex/
+### proc-hom-sp
+
+This JavaCL Java application is using the OpenCL heterogeneous parallelizing framework to accelerate execution on NVIDIA graphic card.
+It is at the same time an HSQLDB Java Stored Procedure using JDBC driver for better database performance.
+
+It recovers Partial Horizontal Gene Transfers from their components scattered over multiply superposing windows, 
+based on Graph connected components using Jaccard similarity. 
+
+- [src/Connected1ComponentsKernels.cl](src/Connected1ComponentsKernels.cl) OpenCL kernel calculating the Jaccard distance one float at a time.
+- [src/Connected4ComponentsKernels.cl](src/Connected4ComponentsKernels.cl) Lower bandwidth usage with float4 vectors.
+
+- [src/org/uqam/doct/HgtParConnCompBest.java](src/org/uqam/doct/HgtParConnCompBest.java) Calculates Jaccard distance using new method based on median
+- [src/org/uqam/doct/HgtParConnCompMed.java](src/org/uqam/doct/HgtParConnCompMed.java) Old method based on mean 
+- [src/org/uqam/doct/HgtPar.java](src/org/uqam/doct/HgtPar.java) Connectivity Graph construction
 
 
+These libraries are called from [../proc_hom/lib/tasks/hgt_par.rake](../proc_hom/lib/tasks/hgt_par.rake) to assemble continuous fragments.
+
+### Other proc-hom-sp selected contents:
+  * [nbproject/](nbproject/) - Netbeans IDE build system
+  
+  
+  
