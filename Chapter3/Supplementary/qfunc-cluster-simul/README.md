@@ -28,8 +28,10 @@ They are found in the [migrate](migrate) folder.
 
 ### Other qfunc-cluster-simul selected contents:
 
-  * [lib/](lib/) - Source code 
+  * [admin/](admin/) - Cluster task control 
+  * [lib/](lib/) - Source code used for simulations
   * [migrate/](migrate/) - Active Record Migrations to create the database. 
+  
   
 
 
