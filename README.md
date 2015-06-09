@@ -10,7 +10,7 @@ They are working out of the box, compilable, and executable, self contained, ind
 
 ---
 
-We also include one or more __Supplementary__ projects, those used to _develop_ the current solution and to run simulations.
+We also include one or more __Supplementary__ projects for each chapter, those used to _develop_ the current solution and to run simulations.
 Some of them may be used independently for similar purposes, as they have their own build system.
 Do not expect those to run outside the box, as they are taken out of their original context.
 
