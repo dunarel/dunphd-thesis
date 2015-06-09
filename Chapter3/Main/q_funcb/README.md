@@ -60,8 +60,8 @@ Detecting genomic regions associated with a disease using variability functions 
 -  dna for DNA alignements.
 -  protein is nonpublished and experimental
       it comes with other undocumented options:
-		    ..* --protmatrix: blosum80,blosum62
-		    ..* --dist: scoredist
+		    * --protmatrix: blosum80,blosum62
+		    * --dist: scoredist
    
 4. (--calc_type)
    
