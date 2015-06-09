@@ -12,7 +12,8 @@ They are working turn-key, compilable, and executable, self contained, independe
 
 We also include one or more __Supplementary__ projects for each chapter, those used to _develop_ the current solution and to run simulations.
 Some of them may be used independently for similar purposes, as they have their own build system.
-Do not expect those to run "out of the box", as they are taken out of their original context. Especially some are ment to run on a cluster.
+Do not expect those to run "out of the box", as they are taken out of their original context. Especially some are ment to run on a cluster. 
+Some others are integrated with our graphics pipeline.
 
 
 ## Chapter III 
@@ -102,5 +103,11 @@ This is an _OpenMP_ parallelized and _SSE3_ vectorized Linux gcc version.
 - Simulations were performed using Chapter IV wrapper Rake scripts, inside:
 [Chapter4/Supplementary/proc_hom/lib/tasks/hgt_com.rake](Chapter4/Supplementary/proc_hom/lib/tasks/hgt_com.rake).
 
+If not specifically stated otherwise:
+
+###### Copyright (C) 2015 Dunarel Badescu
+
+### Licence 
+   This software is distributed according to the BSD license (3-clause version).
 
 

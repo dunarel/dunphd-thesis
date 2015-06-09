@@ -103,5 +103,12 @@ This is an _OpenMP_ parallelized and _SSE3_ vectorized Linux gcc version.
 - Simulations were performed using Chapter IV wrapper Rake scripts, inside:
 [Chapter4/Supplementary/proc_hom/lib/tasks/hgt_com.rake](Chapter4/Supplementary/proc_hom/lib/tasks/hgt_com.rake).
 
+If not specifically stated otherwise:
 
+###### Copyright (C) 2015 Dunarel Badescu
+
+### Licence 
+   This software is distributed according to the BSD license (3-clause version).
+   
+   * [license](license) - Full text of the BSD license (3-clause)
 
