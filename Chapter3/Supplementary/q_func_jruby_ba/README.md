@@ -11,9 +11,9 @@ See:
 Identification of specific genomic regions responsible for the invasivity of Neisseria Meningitidis, in Classification as a Tool for Research, Locarek-Junge, H. and Weihs, C. eds, proceedings of IFCS 2009. Studies in Classification, Data Analysis, and Knowledge Organization, 
 Springer, 491-499 
 
-It is included here for reference, as some of the results will be wrapped and expanded in later projects.
+It is included here for reference, as some of the results will be used and expanded in later projects.
 
-### qfunc_java_ba selected contents:
+### q_func_jruby_ba selected contents:
 
   * [lib/](lib/) - Source code 
   * [lib/migrate/](lib/migrate/) - Migrations to create the database. 

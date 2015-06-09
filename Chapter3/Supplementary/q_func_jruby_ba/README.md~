@@ -2,7 +2,7 @@
 
 
 This Ruby NetBeans IDE project is a wrapper over the previous [q_func_java_ba](../q_func_java_ba) project.
-I also extracts the Neisseria frpB periplasmic loops positions and draws them using gnuplot.
+I also extracts the _Neisseria_ _frpB_ periplasmic loops positions and draws them using gnuplot.
 
 
 See:
