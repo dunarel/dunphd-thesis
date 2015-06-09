@@ -41,7 +41,7 @@ Detecting genomic regions associated with a disease using variability functions 
   * [src/QFuncCalcAppl.cpp](src/QFuncCalcAppl.cpp) - Application container
   * [src/q_func_calc.cpp](src/q_func_calc.cpp) - Application code, managing input/output, windows and calculation types
   * [src/auto_win_q.cpp](src/auto_win_q.cpp) - Bipartition optimization, Adjusted Rand Index score and Distance Matrix calculations
-  * [src/distance_measures.cpp](src/distance_measures.cpp) - Hamming distance as well as other distance measure calculation
+  * [src/distance_measures.cpp](src/distance_measures.cpp) - Hamming distance as well as other distance measure calculations
   
   
 ### Usage:

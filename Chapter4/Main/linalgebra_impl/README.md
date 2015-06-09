@@ -11,9 +11,6 @@ This software implements the HGT custom weighted clustering described in:
 ### Licence 
    This software is distributed according to the BSD license (3-clause version).
 
-   Our most recent implementation is available at the following URL address:
-   http://www.info2.uqam.ca/~makarenkov_v/HgtQClust.zip.
-
 ### Authors pages:
   * Dunarel Badescu:         https://ca.linkedin.com/pub/dunarel-badescu/26/107/887
   * Vladimir Makarenkov:     http://accueil.labunix.uqam.ca/~makarenkov_v
@@ -33,8 +30,6 @@ This software implements the HGT custom weighted clustering described in:
   * [files2](files2) - Input data files
   * [sql](sql) - Helper SQL snippets 
   * [core-files.R](core-files.R) - R script used to work with the core genes
-  * []() - 
-  * []() - 
       
  
 ### Example Usage:

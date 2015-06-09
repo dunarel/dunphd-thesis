@@ -63,6 +63,7 @@ This software implements the HGT custom weighted clustering described in:
   The final value is the one from Table 4.1a. Mean HGT rates Complete HGT 75% bootstrap.
   
   Matrices could be easily exported to csv if need be.
+  Example code is commented for this purpose.
   
 
 ### Feedback and bug reports:
